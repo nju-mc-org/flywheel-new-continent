@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
     {
         W: '#minecraft:logs',
         P: '#c:plates/obsidian'
-    }).id("creacolony:crafting/aircraft_hull_a")
+    }).id("fwnc:crafting/aircraft_hull_a")
     event.shaped(Item.of('immersive_aircraft:hull',2), [
         'WWW',
         'PPP',
@@ -18,7 +18,7 @@ ServerEvents.recipes(event => {
     {
         W: '#minecraft:logs',
         P: '#c:plates/steel'
-    }).id("creacolony:crafting/aircraft_hull_b")
+    }).id("fwnc:crafting/aircraft_hull_b")
     event.shaped(Item.of('immersive_aircraft:hull',3), [
         'WWW',
         'PPP',
@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
     {
         W: '#minecraft:logs',
         P: '#c:plates/aluminum'
-    }).id("creacolony:crafting/aircraft_hull_c")
+    }).id("fwnc:crafting/aircraft_hull_c")
     event.remove({ id: 'immersive_aircraft:hull_reinforcement' })
     event.shaped(Item.of('immersive_aircraft:hull_reinforcement',1), [
         'PPP',
@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
     {
         H: 'immersive_aircraft:hull',
         P: '#c:plates/aluminum'
-    }).id("creacolony:crafting/aircraft_hull_reinforcement")
+    }).id("fwnc:crafting/aircraft_hull_reinforcement")
 
     event.remove({ id: 'immersive_aircraft:propeller' })
     event.shaped(Item.of('immersive_aircraft:propeller',1), [
@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
     ],
     {
         P: '#c:plates/obsidian'
-    }).id("creacolony:crafting/aircraft_propeller_a")
+    }).id("fwnc:crafting/aircraft_propeller_a")
     event.shaped(Item.of('immersive_aircraft:propeller',2), [
         'PP ',
         ' P ',
@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
     ],
     {
         P: '#c:plates/steel'
-    }).id("creacolony:crafting/aircraft_propeller_b")
+    }).id("fwnc:crafting/aircraft_propeller_b")
     event.remove({ id: 'immersive_aircraft:enhanced_propeller' })
     event.shaped(Item.of('immersive_aircraft:enhanced_propeller',1), [
         'CC ',
@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
     {
         P: 'immersive_aircraft:propeller',
         C: '#c:plates/constantan'
-    }).id("creacolony:crafting/aircraft_propeller")
+    }).id("fwnc:crafting/aircraft_propeller")
 
     event.remove({ id: 'immersive_aircraft:engine' })
     event.shaped(Item.of('immersive_aircraft:engine',1), [
@@ -78,7 +78,7 @@ ServerEvents.recipes(event => {
         B: 'immersive_aircraft:boiler',
         P: 'minecraft:piston',
         S: '#c:plates/obsidian'
-    }).id("creacolony:crafting/aircraft_engine_a")
+    }).id("fwnc:crafting/aircraft_engine_a")
     event.shaped(Item.of('immersive_aircraft:engine',1), [
         ' S ',
         'PFP',
@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
         B: 'immersive_aircraft:boiler',
         P: 'minecraft:piston',
         S: '#c:plates/steel'
-    }).id("creacolony:crafting/aircraft_engine_b")
+    }).id("fwnc:crafting/aircraft_engine_b")
 
     event.remove({ id: 'immersive_aircraft:sail' })
     event.shaped(Item.of('immersive_aircraft:sail',1), [
@@ -100,7 +100,7 @@ ServerEvents.recipes(event => {
     {
         W: '#minecraft:wool',
         S: 'minecraft:string'
-    }).id("creacolony:crafting/aircraft_sail_a")
+    }).id("fwnc:crafting/aircraft_sail_a")
     event.shaped(Item.of('immersive_aircraft:sail',2), [
         'WWS',
         'WWS'
@@ -108,7 +108,7 @@ ServerEvents.recipes(event => {
     {
         W: 'immersiveengineering:hemp_fabric',
         S: 'minecraft:string'
-    }).id("creacolony:crafting/aircraft_sail_b")
+    }).id("fwnc:crafting/aircraft_sail_b")
 
     event.remove({ id: 'immersive_aircraft:steel_boiler' })
     event.shaped(Item.of('immersive_aircraft:steel_boiler',1), [
@@ -120,7 +120,7 @@ ServerEvents.recipes(event => {
         S: '#c:plates/steel',
         B: 'immersive_aircraft:boiler',
         F: 'minecraft:blast_furnace',
-    }).id("creacolony:crafting/aircraft_steel_boiler")
+    }).id("fwnc:crafting/aircraft_steel_boiler")
 
     event.remove({ id: 'immersive_aircraft:industrial_gears' })
     event.shaped(Item.of('immersive_aircraft:industrial_gears',1), [
@@ -132,7 +132,7 @@ ServerEvents.recipes(event => {
         S: '#c:ingots/steel',
         p: 'create:precision_mechanism',
         C: '#c:ingots/brass'
-    }).id("creacolony:crafting/aircraft_industrial_gears")
+    }).id("fwnc:crafting/aircraft_industrial_gears")
 
     event.remove({ id: 'immersive_aircraft:sturdy_pipes' })
     event.shaped(Item.of('immersive_aircraft:sturdy_pipes',1), [
@@ -143,7 +143,7 @@ ServerEvents.recipes(event => {
     {
         S: '#c:ingots/steel',
         C: '#c:ingots/brass'
-    }).id("creacolony:crafting/aircraft_sturdy_pipes")
+    }).id("fwnc:crafting/aircraft_sturdy_pipes")
 
     event.remove({ id: 'immersive_aircraft:improved_landing_gear' })
     event.shaped(Item.of('immersive_aircraft:improved_landing_gear',1), [
@@ -154,7 +154,7 @@ ServerEvents.recipes(event => {
     {
         S: '#c:ingots/steel',
         D: '#c:plates/plastic'
-    }).id("creacolony:crafting/aircraft_improved_landing_gear")
+    }).id("fwnc:crafting/aircraft_improved_landing_gear")
 
     event.remove({ id: 'immersive_aircraft:biplane' })
     event.custom({
@@ -183,7 +183,7 @@ ServerEvents.recipes(event => {
             id: "immersive_aircraft:biplane"
         },
         show_notification: false
-    }).id("creacolony:mechanical_crafter/aircraft_biplane")
+    }).id("fwnc:mechanical_crafter/aircraft_biplane")
 
     event.remove({ id: 'immersive_aircraft:gyrodyne' })
     event.custom({
@@ -213,7 +213,7 @@ ServerEvents.recipes(event => {
             id: "immersive_aircraft:gyrodyne"
         },
         show_notification: false
-    }).id("creacolony:mechanical_crafter/aircraft_gyrodyne")
+    }).id("fwnc:mechanical_crafter/aircraft_gyrodyne")
     
     event.remove({ id: 'immersive_aircraft:quadrocopter' })
     event.custom({
@@ -246,7 +246,7 @@ ServerEvents.recipes(event => {
             id: "immersive_aircraft:quadrocopter"
         },
         show_notification: false
-    }).id("creacolony:mechanical_crafter/aircraft_quadrocopter")
+    }).id("fwnc:mechanical_crafter/aircraft_quadrocopter")
 
     event.remove({ id: 'immersive_aircraft:airship' })
     event.custom({
@@ -275,7 +275,7 @@ ServerEvents.recipes(event => {
             id: "immersive_aircraft:airship"
         },
         show_notification: false
-    }).id("creacolony:mechanical_crafter/aircraft_airship")
+    }).id("fwnc:mechanical_crafter/aircraft_airship")
 
     event.remove({ id: 'immersive_aircraft:warship' })
     event.custom({
@@ -311,7 +311,7 @@ ServerEvents.recipes(event => {
             id: "immersive_aircraft:warship"
         },
         show_notification: false
-    }).id("creacolony:mechanical_crafter/aircraft_warship")
+    }).id("fwnc:mechanical_crafter/aircraft_warship")
 
     event.remove({ id: 'man_of_many_planes:scarlet_biplane' })
     event.custom({
@@ -343,7 +343,7 @@ ServerEvents.recipes(event => {
             id: "man_of_many_planes:scarlet_biplane"
         },
         show_notification: false
-    }).id("creacolony:mechanical_crafter/aircraft_scarlet_biplane")
+    }).id("fwnc:mechanical_crafter/aircraft_scarlet_biplane")
 
     event.remove({ id: 'man_of_many_planes:economy_plane' })
     event.custom({
@@ -375,5 +375,5 @@ ServerEvents.recipes(event => {
             id: "man_of_many_planes:economy_plane"
         },
         show_notification: false
-    }).id("creacolony:mechanical_crafter/aircraft_economy_plane")
+    }).id("fwnc:mechanical_crafter/aircraft_economy_plane")
 })

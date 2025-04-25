@@ -132,6 +132,11 @@ hash = "757d82d85e87524e67e5f86a0e662b1b1263846d73d98f4da098730ee499ecdf"
 metafile = true
 
 [[files]]
+file = "mods/emendatus-enigmatica.pw.toml"
+hash = "b8642f7d9e7f15a2fd043c46c81da12f2fb34b79d2b3179552972e6f66b25f90"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "7703a93c0d884145f7d148e33e968d5b17680477d4e088b4f8406b0d88448978"
 metafile = true
