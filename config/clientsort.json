@@ -1,0 +1,28 @@
+{
+  "options": {
+    "interactionRateServer": 10,
+    "interactionRateClient": 1,
+    "serverAcceleratedSorting": true,
+    "optimizedCreativeSorting": true,
+    "hotbarScope": "HOTBAR",
+    "extraSlotScope": "EXTRA",
+    "lmbBundle": false,
+    "sortOrderStr": "creative",
+    "shiftSortOrderStr": "quantity",
+    "ctrlSortOrderStr": "alphabet",
+    "altSortOrderStr": "rawId",
+    "soundEnabled": false,
+    "sortSound": "minecraft:block.note_block.xylophone",
+    "soundRate": 1,
+    "soundMinPitch": 0.5,
+    "soundMaxPitch": 2.0,
+    "soundVolume": 0.2,
+    "soundAllowOverlap": true,
+    "hotbarMode": "HARD",
+    "extraSlotMode": "NONE",
+    "sortModeStr": "creative",
+    "shiftSortModeStr": "quantity",
+    "ctrlSortModeStr": "alphabet",
+    "altSortModeStr": "rawId"
+  }
+}

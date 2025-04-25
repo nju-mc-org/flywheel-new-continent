@@ -1,0 +1,118 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "31D0C91F54E5BE47"
+	group: ""
+	icon: {
+		id: "minecraft:crafting_table"
+	}
+	id: "31D0C91F54E5BE47"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7B97DE83930DB46F"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "47C235325654FCBC"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "6C7E48A182B07288"
+			tasks: [{
+				id: "2AFEA5E947A36B00"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7B97DE83930DB46F"]
+			id: "5C14B8CA2A4831EF"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "24670D8E65C40396"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B97DE83930DB46F"]
+			icon: {
+				id: "immersiveengineering:manual"
+			}
+			id: "3E16199B6F632DC2"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5544337F79DD754D"
+					item: { count: 1, id: "immersiveengineering:hammer" }
+					type: "item"
+				}
+				{
+					id: "65CD749FDBF07C09"
+					item: { count: 1, id: "immersiveengineering:wirecutter" }
+					type: "item"
+				}
+				{
+					id: "65818D814F5CCD53"
+					item: { count: 1, id: "immersiveengineering:screwdriver" }
+					type: "item"
+				}
+				{
+					id: "55733AB003438828"
+					item: { count: 1, id: "immersiveengineering:manual" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7B97DE83930DB46F"]
+			icon: {
+				id: "minecolonies:supplychestdeployer"
+			}
+			id: "090DAC5440E0A05D"
+			require_sequential_tasks: false
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1E80CB9AF29FC6CD"
+					item: { count: 1, id: "minecolonies:supplychestdeployer" }
+					type: "item"
+				}
+				{
+					id: "795BC4838BCD98C8"
+					item: { count: 1, id: "minecolonies:supplycampdeployer" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7B97DE83930DB46F"]
+			id: "19B6EE5568A57383"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "34B9CA06FB3512DC"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 5, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:copper_spell_book" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: -1.5d
+		}
+	]
+}
