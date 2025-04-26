@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "emendatusenigmatica",
+  "key": {
+    "#": {
+      "tag": "c:nuggets/wrought_iron"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emendatusenigmatica:wrought_iron_ingot"
+  }
+}

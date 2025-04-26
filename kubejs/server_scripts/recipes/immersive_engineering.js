@@ -1,4 +1,61 @@
 ServerEvents.recipes(event => {
+    //tool
+    event.remove({ id: 'immersiveengineering:crafting/screwdriver' })
+    event.shaped(Item.of('immersiveengineering:screwdriver',1), [
+        ' R',
+        'S '
+    ],
+    {
+        R: '#c:rods/wrought_iron',
+        S: '#c:rods/wooden'
+    }).id("fwnc:crafting/ie_screwdriver_a")
+    event.shaped(Item.of('immersiveengineering:screwdriver',1), [
+        ' R',
+        'S '
+    ],
+    {
+        R: '#c:rods/steel',
+        S: '#c:rods/wooden'
+    }).id("fwnc:crafting/ie_screwdriver_b")
+    event.remove({ id: 'immersiveengineering:crafting/wirecutter' })
+    event.shaped(Item.of('immersiveengineering:wirecutter',1), [
+        'SI',
+        ' S'
+    ],
+    {
+        I: '#c:ingots/wrought_iron',
+        S: '#c:rods/wooden'
+    }).id("fwnc:crafting/ie_wirecutter_a")
+    event.shaped(Item.of('immersiveengineering:wirecutter',1), [
+        'SI',
+        ' S'
+    ],
+    {
+        I: '#c:ingots/steel',
+        S: '#c:rods/wooden'
+    }).id("fwnc:crafting/ie_wirecutter_b")
+    event.remove({ id: 'immersiveengineering:crafting/hammer' })
+    event.shaped(Item.of('immersiveengineering:hammer',1), [
+        ' IT',
+        ' SI',
+        'S  '
+    ],
+    {
+        I: '#c:ingots/wrought_iron',
+        S: '#c:rods/wooden',
+        T: 'minecraft:string'
+    }).id("fwnc:crafting/ie_hammer_a")
+    event.shaped(Item.of('immersiveengineering:hammer',1), [
+        ' IT',
+        ' SI',
+        'S  '
+    ],
+    {
+        I: '#c:ingots/steel',
+        S: '#c:rods/wooden',
+        T: 'minecraft:string'
+    }).id("fwnc:crafting/ie_hammer_b")
+
     //bricks
     event.remove({ id: 'immersiveengineering:crafting/alloybrick' })
     event.custom({

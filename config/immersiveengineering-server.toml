@@ -31,7 +31,7 @@
 		#The maximum length of electrum wires
 		# Default: 16
 		# Range: > 0
-		maxLength = 16
+		maxLength = 32
 		#The transfer rate of electrum wire in IF/t
 		# Default: 8192
 		# Range: > 0
@@ -49,7 +49,7 @@
 		#The maximum length of hv wires
 		# Default: 32
 		# Range: > 0
-		maxLength = 32
+		maxLength = 64
 		#The transfer rate of hv wire in IF/t
 		# Default: 32768
 		# Range: > 0
@@ -91,7 +91,7 @@
 		#The maximum length of insulated_electrum wires
 		# Default: 16
 		# Range: > 0
-		maxLength = 16
+		maxLength = 32
 
 [machines]
 	#Output modifier for the energy created by the kinetic dynamo. This will be modified by the rotation modifier of the attached water- or windmill

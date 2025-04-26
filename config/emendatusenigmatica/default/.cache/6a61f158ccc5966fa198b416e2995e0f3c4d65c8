@@ -1,0 +1,15 @@
+// 1.21.1	2025-04-26T21:01:32.0623426	Emendatus Enigmatica: Item Tags
+6bd8abecca4a43da5c5ce5b881b3a857d1baff4a data/c/tags/item/buckets.json
+6bd8abecca4a43da5c5ce5b881b3a857d1baff4a data/c/tags/item/buckets/wrought_iron.json
+f3ed265a0602e63445b82e48b0394509477331bd data/c/tags/item/dusts.json
+f3ed265a0602e63445b82e48b0394509477331bd data/c/tags/item/dusts/wrought_iron.json
+781a200a02bd76496cf83c0908a74470c0fc41f6 data/c/tags/item/ingots.json
+781a200a02bd76496cf83c0908a74470c0fc41f6 data/c/tags/item/ingots/wrought_iron.json
+077f2fdda0cd417a7d3462a78dc68a080ce85126 data/c/tags/item/nuggets.json
+077f2fdda0cd417a7d3462a78dc68a080ce85126 data/c/tags/item/nuggets/wrought_iron.json
+97083b5d565718ffc137ac2a8d97230bac2d1035 data/c/tags/item/plates.json
+97083b5d565718ffc137ac2a8d97230bac2d1035 data/c/tags/item/plates/wrought_iron.json
+e8dedf7d9cbdfe1be922b5efd919a4c041faddf8 data/c/tags/item/rods.json
+e8dedf7d9cbdfe1be922b5efd919a4c041faddf8 data/c/tags/item/rods/wrought_iron.json
+b689c8f764be0c31ba5bb5d81cd6f50e12902897 data/c/tags/item/storage_blocks.json
+b689c8f764be0c31ba5bb5d81cd6f50e12902897 data/c/tags/item/storage_blocks/wrought_iron.json

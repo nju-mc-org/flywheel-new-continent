@@ -5,6 +5,11 @@ file = "mods/ConstructionSticks-1.21.1-1.1.5.jar"
 hash = "b677f6deab160e88162dec9db182895504f747142875ace957989a5e7faf6a18"
 
 [[files]]
+file = "mods/almost-unified.pw.toml"
+hash = "93ee94801a715829fd1dd170ce76b70e4ce382c4326e5fe846dd99c5b50df4a2"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "5820ee677da3df8d38b89fb2490be39e600b4eb1cf864a344f3cdf59e1879d25"
 metafile = true

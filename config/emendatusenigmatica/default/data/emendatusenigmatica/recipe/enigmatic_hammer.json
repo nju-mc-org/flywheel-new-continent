@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "emendatusenigmatica",
+  "key": {
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "N": {
+      "tag": "c:nuggets/iron"
+    },
+    "S": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "pattern": [
+    " IN",
+    " SI",
+    "S  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "emendatusenigmatica:enigmatic_hammer"
+  }
+}
