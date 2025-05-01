@@ -142,6 +142,11 @@ hash = "b8642f7d9e7f15a2fd043c46c81da12f2fb34b79d2b3179552972e6f66b25f90"
 metafile = true
 
 [[files]]
+file = "mods/engineers-delight.pw.toml"
+hash = "0a9a294fa98a922d95a0fd005b53364f43ba185bfac47aa96f4908615591a4c4"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "7703a93c0d884145f7d148e33e968d5b17680477d4e088b4f8406b0d88448978"
 metafile = true
@@ -403,8 +408,18 @@ hash = "8fc5de8af644504673af794edc678ffa7b508c39ad30f69736744b282d55ad50"
 metafile = true
 
 [[files]]
+file = "mods/spice-of-life-onion.pw.toml"
+hash = "4f496432d5b1c0cd25fa17b3a650f2812f73812eee15d3bcdb346ac263bb6d83"
+metafile = true
+
+[[files]]
 file = "mods/stitch.pw.toml"
 hash = "f9e13b44a817b078be83092f2a5e4aa3dc13bcce428101b52159a2703798a1ed"
+metafile = true
+
+[[files]]
+file = "mods/storage-delight-forge.pw.toml"
+hash = "711b91fe2fac178686dd95b1fae1e3c175707da8d59593b30354ce20cd25b793"
 metafile = true
 
 [[files]]

@@ -295,6 +295,8 @@ ServerEvents.recipes(event => {
         }).id(name)
     }
 
+    event.remove({mod: 'tmted', type: 'immersiveengineering:cloche'});
+
     ClotheTwoProduct("fwnc:ie_cloche/oak", "minecraft:oak_sapling", "immersiveengineering:generic", "minecraft:oak_sapling", "minecraft:dirt", 2400, "minecraft:oak_log", 4, "minecraft:stick", 2)
     ClotheTwoProduct("fwnc:ie_cloche/oak_boosted", "minecraft:oak_sapling", "immersiveengineering:generic", "minecraft:oak_sapling", "farmersdelight:rich_soil", 1800, "minecraft:oak_log", 6, "minecraft:stick", 2)
     ClotheTwoProduct("fwnc:ie_cloche/spruce", "minecraft:spruce_sapling", "immersiveengineering:generic", "minecraft:spruce_sapling", "minecraft:dirt", 2400, "minecraft:spruce_log", 4, "minecraft:stick", 2)

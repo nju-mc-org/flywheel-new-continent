@@ -1,0 +1,326 @@
+{
+  "foodItems": {
+    "entries": [],
+    "isWhitelist": false
+  },
+  "trackCount": 32,
+  "resetOnDeath": false,
+  "limitProgressionToSurvival": false,
+  "minFoodsToActivate": 5,
+  "benefits": [
+    {
+      "threshold": 3,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:10.0d}"
+    },
+    {
+      "threshold": 4,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 8,
+      "benefit": "{key:\"irons_spellbooks:max_mana\",op:0,type:\"att\",val:50.0d}"
+    },
+    {
+      "threshold": 12,
+      "benefit": "{key:\"minecraft:generic.armor\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 16,
+      "benefit": "{key:\"minecraft:strength\",type:\"eff\",val:0.0d}"
+    },
+    {
+      "threshold": 20,
+      "benefit": "{key:\"minecraft:speed\",type:\"eff\",val:0.0d}"
+    },
+    {
+      "threshold": 24,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:4.0d}"
+    },
+    {
+      "threshold": 28,
+      "benefit": "{key:\"irons_spellbooks:max_mana\",op:0,type:\"att\",val:100.0d}"
+    },
+    {
+      "threshold": 28,
+      "benefit": "{key:\"irons_spellbooks:cooldown_reduction\",op:0,type:\"att\",val:0.05d}"
+    },
+    {
+      "threshold": 32,
+      "benefit": "{key:\"minecraft:generic.armor\",op:0,type:\"att\",val:4.0d}"
+    },
+    {
+      "threshold": 32,
+      "benefit": "{key:\"minecraft:generic.armor_toughness\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 36,
+      "benefit": "{key:\"minecraft:regeneration\",type:\"eff\",val:0.0d}"
+    },
+    {
+      "threshold": 40,
+      "benefit": "{key:\"minecraft:jump_boost\",type:\"eff\",val:0.0d}"
+    },
+    {
+      "threshold": 44,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:6.0d}"
+    },
+    {
+      "threshold": 48,
+      "benefit": "{key:\"irons_spellbooks:max_mana\",op:0,type:\"att\",val:150.0d}"
+    },
+    {
+      "threshold": 48,
+      "benefit": "{key:\"irons_spellbooks:mana_regen\",op:0,type:\"att\",val:0.05d}"
+    },
+    {
+      "threshold": 48,
+      "benefit": "{key:\"irons_spellbooks:cooldown_reduction\",op:0,type:\"att\",val:0.05d}"
+    },
+    {
+      "threshold": 52,
+      "benefit": "{key:\"minecraft:generic.armor\",op:0,type:\"att\",val:6.0d}"
+    },
+    {
+      "threshold": 52,
+      "benefit": "{key:\"minecraft:generic.armor_toughness\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 52,
+      "benefit": "{key:\"irons_spellbooks:spell_resist\",op:0,type:\"att\",val:0.1d}"
+    },
+    {
+      "threshold": 56,
+      "benefit": "{key:\"minecraft:strength\",type:\"eff\",val:1.0d}"
+    },
+    {
+      "threshold": 60,
+      "benefit": "{key:\"minecraft:haste\",type:\"eff\",val:0.0d}"
+    },
+    {
+      "threshold": 64,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:8.0d}"
+    },
+    {
+      "threshold": 68,
+      "benefit": "{key:\"irons_spellbooks:max_mana\",op:0,type:\"att\",val:200.0d}"
+    },
+    {
+      "threshold": 68,
+      "benefit": "{key:\"irons_spellbooks:mana_regen\",op:0,type:\"att\",val:0.05d}"
+    },
+    {
+      "threshold": 68,
+      "benefit": "{key:\"irons_spellbooks:cooldown_reduction\",op:0,type:\"att\",val:0.1d}"
+    },
+    {
+      "threshold": 68,
+      "benefit": "{key:\"irons_spellbooks:cast_time_reduction\",op:0,type:\"att\",val:0.1d}"
+    },
+    {
+      "threshold": 72,
+      "benefit": "{key:\"minecraft:generic.armor\",op:0,type:\"att\",val:8.0d}"
+    },
+    {
+      "threshold": 72,
+      "benefit": "{key:\"minecraft:generic.armor_toughness\",op:0,type:\"att\",val:4.0d}"
+    },
+    {
+      "threshold": 72,
+      "benefit": "{key:\"irons_spellbooks:spell_resist\",op:0,type:\"att\",val:0.1d}"
+    },
+    {
+      "threshold": 76,
+      "benefit": "{key:\"minecraft:resistance\",type:\"eff\",val:0.0d}"
+    },
+    {
+      "threshold": 76,
+      "benefit": "{key:\"irons_spellbooks:spell_power\",op:0,type:\"att\",val:0.2d}"
+    },
+    {
+      "threshold": 80,
+      "benefit": "{key:\"minecraft:speed\",type:\"eff\",val:1.0d}"
+    },
+    {
+      "threshold": 80,
+      "benefit": "{key:\"minecraft:jump_boost\",type:\"eff\",val:1.0d}"
+    },
+    {
+      "threshold": 84,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:10.0d}"
+    },
+    {
+      "threshold": 88,
+      "benefit": "{key:\"irons_spellbooks:max_mana\",op:0,type:\"att\",val:200.0d}"
+    },
+    {
+      "threshold": 88,
+      "benefit": "{key:\"irons_spellbooks:mana_regen\",op:0,type:\"att\",val:0.1d}"
+    },
+    {
+      "threshold": 88,
+      "benefit": "{key:\"irons_spellbooks:cooldown_reduction\",op:0,type:\"att\",val:0.2d}"
+    },
+    {
+      "threshold": 88,
+      "benefit": "{key:\"irons_spellbooks:cast_time_reduction\",op:0,type:\"att\",val:0.2d}"
+    },
+    {
+      "threshold": 92,
+      "benefit": "{key:\"minecraft:generic.armor\",op:0,type:\"att\",val:8.0d}"
+    },
+    {
+      "threshold": 92,
+      "benefit": "{key:\"minecraft:generic.armor_toughness\",op:0,type:\"att\",val:4.0d}"
+    },
+    {
+      "threshold": 92,
+      "benefit": "{key:\"irons_spellbooks:spell_resist\",op:0,type:\"att\",val:0.2d}"
+    },
+    {
+      "threshold": 96,
+      "benefit": "{key:\"minecraft:strength\",type:\"eff\",val:2.0d}"
+    },
+    {
+      "threshold": 96,
+      "benefit": "{key:\"minecraft:resistance\",type:\"eff\",val:1.0d}"
+    },
+    {
+      "threshold": 96,
+      "benefit": "{key:\"irons_spellbooks:spell_power\",op:0,type:\"att\",val:0.2d}"
+    },
+    {
+      "threshold": 96,
+      "benefit": "{key:\"minecraft:regeneration\",type:\"eff\",val:1.0d}"
+    },
+    {
+      "threshold": 100,
+      "benefit": "{key:\"minecraft:generic.armor_toughness\",op:0,type:\"att\",val:8.0d}"
+    },
+    {
+      "threshold": 100,
+      "benefit": "{key:\"minecraft:haste\",type:\"eff\",val:1.0d}"
+    },
+    {
+      "threshold": 100,
+      "benefit": "{key:\"minecraft:night_vision\",type:\"eff\",val:0.0d}"
+    },
+    {
+      "threshold": 100,
+      "benefit": "{key:\"minecraft:fire_resistance\",type:\"eff\",val:0.0d}"
+    },
+    {
+      "threshold": 100,
+      "benefit": "{key:\"irons_spellbooks:max_mana\",op:0,type:\"att\",val:200.0d}"
+    }
+  ],
+  "detriments": [],
+  "shouldExcludedCount": true,
+  "complexityStandardNutrition": 5,
+  "complexityStandardSaturation": 6,
+  "complexityBenefitEffectModifier": 0.2,
+  "complexityNeutralEffectModifier": 0,
+  "complexityHarmEffectModifier": -0.2,
+  "trackedFoodDiversityDecay": true,
+  "foodDiversity": [
+    {
+      "ingredient": "{id:\"item\",item:\"minecraft:golden_carrot\"}",
+      "diversity": 6
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"minecraft:golden_apple\"}",
+      "diversity": 6
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"minecraft:enchanted_golden_apple\"}",
+      "diversity": 15
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"fruitsdelight:jam_bread\"}",
+      "diversity": 4
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:meat_with_seafood\"}",
+      "diversity": 8
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:meat_with_vegetables\"}",
+      "diversity": 8
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:meat_fried_rice\"}",
+      "diversity": 8
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:seafood_with_vegetables\"}",
+      "diversity": 8
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:fried_pasta\"}",
+      "diversity": 6
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:mixed_pasta\"}",
+      "diversity": 8
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:meat_pasta\"}",
+      "diversity": 8
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:meat_platter\"}",
+      "diversity": 6
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:seafood_fried_rice\"}",
+      "diversity": 8
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:seafood_pasta\"}",
+      "diversity": 8
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:seafood_platter\"}",
+      "diversity": 6
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:vegetable_fried_rice\"}",
+      "diversity": 8
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:vegetable_pasta\"}",
+      "diversity": 8
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:vegetable_platter\"}",
+      "diversity": 6
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:fried_mushroom\"}",
+      "diversity": 6
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:fried_meat_and_melon\"}",
+      "diversity": 8
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:scrambled_egg_and_tomato\"}",
+      "diversity": 8
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:ham_fried_rice\"}",
+      "diversity": 8
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:fried_rice\"}",
+      "diversity": 6
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:mixed_fried_rice\"}",
+      "diversity": 8
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:suspicious_mix\"}",
+      "diversity": 6
+    }
+  ]
+}

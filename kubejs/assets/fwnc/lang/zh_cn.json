@@ -4,5 +4,8 @@
   "item.fwnc.cokebrick_brick": "焦炉砖条",
   "item.fwnc.cokebrick_clay": "焦炉砖黏土",
   "item.fwnc.blastbrick_brick": "高炉砖条",
-  "item.fwnc.blastbrick_clay": "高炉砖黏土"
+  "item.fwnc.blastbrick_clay": "高炉砖黏土",
+  
+  "desc.immersiveengineering.info.mineral.zinc": "锌矿",
+  "tag.biome.c.is_swamp": "沼泽"
 }

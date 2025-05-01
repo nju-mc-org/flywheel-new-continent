@@ -4,13 +4,13 @@
 	#Whether to print animation roulette play message
 	PrintAnimationRouletteMsg = false
 	#Prevents rendering of self player's model
-	DisableSelfModel = false
+	DisableSelfModel = true
 	#Prevents rendering of other player's model
-	DisableOtherModel = false
+	DisableOtherModel = true
 	#Prevents rendering of self player's hand
-	DisableSelfHands = false
+	DisableSelfHands = true
 	#Prevents rendering of arrows model
-	DisableArrowsModel = false
+	DisableArrowsModel = true
 	#The default model ID when a player first enters the game
 	DefaultModelId = "default"
 	#The default model texture when a player first enters the game
