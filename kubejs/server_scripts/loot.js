@@ -1,0 +1,2 @@
+LootJS.lootTables(event => {
+})

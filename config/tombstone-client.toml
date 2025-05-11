@@ -43,7 +43,7 @@
 	#Decimal value for the color of the grave text <R.I.P.> [0..16777215|default:2962496]
 	# Default: 2962496
 	# Range: 0 ~ 16777215
-	text_color_rip = 2962496
+	text_color_rip = 2963520
 	#Decimal value for the color of the grave text <Owner Name> [0..16777215|default:5991302]
 	# Default: 5991302
 	# Range: 0 ~ 16777215

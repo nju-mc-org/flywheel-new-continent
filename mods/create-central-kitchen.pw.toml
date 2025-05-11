@@ -1,0 +1,13 @@
+name = "Create: Central Kitchen"
+filename = "create-central-kitchen-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a762ae8d19c773bfc5abfc90b93fecf7baad46e1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6502927
+project-id = 820977

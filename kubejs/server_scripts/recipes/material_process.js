@@ -327,4 +327,15 @@ ServerEvents.recipes(event => {
             id: 'create:cardboard'
         }
     }).id('fwnc:ie_metal_press/iepress_cardboard')
+
+    //dup_tranform
+    function Deduplication(name, input, output, count) {
+        event.shapeless(Item.of(output, count),[input]).id(`fwnc:dedup/${name}`)
+    }
+
+    Deduplication("onion", "minecolonies:onion", "farmersdelight:onion", 2)
+    Deduplication("wheat", "minecolonies:durum", "minecraft:wheat", 2)
+    Deduplication("tomato", "minecolonies:tomato", "farmersdelight:tomato", 2)
+    Deduplication("cabbage", "minecolonies:cabbage", "farmersdelight:cabbage", 2)
+    Deduplication("rice", "minecolonies:rice", "farmersdelight:rice", 2)
 })

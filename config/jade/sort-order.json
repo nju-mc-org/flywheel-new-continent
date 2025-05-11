@@ -1,5 +1,11 @@
 {
   "corpse:corpse": null,
+  "create_mechanical_spawner:data": null,
+  "custommachinery:machine_component_provider": null,
+  "custommachinery:machine_server_data_provider": null,
+  "eclipticseasons:crop": null,
+  "exposure:lightroom": null,
+  "exposure:photograph_frame": null,
   "jade:block_face": null,
   "jade:block_properties": null,
   "jade:block_states": null,

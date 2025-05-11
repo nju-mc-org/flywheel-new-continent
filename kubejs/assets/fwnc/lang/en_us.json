@@ -4,5 +4,27 @@
   "item.fwnc.cokebrick_brick": "Coke Brick Bar",
   "item.fwnc.cokebrick_clay": "Coke Brick Clay",
   "item.fwnc.blastbrick_brick": "Blast Brick Bar",
-  "item.fwnc.blastbrick_clay": "Blast Brick Clay"
+  "item.fwnc.blastbrick_clay": "Blast Brick Clay",
+
+  "item.fwnc.sweet_berry_cookie_dough": "Sweet Berry Cookie Dough",
+  "item.fwnc.honey_cookie_dough": "Honey Cookie Dough",
+  "item.fwnc.bayberry_cookie_dough": "Bayberry Cookie Dough",
+  "item.fwnc.persimmon_cookie_dough": "Persimmon Cookie Dough",
+  "item.fwnc.lemon_cookie_dough": "Lemon Cookie Dough",
+  "item.fwnc.cranberry_cookie_dough": "Cranberry Cookie Dough",
+
+  "item.fwnc.mechanical_circuit": "Mechanical Circuit",
+  "item.fwnc.incomplete_mechanical_circuit": "Incomplete Mechanical Circuit",
+  "item.fwnc.early_electronic_circuit": "Early Electronic Circuit",
+  "item.fwnc.incomplete_early_electronic_circuit": "Incomplete Early Electronic Circuit",
+  "item.fwnc.early_circuit_complex": "Early Circuit Complex",
+  "item.fwnc.incomplete_early_circuit_complex": "Incomplete Early Circuit Complex",
+
+  "fwnc.tier_zero_circuit.tooltip": "§6Rank 0 Circuit",
+  "fwnc.tier_one_circuit.tooltip": "§4Rank 1 Circuit",
+  "fwnc.tier_two_circuit.tooltip": "§3Rank 2 Circuit",
+  "fwnc.tier_three_circuit.tooltip": "§2Rank 3 Circuit",
+  "fwnc.tier_four_circuit.tooltip": "§5Rank 4 Circuit",
+  "fwnc.tier_five_circuit.tooltip": "§1Rank 5 Circuit",
+  "fwnc.tier_siv_circuit.tooltip": "§cRank 6 Circuit"
 }

@@ -379,6 +379,37 @@ ServerEvents.recipes(event => {
     ClotheOneProduct("fwnc:ie_cloche/carrot_boosted", "minecraft:carrot", "immersiveengineering:crop", "minecraft:carrots", "farmersdelight:rich_soil", 600, "minecraft:carrot", 3)
     ClotheOneProduct("fwnc:ie_cloche/potato_boosted", "minecraft:potato", "immersiveengineering:crop", "minecraft:potatoes", "farmersdelight:rich_soil", 600, "minecraft:potato", 3)
 
+    ClotheOneProduct("fwnc:ie_cloche/colony_bell_pepper", "minecolonies:bell_pepper", "immersiveengineering:generic", "minecolonies:bell_pepper", "minecraft:dirt", 1600, "minecolonies:bell_pepper", 2)
+    ClotheOneProduct("fwnc:ie_cloche/colony_bell_pepper_boosted", "minecolonies:bell_pepper", "immersiveengineering:generic", "minecolonies:bell_pepper", "farmersdelight:rich_soil", 1200, "minecolonies:bell_pepper", 3)
+    ClotheOneProduct("fwnc:ie_cloche/colony_cabbage", "minecolonies:cabbage", "immersiveengineering:generic", "minecolonies:cabbage", "minecraft:dirt", 1600, "minecolonies:cabbage", 2)
+    ClotheOneProduct("fwnc:ie_cloche/colony_cabbage_boosted", "minecolonies:cabbage", "immersiveengineering:generic", "minecolonies:cabbage", "farmersdelight:rich_soil", 1200, "minecolonies:cabbage", 3)
+    ClotheOneProduct("fwnc:ie_cloche/colony_chickpea", "minecolonies:chickpea", "immersiveengineering:generic", "minecolonies:chickpea", "minecraft:dirt", 1600, "minecolonies:chickpea", 2)
+    ClotheOneProduct("fwnc:ie_cloche/colony_chickpea_boosted", "minecolonies:chickpea", "immersiveengineering:generic", "minecolonies:chickpea", "farmersdelight:rich_soil", 1200, "minecolonies:chickpea", 3)
+    ClotheOneProduct("fwnc:ie_cloche/colony_durum", "minecolonies:durum", "immersiveengineering:generic", "minecolonies:durum", "minecraft:dirt", 1600, "minecolonies:durum", 2)
+    ClotheOneProduct("fwnc:ie_cloche/colony_durum_boosted", "minecolonies:durum", "immersiveengineering:generic", "minecolonies:durum", "farmersdelight:rich_soil", 1200, "minecolonies:durum", 3)
+    ClotheOneProduct("fwnc:ie_cloche/colony_eggplant", "minecolonies:eggplant", "immersiveengineering:generic", "minecolonies:eggplant", "minecraft:dirt", 1600, "minecolonies:eggplant", 2)
+    ClotheOneProduct("fwnc:ie_cloche/colony_eggplant_boosted", "minecolonies:eggplant", "immersiveengineering:generic", "minecolonies:eggplant", "farmersdelight:rich_soil", 1200, "minecolonies:eggplant", 3)
+    ClotheOneProduct("fwnc:ie_cloche/colony_garlic", "minecolonies:garlic", "immersiveengineering:generic", "minecolonies:garlic", "minecraft:dirt", 1600, "minecolonies:garlic", 2)
+    ClotheOneProduct("fwnc:ie_cloche/colony_garlic_boosted", "minecolonies:garlic", "immersiveengineering:generic", "minecolonies:garlic", "farmersdelight:rich_soil", 1200, "minecolonies:garlic", 3)
+    ClotheOneProduct("fwnc:ie_cloche/colony_onion", "minecolonies:onion", "immersiveengineering:generic", "minecolonies:onion", "minecraft:dirt", 1600, "minecolonies:onion", 2)
+    ClotheOneProduct("fwnc:ie_cloche/colony_onion_boosted", "minecolonies:onion", "immersiveengineering:generic", "minecolonies:onion", "farmersdelight:rich_soil", 1200, "minecolonies:onion", 3)
+    ClotheOneProduct("fwnc:ie_cloche/colony_soybean", "minecolonies:soybean", "immersiveengineering:generic", "minecolonies:soybean", "minecraft:dirt", 1600, "minecolonies:soybean", 2)
+    ClotheOneProduct("fwnc:ie_cloche/colony_soybean_boosted", "minecolonies:soybean", "immersiveengineering:generic", "minecolonies:soybean", "farmersdelight:rich_soil", 1200, "minecolonies:soybean", 3)
+    ClotheOneProduct("fwnc:ie_cloche/colony_tomato", "minecolonies:tomato", "immersiveengineering:generic", "minecolonies:tomato", "minecraft:dirt", 1600, "minecolonies:tomato", 2)
+    ClotheOneProduct("fwnc:ie_cloche/colony_tomato_boosted", "minecolonies:tomato", "immersiveengineering:generic", "minecolonies:tomato", "farmersdelight:rich_soil", 1200, "minecolonies:tomato", 3)
+    ClotheOneProduct("fwnc:ie_cloche/colony_rice", "minecolonies:rice", "immersiveengineering:generic", "minecolonies:rice", "minecraft:dirt", 1600, "minecolonies:rice", 2)
+    ClotheOneProduct("fwnc:ie_cloche/colony_rice_boosted", "minecolonies:rice", "immersiveengineering:generic", "minecolonies:rice", "farmersdelight:rich_soil", 1200, "minecolonies:rice", 3)
+    ClotheOneProduct("fwnc:ie_cloche/colony_corn", "minecolonies:corn", "immersiveengineering:generic", "minecolonies:corn", "minecraft:dirt", 1600, "minecolonies:corn", 2)
+    ClotheOneProduct("fwnc:ie_cloche/colony_corn_boosted", "minecolonies:corn", "immersiveengineering:generic", "minecolonies:corn", "farmersdelight:rich_soil", 1200, "minecolonies:corn", 3)
+    ClotheOneProduct("fwnc:ie_cloche/colony_nether_pepper", "minecolonies:nether_pepper", "immersiveengineering:generic", "minecolonies:nether_pepper", "minecraft:dirt", 1600, "minecolonies:nether_pepper", 2)
+    ClotheOneProduct("fwnc:ie_cloche/colony_nether_pepper_boosted", "minecolonies:nether_pepper", "immersiveengineering:generic", "minecolonies:nether_pepper", "farmersdelight:rich_soil", 1200, "minecolonies:nether_pepper", 3)
+    ClotheOneProduct("fwnc:ie_cloche/colony_peas", "minecolonies:peas", "immersiveengineering:generic", "minecolonies:peas", "minecraft:dirt", 1600, "minecolonies:peas", 2)
+    ClotheOneProduct("fwnc:ie_cloche/colony_peas_boosted", "minecolonies:peas", "immersiveengineering:generic", "minecolonies:peas", "farmersdelight:rich_soil", 1200, "minecolonies:peas", 3)
+    ClotheOneProduct("fwnc:ie_cloche/colony_mint", "minecolonies:mint", "immersiveengineering:generic", "minecolonies:mint", "minecraft:dirt", 1600, "minecolonies:mint", 2)
+    ClotheOneProduct("fwnc:ie_cloche/colony_mint_boosted", "minecolonies:mint", "immersiveengineering:generic", "minecolonies:mint", "farmersdelight:rich_soil", 1200, "minecolonies:mint", 3)
+    ClotheOneProduct("fwnc:ie_cloche/colony_butternut_squash", "minecolonies:butternut_squash", "immersiveengineering:generic", "minecolonies:butternut_squash", "minecraft:dirt", 1600, "minecolonies:butternut_squash", 2)
+    ClotheOneProduct("fwnc:ie_cloche/colony_butternut_squash_boosted", "minecolonies:butternut_squash", "immersiveengineering:generic", "minecolonies:butternut_squash", "farmersdelight:rich_soil", 1200, "minecolonies:butternut_squash", 3)
+
     ClotheTwoProduct("fwnc:ie_cloche/wheat_boosted", "minecraft:wheat_seeds", "immersiveengineering:crop", "minecraft:wheat", "farmersdelight:rich_soil", 480, "minecraft:wheat", 3, "minecraft:wheat_seeds", 1)
     ClotheTwoProduct("fwnc:ie_cloche/beetroot_boosted", "minecraft:beetroot_seeds", "immersiveengineering:crop", "minecraft:beetroots", "farmersdelight:rich_soil", 600, "minecraft:beetroot", 3, "minecraft:beetroot_seeds", 1)
     ClotheTwoProduct("fwnc:ie_cloche/cabbage_boosted", "farmersdelight:cabbage_seeds", "immersiveengineering:crop", "farmersdelight:cabbages", "farmersdelight:rich_soil", 600, "farmersdelight:cabbage", 3, "farmersdelight:cabbage_seeds", 1)
@@ -513,7 +544,61 @@ ServerEvents.recipes(event => {
             ],
             strippingSecondaries: []
         }).id(`fwnc:ie_sawmill/${material}_door`)
+        event.custom({
+            type: 'immersiveengineering:sawmill',
+            energy: 1600,
+            input: {
+                item: `everycomp:fd/${mod}/${material}_cabinet`
+            },
+            result: {
+                basePredicate: {
+                    item: `${mod}:${material}_slab`
+                },
+                count: 3
+            },
+            secondaryOutputs: [
+                {
+                    tag: "c:dusts/wood"
+                }
+            ],
+            strippingSecondaries: []
+        }).id(`fwnc:recycle/${material}_cabinet`)
     }
+
+    function SawmillFix(material) {
+        event.remove({ id: `tmted:sawmill/${material}_cabinet` })
+        event.custom({
+            type: 'immersiveengineering:sawmill',
+            energy: 1600,
+            input: {
+                item: `farmersdelight:${material}_cabinet`
+            },
+            result: {
+                basePredicate: {
+                    item: `minecraft:${material}_slab`
+                },
+                count: 3
+            },
+            secondaryOutputs: [
+                {
+                    tag: "c:dusts/wood"
+                }
+            ],
+            strippingSecondaries: []
+        }).id(`fwnc:recycle/${material}_cabinet`)
+    }
+
+    SawmillFix("oak")
+    SawmillFix("birch")
+    SawmillFix("spruce")
+    SawmillFix("jungle")
+    SawmillFix("acacia")
+    SawmillFix("dark_oak")
+    SawmillFix("crimson")
+    SawmillFix("warped")
+    SawmillFix("mangrove")
+    SawmillFix("cherry")
+    SawmillFix("bamboo")
 
     Sawmill("biomesoplenty", "fir")
     Sawmill("biomesoplenty", "redwood")
@@ -525,4 +610,7 @@ ServerEvents.recipes(event => {
     Sawmill("biomesoplenty", "magic")
     Sawmill("biomesoplenty", "umbran")
     Sawmill("biomesoplenty", "hellbark")
+    Sawmill("biomesoplenty", "pine")
+    Sawmill("biomesoplenty", "maple")
+    Sawmill("biomesoplenty", "empyreal")
 })

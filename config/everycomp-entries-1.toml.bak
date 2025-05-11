@@ -5,6 +5,21 @@
 			cactus = true
 			cactus_extra = true
 
+		[types.wood_type.biomesoplenty]
+			fir = true
+			pine = true
+			maple = true
+			redwood = true
+			mahogany = true
+			jacaranda = true
+			palm = true
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
+			empyreal = true
+
 		[types.leaves_type.chipped]
 			apple_acacia = true
 			cherry_acacia = true
@@ -87,6 +102,29 @@
 			kiwi = true
 			fig = true
 			durian = true
+
+		[types.leaves_type.biomesoplenty]
+			origin = true
+			flowering_oak = true
+			red_maple = true
+			orange_maple = true
+			yellow_maple = true
+			rainbow_birch = true
+			snowblossom = true
+			null = true
+			cypress = true
+			fir = true
+			pine = true
+			redwood = true
+			mahogany = true
+			jacaranda = true
+			palm = true
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
+			empyreal = true
 
 #Disables specific entries
 [entries]
@@ -211,6 +249,22 @@
 			damaged_log = true
 			golden_barred_trapdoor = true
 			nailed_log = true
+			edged_stripped_log = true
+			f_sign_stripped_log = true
+			wise_stripped_log = true
+			layered_stripped_log = true
+			lumpy_stripped_log = true
+			chipped_stripped_log = true
+			patient_stripped_log = true
+			k_sign_stripped_log = true
+			sign_stripped_log = true
+			knotted_stripped_log = true
+			l_sign_stripped_log = true
+			reinforced_stripped_log = true
+			stern_stripped_log = true
+			carved_stripped_log = true
+			i_sign_stripped_log = true
+			d_sign_stripped_log = true
 
 		[entries.wood_type.farmersdelight]
 			cabinet = true

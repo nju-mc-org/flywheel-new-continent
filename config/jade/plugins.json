@@ -1,4 +1,9 @@
 {
+  "eclipticseasons": {
+    "crop": true,
+    "snowy_status": true,
+    "crop.shift_hint": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -65,6 +70,10 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
   "jade_access": {
     "held_item": true,
     "sign": true,
@@ -74,6 +83,9 @@
   },
   "tombstone": {
     "graves": true
+  },
+  "create_mechanical_spawner": {
+    "data": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -85,6 +97,9 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
+  },
+  "custommachinery": {
+    "machine_component_provider": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

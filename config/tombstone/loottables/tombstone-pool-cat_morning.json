@@ -36,7 +36,7 @@
     },
     {
       "name": "minecraft:bundle",
-      "weight": 20,
+      "weight": 10,
       "type": "minecraft:item"
     },
     {

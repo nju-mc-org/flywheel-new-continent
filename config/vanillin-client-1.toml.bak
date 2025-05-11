@@ -27,3 +27,13 @@
 	"minecraft:tnt_minecart" = "DEFAULT"
 	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
 	"minecraft:furnace_minecart" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:item_frame" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:item" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:block_display" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:item_display" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:glow_item_frame" = "DEFAULT"

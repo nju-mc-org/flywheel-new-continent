@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
         W: '#minecraft:logs',
         P: '#c:plates/steel'
     }).id("fwnc:crafting/aircraft_hull_b")
-    event.shaped(Item.of('immersive_aircraft:hull',3), [
+    event.shaped(Item.of('immersive_aircraft:hull',2), [
         'WWW',
         'PPP',
         'WWW'

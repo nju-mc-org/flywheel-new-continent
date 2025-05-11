@@ -24,7 +24,7 @@
     },
     {
       "name": "minecraft:bundle",
-      "weight": 20,
+      "weight": 10,
       "type": "minecraft:item"
     },
     {
@@ -44,7 +44,7 @@
         }
       ],
       "name": "tombstone:magic_scroll",
-      "weight": 20,
+      "weight": 5,
       "type": "minecraft:item"
     },
     {
@@ -54,7 +54,7 @@
         }
       ],
       "name": "tombstone:essence_of_undeath",
-      "weight": 5,
+      "weight": 2,
       "type": "minecraft:item"
     },
     {

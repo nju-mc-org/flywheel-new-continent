@@ -105,7 +105,7 @@
 	# Range: 1000 ~ 100000
 	easter_egg_spawn_rarity = 5000
 	#Beneficial effects that can't used by certain features such as ankh of prayer, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
-	unhandled_beneficial_effects = ["minecraft:hero_of_the_village"]
+	unhandled_beneficial_effects = ["minecraft:hero_of_the_village", "irons_spellbooks:abyssal_shroud", "irons_spellbooks:summon_horse_timer", "irons_spellbooks:summon_swords_timer", "irons_spellbooks:polar_bear_timer", "irons_spellbooks:raise_dead_timer", "irons_spellbooks:vex_timer", "irons_spellbooks:ascension", "irons_spellbooks:thunderstorm", "irons_spellbooks:burning_dash"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
 	unhandled_harmful_effects = ["minecraft:nausea"]
 	#Allows to limit the damages done by Decrepitude

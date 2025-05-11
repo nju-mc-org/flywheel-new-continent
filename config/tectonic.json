@@ -3,7 +3,7 @@
   "feature_toggles": {
     "desert_dunes": true,
     // Moves max height to y640
-    "increased_height": false,
+    "increased_height": true,
     "lava_rivers": true,
     // Offsets ocean monuments 30 blocks down
     "monument_offset": true,
