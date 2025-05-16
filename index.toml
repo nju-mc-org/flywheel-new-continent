@@ -3390,6 +3390,11 @@ hash = "9acacc1336ff9f1fad35eb8ad11154434c6c23ec9cfe3bab13086f5c516d7ab3"
 metafile = true
 
 [[files]]
+file = "mods/simple-backups.pw.toml"
+hash = "51559a483ff99f084ac935a864b444cb8346ffd686ba38adbd3772317aa65da1"
+metafile = true
+
+[[files]]
 file = "mods/small-ships.pw.toml"
 hash = "6ae78fa7c4bb288b51bea02a8ab6b46a79161ed1c7c0ee0ba6571ace3d4fbb82"
 metafile = true
@@ -3407,6 +3412,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "07b2373385073e9a817704305a5165e621489155136275ad021fb8d744e7e6a6"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "6fa1fe435f3e98bfbc8ddefa711d8683333a6fc309f31f50f0e7ef9c2e1c0be5"
 metafile = true
 
 [[files]]
