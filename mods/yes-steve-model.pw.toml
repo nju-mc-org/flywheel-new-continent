@@ -1,0 +1,14 @@
+#$M
+name = "Yes Steve Model"
+filename = "yesstevemodel-neoforge-1.21-2.4.1-release.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/86xjpqqS/versions/J8adMI9b/yesstevemodel-neoforge-1.21-2.4.1-release.jar"
+hash-format = "sha1"
+hash = "929607dc7668cfee4f51221fdad6c20c69235f76"
+
+[update]
+[update.modrinth]
+mod-id = "86xjpqqS"
+version = "J8adMI9b"

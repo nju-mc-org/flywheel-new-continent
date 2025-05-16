@@ -1,3 +1,4 @@
+#$C
 name = "FTB Teams (Forge)"
 filename = "ftb-teams-neoforge-2101.1.2.jar"
 side = "both"
@@ -5,6 +6,7 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "e9431f3b475359cb487e2f308a363844fee74da4"
+url = "https://mediafilez.forgecdn.net/files/6119/437/ftb-teams-neoforge-2101.1.2.jar"
 mode = "metadata:curseforge"
 
 [update]

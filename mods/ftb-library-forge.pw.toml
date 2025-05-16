@@ -1,3 +1,4 @@
+#$C
 name = "FTB Library (Forge)"
 filename = "ftb-library-neoforge-2101.1.13.jar"
 side = "both"
@@ -5,6 +6,7 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "8e97cffb520971410c9e007a17deaf1ccad831ca"
+url = "https://mediafilez.forgecdn.net/files/6466/106/ftb-library-neoforge-2101.1.13.jar"
 mode = "metadata:curseforge"
 
 [update]

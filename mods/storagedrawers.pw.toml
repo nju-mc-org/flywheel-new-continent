@@ -1,0 +1,17 @@
+name = "Storage Drawers"
+filename = "Storage Drawers-neoforge-1.21-13.8.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/guitPqEi/versions/vd4igJzm/Storage%20Drawers-neoforge-1.21-13.8.5.jar"
+hash-format = "sha1"
+hash = "f3cb616818cb696d2084493a05acd21b03c0d9c3"
+
+[update]
+[update.curseforge]
+file-id = 5979167
+project-id = 223852
+
+[update.modrinth]
+mod-id = "guitPqEi"
+version = "vd4igJzm"

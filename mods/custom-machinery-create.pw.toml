@@ -1,13 +1,17 @@
 name = "Custom Machinery Create"
-filename = "CustomMachineryCreate-1.21.1-1.2.1.jar"
+filename = "CustomMachineryCreate-1.21.1-1.2.3.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/NHh2cWu8/versions/pyB7PN1Q/CustomMachineryCreate-1.21.1-1.2.3.jar"
 hash-format = "sha1"
-hash = "0df8c72f8b427cca6a600cdb1a606f2ebb9b86f8"
-mode = "metadata:curseforge"
+hash = "0d4bfd9875541d36d3a8b1545710367c1b7ca042"
 
 [update]
 [update.curseforge]
-file-id = 6498300
+file-id = 6516361
 project-id = 860747
+
+[update.modrinth]
+mod-id = "NHh2cWu8"
+version = "pyB7PN1Q"

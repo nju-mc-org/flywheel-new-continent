@@ -1,13 +1,17 @@
-name = "Overflowing Bars [Forge & Fabric]"
+name = "Overflowing Bars"
 filename = "OverflowingBars-v21.1.1-1.21.1-NeoForge.jar"
-side = "both"
+side = "client"
 
 [download]
+url = "https://cdn.modrinth.com/data/XD7XOrAF/versions/PYRrjTaY/OverflowingBars-v21.1.1-1.21.1-NeoForge.jar"
 hash-format = "sha1"
 hash = "a9dea4b9ef893fc955512ff2dee75c9c82e09a52"
-mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
 file-id = 5770623
 project-id = 852662
+
+[update.modrinth]
+mod-id = "XD7XOrAF"
+version = "PYRrjTaY"

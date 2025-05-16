@@ -1,3 +1,4 @@
+#$C
 name = "BlockUI"
 filename = "blockui-1.0.199-1.21.1-snapshot.jar"
 side = "both"
@@ -5,6 +6,7 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "03281e5792c9e65b725f056decadb89fe07efcdf"
+url = "https://mediafilez.forgecdn.net/files/6367/809/blockui-1.0.199-1.21.1-snapshot.jar"
 mode = "metadata:curseforge"
 
 [update]

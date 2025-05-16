@@ -1,3 +1,4 @@
+#$C
 name = "TownTalk"
 filename = "towntalk-1.2.0.jar"
 side = "both"
@@ -5,6 +6,7 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "6866d898938bdde1a17fadee16983c0c6071eac6"
+url = "https://mediafilez.forgecdn.net/files/5653/504/towntalk-1.2.0.jar"
 mode = "metadata:curseforge"
 
 [update]
