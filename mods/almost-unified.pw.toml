@@ -1,6 +1,6 @@
 name = "Almost Unified"
 filename = "almostunified-neoforge-1.21.1-1.2.6.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/sdaSaQEz/versions/H5xzioSw/almostunified-neoforge-1.21.1-1.2.6.jar"

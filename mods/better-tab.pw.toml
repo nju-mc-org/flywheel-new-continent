@@ -1,6 +1,6 @@
 name = "BetterTab"
 filename = "BetterTab-neoforge-1.21.1-1.0.0+build.11.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/woulhAPh/versions/VVw4TROM/BetterTab-neoforge-1.21.1-1.0.0%2Bbuild.11.jar"
