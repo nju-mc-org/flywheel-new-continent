@@ -1,3 +1,4 @@
+#$C
 name = "Domum Ornamentum"
 filename = "domum-ornamentum-1.0.213-snapshot-main.jar"
 side = "both"
@@ -5,6 +6,7 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "4b75b5fb5c14339df60359ceeb29b2e8c102cb65"
+url = "https://mediafilez.forgecdn.net/files/6335/398/domum-ornamentum-1.0.213-snapshot-main.jar"
 mode = "metadata:curseforge"
 
 [update]

@@ -8,3 +8,4 @@
 /.github/**
 /.vscode/
 /.vscode/**
+/modrinth.index.json

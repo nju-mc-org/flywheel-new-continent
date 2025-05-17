@@ -1,13 +1,17 @@
 name = "EntityJS"
-filename = "entityjs-1.2.2-1.21.jar"
+filename = "entityjs-1.2.3-1.21.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/OvPZ16yX/versions/O2oNGBnR/entityjs-1.2.3-1.21.jar"
 hash-format = "sha1"
-hash = "2f258e288ea9a4d33c624cb4c0155d09d807d899"
-mode = "metadata:curseforge"
+hash = "370b600d3e8859222cba23e153bcf433df8b9a04"
 
 [update]
 [update.curseforge]
-file-id = 6408789
+file-id = 6532359
 project-id = 967617
+
+[update.modrinth]
+mod-id = "OvPZ16yX"
+version = "O2oNGBnR"
