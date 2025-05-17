@@ -11,3 +11,7 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 6049929
 project-id = 250577
+
+[update.modrinth]
+mod-id = "JBthPdnp"
+version = "iezuV4Rx"

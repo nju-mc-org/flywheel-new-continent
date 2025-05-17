@@ -1,0 +1,17 @@
+name = "Construction Sticks"
+filename = "ConstructionSticks-1.21.1-1.1.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ooyjDLZt/versions/vsebNTys/ConstructionSticks-1.21.1-1.1.7.jar"
+hash-format = "sha1"
+hash = "7850a45d6968227ad824ba5429490b8bdd71c555"
+
+[update]
+[update.curseforge]
+file-id = 6527061
+project-id = 1156098
+
+[update.modrinth]
+mod-id = "ooyjDLZt"
+version = "vsebNTys"

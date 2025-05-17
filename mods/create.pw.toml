@@ -1,0 +1,17 @@
+name = "Create"
+filename = "create-1.21.1-6.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LNytGWDc/versions/5LpL274U/create-1.21.1-6.0.4.jar"
+hash-format = "sha1"
+hash = "bc80090bf92eccb97aae063f7ac13ae60cb83fc6"
+
+[update]
+[update.curseforge]
+file-id = 6323264
+project-id = 328085
+
+[update.modrinth]
+mod-id = "LNytGWDc"
+version = "5LpL274U"

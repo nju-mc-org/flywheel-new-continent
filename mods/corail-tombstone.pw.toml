@@ -1,13 +1,15 @@
+#$C
 name = "Corail Tombstone"
-filename = "tombstone-neoforge-1.21.1-9.2.9.jar"
+filename = "tombstone-neoforge-1.21.1-9.3.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2638b525be05687828a9c57249817272ba27b64e"
+hash = "fe587d14e6e28f404fa3db70c3b0b77a4a2253fc"
+url = "https://mediafilez.forgecdn.net/files/6511/840/tombstone-neoforge-1.21.1-9.3.1.jar"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6398190
+file-id = 6511840
 project-id = 243707

@@ -1,13 +1,15 @@
+#$C
 name = "MineColonies"
-filename = "minecolonies-1.1.939-1.21.1alpha.jar"
+filename = "minecolonies-1.1.967-1.21.1-snapshot.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "6baefef8d6ff687a1daca964ccf56b6077cf9bb3"
+hash = "4b2073c4c2a18a07a5d4c96b76783402a2baf269"
+url = "https://mediafilez.forgecdn.net/files/6533/396/minecolonies-1.1.967-1.21.1-snapshot.jar"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6443521
+file-id = 6533396
 project-id = 245506

@@ -1,0 +1,17 @@
+name = "Sophisticated Core"
+filename = "sophisticatedcore-1.21.1-1.3.40.981.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nmoqTijg/versions/RTkgTVo1/sophisticatedcore-1.21.1-1.3.40.981.jar"
+hash-format = "sha1"
+hash = "f7d1a9c5493c29f7d1dc111c9345354dfb42590a"
+
+[update]
+[update.curseforge]
+file-id = 6533127
+project-id = 618298
+
+[update.modrinth]
+mod-id = "nmoqTijg"
+version = "RTkgTVo1"

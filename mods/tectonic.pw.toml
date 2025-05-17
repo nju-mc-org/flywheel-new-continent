@@ -1,13 +1,17 @@
 name = "Tectonic"
-filename = "tectonic-neoforge-1.21.1-2.4.3.jar"
+filename = "tectonic-3.0.0+beta4.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/lWDHr9jE/versions/bkR7KE8l/tectonic-3.0.0%2Bbeta4.jar"
 hash-format = "sha1"
-hash = "e7d10a270c86b373d61a53f1d4877642cc7e86a2"
-mode = "metadata:curseforge"
+hash = "18ea8fa27226532b6e0ce08ed8c3bde490801187"
 
 [update]
 [update.curseforge]
-file-id = 6201964
+file-id = 6526995
 project-id = 686836
+
+[update.modrinth]
+mod-id = "lWDHr9jE"
+version = "bkR7KE8l"

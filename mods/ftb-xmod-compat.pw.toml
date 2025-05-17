@@ -1,3 +1,4 @@
+#$C
 name = "FTB XMod Compat"
 filename = "ftb-xmod-compat-neoforge-21.1.3.jar"
 side = "both"
@@ -5,6 +6,7 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "b644b8fc158feaf725375aa6d10a38a5475f1b84"
+url = "https://mediafilez.forgecdn.net/files/6259/292/ftb-xmod-compat-neoforge-21.1.3.jar"
 mode = "metadata:curseforge"
 
 [update]
