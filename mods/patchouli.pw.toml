@@ -3,11 +3,15 @@ filename = "Patchouli-1.21-88-NEOFORGE.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/nU0bVIaL/versions/JYH0mWV2/Patchouli-1.21-88-NEOFORGE.jar"
 hash-format = "sha1"
 hash = "cf0f16567d22588eaa75415bb5a5d1d91d414a42"
-mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
 file-id = 6164617
 project-id = 306770
+
+[update.modrinth]
+mod-id = "nU0bVIaL"
+version = "JYH0mWV2"

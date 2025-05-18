@@ -1,3 +1,4 @@
+#$C
 name = "Emendatus Enigmatica"
 filename = "emendatusenigmatica-1.21.1-2.2.0-alpha-1.jar"
 side = "both"
@@ -5,6 +6,7 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "4a68bafa769f350c8b663e643d0041a6e1204c7f"
+url = "https://mediafilez.forgecdn.net/files/6002/164/emendatusenigmatica-1.21.1-2.2.0-alpha-1.jar"
 mode = "metadata:curseforge"
 
 [update]

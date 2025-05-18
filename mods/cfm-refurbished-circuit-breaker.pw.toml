@@ -1,10 +1,11 @@
 name = "CFM Refurbished: Circuit Breaker"
-filename = "cfm_circuit_breaker-1.0.0.jar"
+filename = "cfm_circuit_breaker-1.0.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
 hash = "918bb4f35ac272445125a97e5d914cd495708be8"
+url = "https://mediafilez.forgecdn.net/files/6064/365/cfm_circuit_breaker-1.0.0.jar"
 mode = "metadata:curseforge"
 
 [update]

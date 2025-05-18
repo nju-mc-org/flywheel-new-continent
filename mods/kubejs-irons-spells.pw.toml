@@ -3,11 +3,15 @@ filename = "irons_spells_js-4.0.1.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/XLsvc8Ld/versions/umZh9DXg/irons_spells_js-4.0.1.jar"
 hash-format = "sha1"
 hash = "167c8fcc95faaf3de1a5677167f606863110b49b"
-mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
 file-id = 6376645
 project-id = 980834
+
+[update.modrinth]
+mod-id = "XLsvc8Ld"
+version = "umZh9DXg"

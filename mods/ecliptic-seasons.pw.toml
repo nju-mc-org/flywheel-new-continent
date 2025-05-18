@@ -1,13 +1,15 @@
+#$C
 name = "Ecliptic Seasons"
-filename = "EclipticSeasons-1.21.1-neoforge-0.10.10.jar"
+filename = "EclipticSeasons-1.21.1-neoforge-0.10.11.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "343c13f00c5d3b74655dfff4ff3b5b0067d883be"
+hash = "19a9a2bbbebbbb2356f7e0e8f03a5b00514fee9e"
+url ="https://mediafilez.forgecdn.net/files/6504/102/EclipticSeasons-1.21.1-neoforge-0.10.11.jar"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6475389
+file-id = 6504102
 project-id = 1118306

@@ -1,0 +1,11 @@
+# .packwizignore follows the same format as .gitignore, and can be used to exclude unwanted files from pack exports
+# See https://git-scm.com/docs/gitignore
+
+# configurition only be useful to developers
+
+/README.md
+/.github/
+/.github/**
+/.vscode/
+/.vscode/**
+/modrinth.index.json

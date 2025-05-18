@@ -1,13 +1,17 @@
 name = "Fruits Delight"
-filename = "fruitsdelight-1.2.7.jar"
+filename = "fruitsdelight-1.2.8.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/g6sbyCTu/versions/ucAv4AKT/fruitsdelight-1.2.8.jar"
 hash-format = "sha1"
-hash = "7a7e1f8d1f92b3c18ad8134b4153180b45673f2f"
-mode = "metadata:curseforge"
+hash = "a007cf83ee581c9ad1329e588abf7b339b125d0a"
 
 [update]
 [update.curseforge]
-file-id = 6255822
+file-id = 6500952
 project-id = 943774
+
+[update.modrinth]
+mod-id = "g6sbyCTu"
+version = "ucAv4AKT"
