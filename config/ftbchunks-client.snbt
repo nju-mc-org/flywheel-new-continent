@@ -133,46 +133,46 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"immersiveengineering:commando": true
-			"minecraft:chicken": true
-			"minecraft:donkey": true
-			"immersiveengineering:bulwark": true
+			"happyghast:mount": true
+			"minecraft:salmon": false
 			"minecraft:axolotl": true
+			"minecraft:chicken": true
+			"minecraft:cow": true
+			"minecraft:bee": true
+			"minecolonies:campmummy": true
+			"immersiveengineering:fusilier": true
+			"minecraft:drowned": true
+			"minecolonies:campamazonchief": true
+			"minecraft:witch": true
+			"minecraft:enderman": true
+			"minecraft:glow_squid": true
+			"minecraft:donkey": true
+			"minecraft:sheep": true
+			"irons_spellbooks:necromancer": true
+			"minecraft:phantom": true
 			"minecraft:pig": true
 			"minecraft:skeleton": true
-			"minecraft:polar_bear": true
-			"minecolonies:campmummy": true
+			"minecraft:squid": true
+			"minecraft:allay": true
+			"immersiveengineering:commando": true
+			"minecraft:iron_golem": true
+			"minecolonies:campamazonspearman": true
+			"minecolonies:camparchermummy": true
+			"minecraft:bat": true
 			"minecolonies:campamazon": true
-			"minecraft:zombie_villager": true
-			"minecraft:sheep": true
+			"immersiveengineering:bulwark": true
+			"minecraft:goat": true
+			"minecraft:zombie": true
+			"minecraft:rabbit": true
 			"minecraft:spider": true
 			"minecraft:creeper": true
-			"minecolonies:camppharao": true
-			"minecraft:phantom": true
 			"minecraft:wolf": true
-			"minecraft:allay": true
-			"minecraft:fox": true
-			"happyghast:mount": true
-			"minecolonies:camparchermummy": true
-			"immersiveengineering:fusilier": true
-			"minecraft:bee": true
-			"irons_spellbooks:necromancer": true
-			"minecolonies:campamazonchief": true
-			"minecraft:rabbit": true
-			"minecolonies:campamazonspearman": true
+			"minecolonies:camppharao": true
 			"minecraft:parrot": true
-			"minecraft:enderman": true
-			"minecraft:iron_golem": true
-			"minecraft:glow_squid": true
-			"minecraft:drowned": true
-			"minecraft:cow": true
-			"minecraft:goat": true
-			"minecraft:squid": true
-			"minecraft:zombie": true
+			"minecraft:polar_bear": true
+			"minecraft:zombie_villager": true
+			"minecraft:fox": true
 			"minecraft:villager": true
-			"minecraft:salmon": false
-			"minecraft:bat": true
-			"minecraft:witch": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

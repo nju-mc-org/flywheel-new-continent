@@ -14,6 +14,8 @@ ServerEvents.tags('item', event => {
     event.add('fwnc:tier_zero_circuit', 'fwnc:mechanical_circuit')
     event.add('fwnc:tier_one_circuit', 'fwnc:early_electronic_circuit')
     event.add('fwnc:tier_two_circuit', 'fwnc:early_circuit_complex')
+
+    event.add("curios:head",['minecolonies:build_goggles']);
 })
 
 ServerEvents.tags('fluid', event => {

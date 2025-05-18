@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0FBF0522CED374BA"
+	group: ""
+	icon: {
+		id: "immersiveengineering:wirecoil_steel"
+	}
+	id: "0FBF0522CED374BA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

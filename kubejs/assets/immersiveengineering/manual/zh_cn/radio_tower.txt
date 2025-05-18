@@ -1,0 +1,9 @@
+无线电塔
+REM-64长波电台
+长距离无线传输红石信号，需同频且无障碍物遮挡。<np>
+§l结构§r：<br>
+- 左接口：输入能量（消耗<config;i;machines.radio_tower_consumption> Flux/t）<br>
+- 中接口：红石信号传输（需<link;redstone_wiring;红石接口;bundled>）<br>
+- 右接口：16色信号切换预设频率<np>
+§l界面§r：<br>
+频率范围128-384 kHz，16个颜色按钮保存常用频率，底部显示有效范围与邻近电台。

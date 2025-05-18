@@ -1,0 +1,5 @@
+矿渣制品
+零浪费！
+<&slag_gravel>§2矿渣砂砾§r：<link;crusher;破碎机>粉碎矿渣获得，加速水生植物生长。<np>
+<&slag_glass>熔炼矿渣得§2矿渣玻璃§r，透光性弱，用作<link;basic_wiring;高压中继器;connector_recipes>绝缘材料。<np>
+<&slag_bricks>§2矿渣砖§r：防爆性能优于黏土砖，可制成台阶/楼梯/墙（顶部带砖檐）。

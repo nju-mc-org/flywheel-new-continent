@@ -87,6 +87,9 @@
   "create_mechanical_spawner": {
     "data": true
   },
+  "immersiveengineering": {
+    "multiblock_icon": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,

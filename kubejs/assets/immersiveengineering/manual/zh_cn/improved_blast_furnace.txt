@@ -1,0 +1,7 @@
+改进型高炉
+工业精炼
+<&brick_recipe>支持自动化输入输出，可安装<link;improved_blast_furnace;预热器;preheater>加速炼钢。<br>
+由强化砖建造，炼钢效率远超<link;crude_blast_furnace;原始高炉>。<np>
+<&multiblock>结构类似原始版但强化，顶部料斗输入铁/焦炭。<br>
+前方输出钢，后方排渣，侧面接口连接预热器。<np>
+<&preheater>每预热器消耗<config;i;machines.preheater_consumption> Flux/t，最多安装两台。

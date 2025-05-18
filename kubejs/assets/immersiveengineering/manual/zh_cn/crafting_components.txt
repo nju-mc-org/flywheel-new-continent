@@ -1,0 +1,9 @@
+合成组件
+基础部件
+<&mech_components>§2铁§r/§2钢机械组件§r是多数机器的核心，建议制作<link;blueprints;蓝图>批量生产。<np>
+<&component_blueprint>蓝图制作指南见<link;blueprints;模具与组件>。<br>
+在<link;engineers_workbench;工程师工作台>使用可降低成本。<np>
+<&elec_components>§2电子组件§r用于精密设备（如<link;item_batcher;物品分批器>或<link;turrets;炮塔>）。<np>
+<&light_bulbs>§2白炽灯泡§r用碳化竹/纸灯丝发光，用于制造<link;engineered_lighting;电灯;electric_lantern>。<np>
+<&tubes>§2真空管§r用于<link;engineers_circuit_workbench;逻辑电路>。<np>
+<&pcb>§2电路背板§r是绝缘铜板，可焊接组件制作逻辑电路。

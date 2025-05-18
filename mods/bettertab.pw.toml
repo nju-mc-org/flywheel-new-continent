@@ -1,13 +1,13 @@
 name = "BetterTab"
-filename = "BetterTab-neoforge-1.21.1-1.0.0+build.10.jar"
+filename = "BetterTab-neoforge-1.21.1-1.0.0+build.11.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b8c0e53497b4358b0ce005ceefc8d33b34b2d921"
+hash = "9d8396264e0f99db6c33e7ec6a5d4f5d72d0fa94"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6178359
+file-id = 6459817
 project-id = 1194895

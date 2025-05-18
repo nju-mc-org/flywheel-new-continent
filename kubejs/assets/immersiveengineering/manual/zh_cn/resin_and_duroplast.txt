@@ -1,0 +1,8 @@
+树脂与硬质塑料
+未来材料
+<&resin>酚醛树脂：在<link;refinery;精炼厂>用银板催化乙醇氧化为乙醛，再与杂酚油合成。<np>
+<&duroplast>硬质塑料：绝缘/阻燃/可塑性强，用于<link;crafting_components;电子组件;elec_components>与电路背板。<np>
+<&duroplast_sheet>在<link;bottling_machine;灌装机>注入模具，经高温高压成型。<np>
+<&duroplast_block>替代陶土制作<link;basic_wiring;线缆接口;connector_recipes>，减少黏土消耗。<np>
+<&fiberboard>锯末+树脂压缩=纤维板，可替代木板。<np>
+<&empty_shell>树脂制<link;revolver_cartridges;左轮空弹壳;empty>。

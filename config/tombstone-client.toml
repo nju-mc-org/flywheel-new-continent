@@ -52,7 +52,7 @@
 	# Default: 16777215
 	# Range: 0 ~ 16777215
 	fog_color = 16777215
-	#Fog density around the graves [NONE/LOW/NORMAL/HIGH|default:LOW]
+	#Fog density around the graves [NONE/LOW/NORMAL/HIGH|default:NORMAL]
 	#Allowed Values: NONE, LOW, NORMAL, HIGH
 	fog_density = "LOW"
 	#Favorite grave

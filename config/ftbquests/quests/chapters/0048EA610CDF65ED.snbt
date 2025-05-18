@@ -1,0 +1,60 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0048EA610CDF65ED"
+	group: ""
+	icon: {
+		id: "minecraft:crafting_table"
+	}
+	id: "0048EA610CDF65ED"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "41CE8973C0788D3F"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "559AC6153518961D"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "4165D808C1886F6A"
+			tasks: [{
+				id: "5CC2FC763B6D1DCD"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "263C11DBFAB4ABA5"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				advancement: "minecolonies:minecolonies/root"
+				criterion: ""
+				id: "1D935C322D0590EB"
+				type: "advancement"
+			}]
+			x: 2.25d
+			y: 1.5d
+		}
+		{
+			id: "06DAD8B570DEF42C"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "06046259E60F9A6D"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+	]
+}

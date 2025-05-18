@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"irons_spellbooks:rare_ink"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:arcane_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

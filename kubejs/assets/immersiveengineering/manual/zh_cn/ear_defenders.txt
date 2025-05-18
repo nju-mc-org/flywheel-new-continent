@@ -1,0 +1,7 @@
+护耳器
+噪音退散！
+<&recipe>护耳器保护工程师免受<link;diesel_generator;柴油发电机>等噪音伤害，降低90%音量并提升舒适度。<br>
+可在<link;engineers_workbench;工程师工作台>自定义降噪类型与强度。<np>
+<&color_and_armor>
+可与其他头盔合成以附加护耳功能，拆卸后保留原头盔。<br>
+染色方式与皮革护甲相同。

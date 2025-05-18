@@ -1,13 +1,13 @@
 name = "Rolling Gate"
-filename = "RollingGate-neoforge-1.21.1-1.0.0+build.45.jar"
+filename = "RollingGate-neoforge-1.21.1-1.1.0+build.52.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ab263bc0b0317e5b59864959dea2859c769e438e"
+hash = "b795077891562cb7e8a4cd3cda79456abd527f16"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6261709
+file-id = 6459855
 project-id = 1194894

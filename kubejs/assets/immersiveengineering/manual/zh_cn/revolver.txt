@@ -1,0 +1,9 @@
+左轮手枪
+生死不论
+<&recipe>12号口径精密武器，需在<link;engineers_workbench;工程师工作台>改装。<br>
+潜行+右键装填<link;revolver_cartridges;弹药>，开火会吸引敌对生物。<np>
+<&speedloader>§2快速装填器§r自动补弹。<np>
+<&scope>§2精密瞄准镜§r：按§l<keybind;key.immersiveengineering.railgunZoom>§r启用，滚轮调倍率。<np>
+<&bayonet>§2刺刀§r：近战伤害等同铁剑。<np>
+<&extmag>§2扩容弹匣§r：+6弹容量（需手动装填）。<np>
+<&tubes>§2增幅电子管§r：子弹附带触电效果，短暂瘫痪目标并耗能。

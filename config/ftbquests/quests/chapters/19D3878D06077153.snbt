@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "19D3878D06077153"
+	group: ""
+	icon: {
+		id: "create:large_cogwheel"
+	}
+	id: "19D3878D06077153"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

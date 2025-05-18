@@ -1,0 +1,8 @@
+矿物矿脉
+矿世奇才
+<link;ores;裸矿>之外存在深层<link;excavator;矿物矿脉>，需专用设备开采。<np>
+<&survey_tools>§2勘探工具§r右键自然岩块检测矿脉，多次采样可定位中心。<br>
+人造方块/流体无法检测。<np>
+<&sample_drill>§2岩心取样钻机§r消耗<config;i;machines.coredrill.consumption> Flux/t生成§2岩心样本§r。<np>
+<&core_sample>样本显示矿物分布与§2饱和度§r（影响开采效率），可右键地图标记为红色三角。<np>
+<&spoils>低效开采会产生更多废石，降低矿石产量。

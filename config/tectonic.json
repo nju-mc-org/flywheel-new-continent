@@ -1,23 +1,35 @@
 {
-  "enabled": true,
-  "feature_toggles": {
-    "desert_dunes": true,
-    // Moves max height to y640
-    "increased_height": true,
-    "lava_rivers": true,
-    // Offsets ocean monuments 30 blocks down
-    "monument_offset": true,
+  "biomes": {
+    "temperature_multiplier": 1.0,
+    "temperature_scale": 0.25,
+    "vegetation_multiplier": 1.0,
+    "vegetation_scale": 0.25
+  },
+  "continents": {
+    "continents_scale": 0.13,
+    "erosion_scale": 0.25,
+    "flat_terrain_skew": 0.1,
+    "ocean_offset": -0.8,
+    "river_lanterns": true,
     "underground_rivers": true
   },
-  "snow_start_offset": 128,
-  "terrain_scales": {
-    // Vanilla value is -0.22
+  "general": {
+    "hide_beta_warning": true,
+    "mod_enabled": true,
+    "snow_start_offset": 128
+  },
+  "global_terrain": {
+    "increased_height": true,
+    "lava_rivers": true,
+    "vertical_scale": 1.125
+  },
+  "islands": {
+    "enabled": true
+  },
+  "oceans": {
     "deep_ocean_depth": -0.45,
-    // Lower values = thicker mountain ranges and more space between ranges
-    "erosion_scale": 0.25,
-    // Vanilla value is -0.12
+    "monument_offset": -30,
     "ocean_depth": -0.15,
-    // Higher values = vertically stretched terrain
-    "vertical_multiplier": 1.125
+    "remove_frozen_ocean_ice": false
   }
 }
