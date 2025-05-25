@@ -1,12 +1,12 @@
 name = "Flywheel New Continent"
 author = "CreepSean"
-version = "0.1.3"
+version = "0.1.4"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "fdb5171a7c7da610cb248eb2a371d6b5e3aab801cd2379ae6b30ded54be23416"
+hash = "ef58a0895954de5d7e0b30f4f89c2a079b12cd010fc237f63c1504b03c0c2ad9"
 
 [versions]
 minecraft = "1.21.1"

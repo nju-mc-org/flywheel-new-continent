@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id("fwnc:mixing/wrought_steel")
-    event.remove({ id: 'createaddition:constantan' })
+    event.remove({ id: 'createaddition:compat/immersiveengineering/constantan' })
     event.custom({
         type: 'create:mixing',
         heat_requirement: "heated",
@@ -94,7 +94,7 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                count: 1,
+                count: 2,
                 id: "immersiveengineering:ingot_constantan"
             }
         ]

@@ -1,0 +1,8 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"create:andesite_casing"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:oak_planks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"smallships:birch_galley"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:stripped_oak_wood"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:oak_button"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

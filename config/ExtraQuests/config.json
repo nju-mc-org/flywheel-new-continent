@@ -1,0 +1,7 @@
+{
+  "blacklistConsole": false,
+  "blacklistConsoleList": [
+    "op",
+    "gamemode"
+  ]
+}

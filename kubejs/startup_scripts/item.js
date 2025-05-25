@@ -1,6 +1,7 @@
 StartupEvents.registry('item', event => {
     const MODID = "fwnc:"
     let itemRegisters = [
+        ["coin", "rare", false],
         ["alloybrick_brick", "common", false],
         ["alloybrick_clay", "common", false],
         ["cokebrick_brick", "common", false],

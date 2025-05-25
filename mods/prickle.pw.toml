@@ -1,13 +1,13 @@
 name = "Prickle"
-filename = "prickle-neoforge-1.21.1-21.1.6.jar"
+filename = "prickle-neoforge-1.21.1-21.1.8.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "75822ccfb761212b25c0057902e587ac6465f54d"
+hash = "be1772b863a6f3e141e2d587977e2c83fc0b0b43"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5836410
+file-id = 6546240
 project-id = 1023259

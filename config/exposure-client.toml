@@ -59,18 +59,18 @@
 	# Range: 1 ~ 8
 	flash_capture_delay_ticks = 4
 	#Force legacy (pre 1.21) capturing method for taking images. Enable if you experiencing issues with resulting images.
-	#Direct method will be used regardless of this setting if mods defined in 'mods_needing_direct_capture' is installed.
+	#Direct method will be used regardless of this setting if mods defined in 'force_direct_capture_default_mods' is installed.
 	#Default: false
 	force_direct_capture = false
-	#Direct capture will be used if any of these mods is installed.
-	#Format: '["mod_id", "mod_id"]'. Default: [iris, oculus, effective, distanthorizons]
-	force_direct_capture_mods = ["iris", "oculus", "effective", "distanthorizons"]
-	#Delay in frames before capturing an image if 'direct_capture' method is in use (or if Oculus or Iris is installed).
+	#Delay in frames before capturing an image if 'direct_capture' method is in use.
 	#Set to higher value when leftovers of GUI elements (such as nameplates) are visible on the images
 	#(some shaders have temporal effects that take several frames to disappear fully)
 	# Default: 0
 	# Range: 0 ~ 100
 	direct_capture_delay_frames = 0
+	#Direct capture will be used if any of these mods is installed.
+	#Format: '["mod_id", "mod_id"]'. Default: [veil]
+	force_direct_capture_default_mods = ["veil"]
 
 [render]
 	#Makes photos in Photograph Frame render with alignment to 16 pixel grid (like paintings). Just for fun. Default: false
@@ -86,6 +86,10 @@
 	# Default: 64
 	# Range: 8 ~ 128
 	photograph_frame_culling_distance = 64
+	#Depth offset to Photograph in Photograph Frame. Can be used to fix issues with some 3D resourcepacks. Value of 0.015 is good for 'Classic 3D' resourcepack. Default: 0.0
+	# Default: 0.0
+	# Range: -1.0 ~ 1.0
+	photograph_frame_image_offset = 0.0
 
 [integration]
 	#Useful information about some items will be shown in JEI description category. Default: true

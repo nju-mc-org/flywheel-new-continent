@@ -11,9 +11,8 @@ ServerEvents.tags('item', event => {
     event.add('refurbished_furniture:tools/knives', 'farmersdelight:diamond_knife')
     event.add('refurbished_furniture:tools/knives', 'farmersdelight:netherite_knife')
     event.add('refurbished_furniture:tools/knives', 'farmersdelight:golden_knife')
-    event.add('fwnc:tier_zero_circuit', 'fwnc:mechanical_circuit')
-    event.add('fwnc:tier_one_circuit', 'fwnc:early_electronic_circuit')
-    event.add('fwnc:tier_two_circuit', 'fwnc:early_circuit_complex')
+    event.add('fwnc:tier_zero_circuit', [ 'fwnc:mechanical_circuit', 'fwnc:early_electronic_circuit'])
+    event.add('fwnc:tier_one_circuit', 'fwnc:early_circuit_complex')
 
     event.add("curios:head",['minecolonies:build_goggles']);
 })
