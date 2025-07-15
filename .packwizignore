@@ -15,3 +15,8 @@
 /ModrinthManifests/**
 /modDownloadManifestBackup
 /modDownloadManifestBackup/**
+/resourcepacks/
+/resourcepacks/**
+/shaderpacks/
+/shaderpacks/**
+/ModList.yml

@@ -1,0 +1,15 @@
+#Sat Jul 05 20:18:51 CST 2025
+BLOOMY_FOG=0.75
+BorderFog=true
+Cumulus_height=500
+DOF_QUALITY=4
+Dirt_Scatter_B=0.1
+Dirt_Scatter_G=0.1
+Dirt_Scatter_R=0.1
+FAR_BLUR_ONLY=true
+HQ_SSGI=true
+Morning_Cloudy_Fog=25.0
+Morning_Uniform_Fog=3.0
+OLD_LIGHTLEAK_FIX=true
+moon_illuminance=400.0
+sunPathRotation=-31
