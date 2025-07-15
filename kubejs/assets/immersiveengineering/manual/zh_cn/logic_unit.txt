@@ -1,0 +1,9 @@
+逻辑单元
+图灵完备
+<&unit>结合<link;redstone_wiring;红石线缆>与<link;crafting_components;真空管;tubes>，复杂红石电路可压缩为<link;engineers_circuit_workbench;逻辑电路>。<br>
+最多插入§210个电路§r，内置§28个寄存器§r。<br>
+需连接<link;redstone_wiring;红石接口;bundled>与外部交互。<br>
+每次接口状态变化时执行全部电路逻辑，寄存器数据可跨电路传递。
+
+
+

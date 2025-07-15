@@ -1,0 +1,17 @@
+name = "Searchables"
+filename = "Searchables-neoforge-1.21.1-1.0.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/fuuu3xnx/versions/iEE85X0w/Searchables-neoforge-1.21.1-1.0.2.jar"
+hash-format = "sha1"
+hash = "5b8a0b43a474c066371b2e16f9bfb88622552a74"
+
+[update]
+[update.curseforge]
+file-id = 5831692
+project-id = 858542
+
+[update.modrinth]
+mod-id = "fuuu3xnx"
+version = "iEE85X0w"

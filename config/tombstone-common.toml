@@ -100,10 +100,6 @@
 	# Default: -1
 	# Range: -1 ~ 1440
 	cooldown_teleport_death = -1
-	#Rarity for Easter Eggs to spawn during Easter [1000..100000|default:5000]
-	# Default: 5000
-	# Range: 1000 ~ 100000
-	easter_egg_spawn_rarity = 5000
 	#Beneficial effects that can't used by certain features such as ankh of prayer, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
 	unhandled_beneficial_effects = ["minecraft:hero_of_the_village", "irons_spellbooks:abyssal_shroud", "irons_spellbooks:summon_horse_timer", "irons_spellbooks:summon_swords_timer", "irons_spellbooks:polar_bear_timer", "irons_spellbooks:raise_dead_timer", "irons_spellbooks:vex_timer", "irons_spellbooks:ascension", "irons_spellbooks:thunderstorm", "irons_spellbooks:burning_dash"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
@@ -181,10 +177,6 @@
 	# Default: 100
 	# Range: 0 ~ 1000
 	chance_soul = 100
-	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:30]
-	# Default: 30
-	# Range: 0 ~ 100
-	chance_pray_reward = 30
 
 #Options related to the command recovery and auto-save of players
 [recovery]
@@ -209,6 +201,10 @@
 	# Default: 2000
 	# Range: 100 ~ 200000
 	max_xp_lost_page = 2000
+	#Denied mods for equipment drops
+	denied_modid_for_equipment = ["tombstone"]
+	#Only vanilla drops for equipment [false/true|default:false]
+	only_vanilla_for_equipment = false
 
 #Allows to enable some features related to others mods
 [compatibility]
@@ -218,3 +214,17 @@
 	keep_cosmetic_armor = true
 	#Ensure the potion effects to stay on the player after returning from end conquered [false/true|default:true]
 	preserve_effects_on_return_end_conquered = true
+
+#Allows to enable special events
+[special_events]
+	#Allows Halloween [false/true|default:true]
+	allow_halloween = true
+	#Allows Christmas [false/true|default:true]
+	allow_christmas = true
+	#Allows April Fools [false/true|default:true]
+	allow_april_fools = true
+	#Allows Spring Bloom [false/true|default:true]
+	allow_spring_bloom = true
+	#Allows you to set a Special Event as permanent [NONE/APRIL_FOOLS/HALLOWEEN/CHRISTMAS/SPRING_BLOOM|default:NONE]
+	#Allowed Values: NONE, APRIL_FOOLS, HALLOWEEN, CHRISTMAS, SPRING_BLOOM
+	force_special_event = "NONE"

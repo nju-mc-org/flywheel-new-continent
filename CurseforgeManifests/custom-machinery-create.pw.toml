@@ -1,0 +1,13 @@
+name = "Custom Machinery Create"
+filename = "CustomMachineryCreate-1.21.1-1.2.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0d4bfd9875541d36d3a8b1545710367c1b7ca042"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6516361
+project-id = 860747

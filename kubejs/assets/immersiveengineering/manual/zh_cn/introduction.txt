@@ -1,0 +1,6 @@
+引言
+踏入工程世界
+欢迎来到沉浸工程。<br>
+本手册将展示最新工业技术，所有设备均基于<link;large_constructions;多结构机器>理念建造，需使用<link;basic_tools;工程师锤;engineers_hammer>激活。<br>
+能量系统采用与主流模组兼容的"**Forge能量**"标准。<br>
+所有技术细节均已收录，勇敢前行吧！

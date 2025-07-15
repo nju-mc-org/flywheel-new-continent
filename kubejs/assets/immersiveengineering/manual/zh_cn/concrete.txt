@@ -1,0 +1,9 @@
+混凝土
+堡垒材料
+<&recipe>混凝土由<link;industrial_byproducts;矿渣;slag>制成，廉价且坚固。<np>
+<&brick>可用§2切石机§r加工为砖/柱，爆破抗性与混凝土相同但更易拆卸。<np>
+<&partial>可制成不同厚度板/楼梯/地砖。<np>
+<&leaded>镀铅混凝土增强防爆性，并阻止末影生物/珍珠/紫颂果传送。<np>
+<&reinforced>用§2下界合金§r加固的混凝土可抵御凋灵爆炸。<np>
+<&liquid>在<link;mixer;混合器>用水+砂砾+粘土+2沙制成液态混凝土，倾倒后扩散并固化。<br>
+过薄区域会形成板而非方块。可用<link;chemical_thrower;化学喷射器>喷射困敌或造平台。

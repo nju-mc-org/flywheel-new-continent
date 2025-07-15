@@ -1,0 +1,10 @@
+基础金属制品
+形态与用途
+<&alloys>合金是高级应用特种金属，可通过砂砾混合或合金炉制造。<br>
+钢用于结构工程与装饰，琥珀金用于<link;basic_wiring;电气工程>，康铜用于<link;thermoelectric_generator;热力工程>。<np>
+<&plates>金属板是机器与组件的核心材料。<br>
+可通过工程师锤锻打锭或<link;metal_press;金属压机>制造。<np>
+<&rods>金属棒用于组件或装饰（如脚手架）。<br>
+可通过合成或<link;metal_press;金属压机>制造。<np>
+<&wires>线缆是能量传输的核心，用于多数电子组件。<br>
+用工程师剪线钳切割金属板或通过<link;metal_press;金属压机>制造。

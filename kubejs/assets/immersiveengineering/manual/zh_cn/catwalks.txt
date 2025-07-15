@@ -1,0 +1,4 @@
+步道
+符合OSHA标准！
+<&catwalk_recipes>步道比<link;scaffolding_and_ladders;脚手架>更安全，可加装护栏。<br>
+潜行时用§2工程师锤§r调整护栏，金属步道可用染料染色护栏。

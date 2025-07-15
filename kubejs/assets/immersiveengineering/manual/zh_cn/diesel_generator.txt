@@ -1,0 +1,8 @@
+柴油发电机
+大力出奇迹
+<link;industrial_fluids;生物柴油;biodiesel>驱动的高压发电机，需稳定燃料供应。<np>
+<&structure>按图示用散热器/管道/工程砖建造，工程师锤激活中心。<br>
+燃料从底部角落输入，能量从上方三个插头输出。<br>
+<config;i;machines.dieselGen_output>Flux/t按插头数量均分，至少一个插头可接收时运行。<br>
+侧面终端接收红石信号关闭，工程师螺丝刀反转逻辑。<br>
+燃料类型与持续时间见下页<&list>。

@@ -1,14 +1,5 @@
 ServerEvents.recipes(event => {
     //tool
-    event.remove({ id: 'immersiveengineering:crafting/screwdriver' })
-    event.shaped(Item.of('immersiveengineering:screwdriver',1), [
-        ' R',
-        'S '
-    ],
-    {
-        R: '#c:rods/wrought_iron',
-        S: '#c:rods/wooden'
-    }).id("fwnc:crafting/ie_screwdriver_a")
     event.shaped(Item.of('immersiveengineering:screwdriver',1), [
         ' R',
         'S '
@@ -17,15 +8,6 @@ ServerEvents.recipes(event => {
         R: '#c:rods/steel',
         S: '#c:rods/wooden'
     }).id("fwnc:crafting/ie_screwdriver_b")
-    event.remove({ id: 'immersiveengineering:crafting/wirecutter' })
-    event.shaped(Item.of('immersiveengineering:wirecutter',1), [
-        'SI',
-        ' S'
-    ],
-    {
-        I: '#c:ingots/wrought_iron',
-        S: '#c:rods/wooden'
-    }).id("fwnc:crafting/ie_wirecutter_a")
     event.shaped(Item.of('immersiveengineering:wirecutter',1), [
         'SI',
         ' S'
@@ -34,17 +16,6 @@ ServerEvents.recipes(event => {
         I: '#c:ingots/steel',
         S: '#c:rods/wooden'
     }).id("fwnc:crafting/ie_wirecutter_b")
-    event.remove({ id: 'immersiveengineering:crafting/hammer' })
-    event.shaped(Item.of('immersiveengineering:hammer',1), [
-        ' IT',
-        ' SI',
-        'S  '
-    ],
-    {
-        I: '#c:ingots/wrought_iron',
-        S: '#c:rods/wooden',
-        T: 'minecraft:string'
-    }).id("fwnc:crafting/ie_hammer_a")
     event.shaped(Item.of('immersiveengineering:hammer',1), [
         ' IT',
         ' SI',
@@ -378,7 +349,7 @@ ServerEvents.recipes(event => {
     ClotheOneProduct("fwnc:ie_cloche/pineapple", "fruitsdelight:pineapple_sapling", "immersiveengineering:crop", "fruitsdelight:pineapple", "minecraft:sand", 800, "fruitsdelight:pineapple", 2)
     ClotheOneProduct("fwnc:ie_cloche/carrot_boosted", "minecraft:carrot", "immersiveengineering:crop", "minecraft:carrots", "farmersdelight:rich_soil", 600, "minecraft:carrot", 3)
     ClotheOneProduct("fwnc:ie_cloche/potato_boosted", "minecraft:potato", "immersiveengineering:crop", "minecraft:potatoes", "farmersdelight:rich_soil", 600, "minecraft:potato", 3)
-
+    /*
     ClotheOneProduct("fwnc:ie_cloche/colony_bell_pepper", "minecolonies:bell_pepper", "immersiveengineering:generic", "minecolonies:bell_pepper", "minecraft:dirt", 1600, "minecolonies:bell_pepper", 2)
     ClotheOneProduct("fwnc:ie_cloche/colony_bell_pepper_boosted", "minecolonies:bell_pepper", "immersiveengineering:generic", "minecolonies:bell_pepper", "farmersdelight:rich_soil", 1200, "minecolonies:bell_pepper", 3)
     ClotheOneProduct("fwnc:ie_cloche/colony_cabbage", "minecolonies:cabbage", "immersiveengineering:generic", "minecolonies:cabbage", "minecraft:dirt", 1600, "minecolonies:cabbage", 2)
@@ -409,7 +380,7 @@ ServerEvents.recipes(event => {
     ClotheOneProduct("fwnc:ie_cloche/colony_mint_boosted", "minecolonies:mint", "immersiveengineering:generic", "minecolonies:mint", "farmersdelight:rich_soil", 1200, "minecolonies:mint", 3)
     ClotheOneProduct("fwnc:ie_cloche/colony_butternut_squash", "minecolonies:butternut_squash", "immersiveengineering:generic", "minecolonies:butternut_squash", "minecraft:dirt", 1600, "minecolonies:butternut_squash", 2)
     ClotheOneProduct("fwnc:ie_cloche/colony_butternut_squash_boosted", "minecolonies:butternut_squash", "immersiveengineering:generic", "minecolonies:butternut_squash", "farmersdelight:rich_soil", 1200, "minecolonies:butternut_squash", 3)
-
+    */
     ClotheTwoProduct("fwnc:ie_cloche/wheat_boosted", "minecraft:wheat_seeds", "immersiveengineering:crop", "minecraft:wheat", "farmersdelight:rich_soil", 480, "minecraft:wheat", 3, "minecraft:wheat_seeds", 1)
     ClotheTwoProduct("fwnc:ie_cloche/beetroot_boosted", "minecraft:beetroot_seeds", "immersiveengineering:crop", "minecraft:beetroots", "farmersdelight:rich_soil", 600, "minecraft:beetroot", 3, "minecraft:beetroot_seeds", 1)
     ClotheTwoProduct("fwnc:ie_cloche/cabbage_boosted", "farmersdelight:cabbage_seeds", "immersiveengineering:crop", "farmersdelight:cabbages", "farmersdelight:rich_soil", 600, "farmersdelight:cabbage", 3, "farmersdelight:cabbage_seeds", 1)
@@ -613,4 +584,132 @@ ServerEvents.recipes(event => {
     Sawmill("biomesoplenty", "pine")
     Sawmill("biomesoplenty", "maple")
     Sawmill("biomesoplenty", "empyreal")
+
+    //wrought_iron
+    event.replaceInput({ mod: 'immersiveengineering', type: 'crafting_shaped' }, "#c:ingots/iron", "#c:ingots/wrought_iron")
+    event.replaceInput({ mod: 'immersiveengineering', type: 'crafting_shaped' }, "#c:rods/iron", "#c:rods/wrought_iron")
+    event.replaceInput({ mod: 'immersiveengineering', type: 'crafting_shaped' }, "#c:plates/iron", "#c:plates/wrought_iron")
+    event.replaceInput({ mod: 'immersiveengineering', type: 'crafting_shaped' }, "#c:storage_blocks/iron", "#c:storage_blocks/wrought_iron")
+    event.replaceInput({ mod: 'immersiveengineering', type: 'crafting_shaped' }, "#c:nuggets/iron", "#c:nuggets/wrought_iron")
+
+    event.remove({ id: 'immersiveengineering:blueprint/component_iron' })
+    event.custom({
+        type: 'immersiveengineering:blueprint',
+        category: "components",
+        inputs: [
+            {
+                basePredicate: {
+                    tag: "c:plates/wrought_iron"
+                },
+                count: 2
+            },
+            {
+                tag: "c:ingots/copper"
+            }
+        ],
+        result: {
+            count: 1,
+            id: "immersiveengineering:component_iron"
+        }
+    }).id("fwnc:ie_blueprint/component_iron")
+
+    event.custom({
+        type: 'immersiveengineering:blast_furnace',
+        input: {
+            tag: "c:ingots/wrought_iron"
+        },
+        result: {
+            tag: "c:ingots/steel"
+        },
+        slag: {
+            tag: "c:slag"
+        },
+        time: 600
+    }).id("fwnc:ie_blastfur/wrought_to_steel")
+    event.custom({
+        type: 'immersiveengineering:blast_furnace',
+        input: {
+            tag: "c:storage_blocks/wrought_iron"
+        },
+        result: {
+            tag: "c:storage_blocks/steel"
+        },
+        slag: {
+            basePredicate: {
+                tag: "c:slag"
+            },
+            count: 9
+        },
+        time: 5400
+    }).id("fwnc:ie_blastfur/wrought_to_steel_block")
+    event.custom({
+        type: 'immersiveengineering:arc_furnace',
+        additives: [
+            {
+                tag: "c:dusts/coal_coke"
+            }
+        ],
+        energy: 153600,
+        input: {
+            tag: "c:ingots/wrought_iron"
+        },
+        results: [
+            {
+                tag: "c:ingots/steel"
+            }
+        ],
+        slag: {
+            tag: "c:slag"
+        },
+        time: 300
+    }).id("fwnc:ie_arcfur/wrought_to_steel")
+
+    //brass
+    event.replaceInput({ id: 'immersiveengineering:crafting/empty_casing' }, "#c:plates/copper", "#c:plates/brass")
+    event.replaceInput({ id: 'immersiveengineering:crafting/empty_shell' }, "#c:plates/copper", "#c:plates/brass")
+    event.replaceInput({ id: 'immersiveengineering:crafting/wooden_grip' }, "#c:nuggets/copper", "#c:nuggets/brass")
+
+    event.remove({ id: 'immersiveengineering:metalpress/bullet_casing' })
+    event.custom({
+        type: 'immersiveengineering:metal_press',
+        energy: 2400,
+        input: {
+            tag: "c:ingots/brass"
+        },
+        mold: "immersiveengineering:mold_bullet_casing",
+        result: {
+            count: 2,
+            id: "immersiveengineering:empty_casing"
+        }
+    }).id("fwnc:ie_metal_press/empty_casing")
+    event.remove({ id: 'immersiveengineering:bottling/empty_shell' })
+    event.custom({
+        type: "immersiveengineering:bottling_machine",
+        fluid: {
+            amount: 250,
+            tag: "c:phenolic_resin"
+        },
+        inputs: [
+            {
+                item: "immersiveengineering:mold_bullet_casing"
+            },
+            {
+                basePredicate: {
+                    tag: "c:nuggets/brass"
+                },
+                count: 3
+            }
+        ],
+        results: [
+            {
+                basePredicate: {
+                    item: "immersiveengineering:empty_shell"
+                },
+                count: 2
+            },
+            {
+                item: "immersiveengineering:mold_bullet_casing"
+            }
+        ]
+    }).id("fwnc:ie_bottling/empty_shell")
 })

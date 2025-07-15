@@ -1,0 +1,6 @@
+重型板甲盾牌
+一人方阵
+<&recipe>木质盾牌升级版，耐久大幅提升且可改装。<np>
+<&flashbulb>§2闪光灯泡§r：受击时触发致盲闪光，眩晕前方敌人。<np>
+<&electric>§2电击发射器§r：受击时反伤并蒸发投射物。<np>
+<&magnetic>§2磁力手套§r：双击§l<keybind;key.immersiveengineering.magnetEquip>§r键快速切出盾牌至副手。

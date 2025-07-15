@@ -5,6 +5,32 @@
       "name": "CreepSean",
       "uniqueId": "8f20dc2e-075a-4d46-8b58-15a13e36c4f0"
     },
+    "time": 1747489799404,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/a4AKT2RdKP"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "CreepSean",
+      "uniqueId": "8f20dc2e-075a-4d46-8b58-15a13e36c4f0"
+    },
+    "time": 1747489345361,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/TeEqbFXSFC"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "CreepSean",
+      "uniqueId": "8f20dc2e-075a-4d46-8b58-15a13e36c4f0"
+    },
     "time": 1746956736603,
     "type": "Profiler (live)",
     "data": {

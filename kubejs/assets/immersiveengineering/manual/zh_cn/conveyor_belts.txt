@@ -1,0 +1,12 @@
+传送带
+要什么铁轨？
+<&conveyor_recipes>传送带可运输物品/生物，主要设计用于物品搬运。<br>
+物品遇满库存会堆积腐坏。工程师锤右键旋转方向，潜行+右键调整坡度。<br>
+染料右键染色侧边。<np>
+<&conveyor_redstone_recipe>红石控制传送带：红石信号禁用。<np>
+<&conveyor_dropper_recipe>投掷传送带：中段舱口向下投掷物品，红石信号关闭舱口。<np>
+<&conveyor_extract_recipe>抽取传送带：潜行+工程师锤调整输入面，螺丝刀调节抽取速度。<np>
+<&conveyor_vertical_recipe>垂直传送带：用吊桶垂直运输（不适用流体）。<np>
+<&conveyor_splitter_recipe>分流传送带：交替左右分流，不拆分物品堆。<np>
+<&conveyor_covered_recipe>覆盖传送带：脚手架覆盖防止拾取，右键更换覆盖材质。<np>
+<&conveyor_other_covered_recipes>其他类型传送带也可覆盖脚手架。

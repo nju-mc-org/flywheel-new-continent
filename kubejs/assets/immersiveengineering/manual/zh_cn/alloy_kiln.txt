@@ -1,0 +1,6 @@
+合金窑
+金属熔融
+<&recipe>合金窑由耐热砂岩与砖块制成。其内部高温可将金属熔融为液态并混合，生成<link;basic_metal_products;合金;alloys>。<br>
+无需繁琐的粉末混合，即可制造如琥珀金、康铜等重要合金。<np>
+<&multiblock>将8个窑砖摆成2x2x2立方体（如上图所示），用工程师锤右键侧面方块以形成结构。<np>
+<&insulating_glass>合金窑还可制造§2绝缘玻璃§r，用于<link;basic_wiring;高压设备;connector_recipes>的建造。

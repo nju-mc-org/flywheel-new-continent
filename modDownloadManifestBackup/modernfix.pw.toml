@@ -1,0 +1,17 @@
+name = "ModernFix"
+filename = "modernfix-neoforge-5.22.0+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nmDcB62a/versions/RU9sGOmD/modernfix-neoforge-5.22.0%2Bmc1.21.1.jar"
+hash-format = "sha1"
+hash = "1787b6c858c4e708bbb1e5629e248f9348383641"
+
+[update]
+[update.curseforge]
+file-id = 6534276
+project-id = 790626
+
+[update.modrinth]
+mod-id = "nmDcB62a"
+version = "RU9sGOmD"

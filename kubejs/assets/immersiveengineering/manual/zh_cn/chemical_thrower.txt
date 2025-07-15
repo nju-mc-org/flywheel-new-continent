@@ -1,0 +1,8 @@
+化学喷射器
+烧尽一切！
+化学喷射器可喷射并点燃流体。<br>
+右键喷射装载的流体（液态/气态），潜行右键切换点火开关。<br>
+可通过<link;engineers_workbench;工程师工作台>升级，详情如下：<np>
+<&large>§2大型油箱§r增加2000 mb容量。<np>
+<&focus>§2聚焦喷嘴§r减少扩散并提升射程。<np>
+<&multi>§2多联油箱§r支持三种流体，通过<config;b;tools.chemthrower.scroll;潜行滚动滚轮或;使用>快捷键§l<keybind;key.immersiveengineering.chemthrowerSwitch>§r切换，与大型油箱互斥。

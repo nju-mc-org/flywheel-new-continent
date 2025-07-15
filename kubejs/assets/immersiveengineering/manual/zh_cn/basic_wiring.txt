@@ -1,0 +1,12 @@
+基础布线
+滋滋滋！
+<&images>电网含三要素：§l接口§r输入输出，§l中继器§r连接多线，<link;transformers;变压器>转换电压。<np>
+<&connector_recipes>§l接口§r连接电网设备，中继器仅作线路枢纽。<np>
+<&wirecoil_recipes>用§l线卷§r连接两设备，障碍物阻断连接。<br>
+传输速率由最低级线缆决定。<np>
+接口与中继器仅接受设计电压线缆。变压器连接不同电压线缆。<br>
+低/中压线可绝缘以避免生物触电。<br>
+潜行时“选取方块”功能可从库存获取连接线。<np>
+接口最大传输功率为§o<config;iA;machines.wireConnectorInput>§r IF/t，线缆过载阈值§o<config;iA;wires.wireTransferRate;l3>§r IF/t。<br>
+多接口通过中继器§o统一§r至单线，若总需求超线缆上限将§o烧毁§r。<np>
+仅需输入输出端有效即可远距输电（如用高压线连接友方或前哨站）。

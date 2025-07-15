@@ -1,0 +1,17 @@
+name = "Controlling"
+filename = "Controlling-neoforge-1.21.1-19.0.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/xv94TkTM/versions/FaNppCJJ/Controlling-neoforge-1.21.1-19.0.5.jar"
+hash-format = "sha1"
+hash = "8a34424fc1428778be2fdbfa4da67b21b70bcbfe"
+
+[update]
+[update.curseforge]
+file-id = 6368976
+project-id = 250398
+
+[update.modrinth]
+mod-id = "xv94TkTM"
+version = "FaNppCJJ"

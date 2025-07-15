@@ -1,0 +1,6 @@
+精炼厂
+流体混合！
+<&multiblock>多结构催化反应设备，工程师锤点击中层重型工程砖激活。<br>
+两侧输入口注入流体，前端橙色口输出。<br>
+红石信号暂停运行，工程师螺丝刀反转逻辑。<br>
+需放入催化剂（不消耗但必需），核心产物：<link;industrial_fluids;生物柴油;biodiesel>与<link;industrial_fluids;酚醛树脂;resin_acetaldehyde>。

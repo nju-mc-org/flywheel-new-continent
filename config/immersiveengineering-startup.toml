@@ -20,3 +20,4 @@ preferredOres = ["immersiveengineering", "minecraft"]
 [compat]
 	theoneprobe = true
 	computercraft = true
+	create = true

@@ -1,9 +1,4 @@
 {
-  "eclipticseasons": {
-    "crop": true,
-    "snowy_status": true,
-    "crop.shift_hint": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -87,6 +82,9 @@
   "create_mechanical_spawner": {
     "data": true
   },
+  "immersiveengineering": {
+    "multiblock_icon": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -97,6 +95,11 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
+  },
+  "toms_peripherals": {
+    "modem_info": true,
+    "full_modem_info": true,
+    "wdt_info": true
   },
   "custommachinery": {
     "machine_component_provider": true

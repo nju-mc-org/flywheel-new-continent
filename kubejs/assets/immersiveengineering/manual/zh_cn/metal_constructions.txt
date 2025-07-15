@@ -1,0 +1,6 @@
+金属结构
+铆接艺术
+<&storage_recipes>金属块/板是常用建材，<link;basic_metal_products;金属板;plates>可染色。<np>
+<&fence_recipes>金属围栏防火，可圈禁烈焰人等火系生物。<np>
+<&connector_recipe>结构连接器：装饰用，工程师锤调整旋转角度。<np>
+<&coil_recipes>支持32米内钢缆/麻绳连接。

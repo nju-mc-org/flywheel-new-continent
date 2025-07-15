@@ -1,0 +1,12 @@
+矿石
+挖呀挖矿洞
+<&alu>§l铝土矿§r生成于<config;i;ores.bauxite.min_y>-<config;i;ores.bauxite.max_y>层，需石镐+采集。<br>
+熔炼为铝锭，用于高压设备。<np>
+<&lead>§l铅矿§r生成于<config;i;ores.lead.min_y>-<config;i;ores.lead.max_y>层，需铁镐+采集。<br>
+用于早期蓄能器/子弹/工业染料。<np>
+<&silver>§l银矿§r生成于<config;i;ores.silver.min_y>-<config;i;ores.silver.max_y>层，需铁镐+采集。<br>
+用于镜面或与金合成<link;basic_wiring;琥珀金>。<np>
+<&nickel>§l镍矿§r主要生成于<config;i;ores.nickel.min_y>-<config;i;ores.deep_nickel.max_y>层，需铁镐+采集。<br>
+与铜合成康铜，用于<link;thermoelectric_generator;热电发电机>。<np>
+<&uranium>§l铀矿§r生成于<config;i;ores.uranium.min_y>-<config;i;ores.uranium.max_y>层，需铁镐+采集。<br>
+铀块可作为<link;thermoelectric_generator;热电发电机>热源。

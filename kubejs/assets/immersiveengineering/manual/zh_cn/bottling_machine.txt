@@ -1,0 +1,10 @@
+灌装机
+加满它！
+<&multiblock>灌装机用于将流体注入容器或模具。<br>
+结构可按图示镜像建造，用工程师锤右键中央传送带激活。传送带方向需正确。<np>
+机器可存储8桶流体（通过金属罐端口输入），能量从背面顶部接口输入。<br>
+可填充任何已知容器（桶、玻璃瓶），也支持<link;mining_drill;矿钻;start>和<link;jerrycan;油罐;start>等特殊容器。<br>
+持续填充直至容器满载或流体中断。<br>
+工程师锤潜行右键可禁用此特性。<np>
+<&potions>可灌装<link;mixer;混合器>酿造的药水，<br>
+也可用树脂和<link;industrial_fluids;氧化铜块;redstone_acid>红石酸制造<link;resin_and_duroplast;硬质塑料制品;duroplast_sheet>。

@@ -1,0 +1,6 @@
+工程师电路工作台
+请勿吸入焊烟
+用<link;crafting_components;真空管;tubes>与<link;crafting_components;电路背板;pcb>制作逻辑电路。<br>
+需从背面接口供电，支持16色红石通道与8个寄存器。<br>
+按数字键快速分配寄存器，字母键切换颜色通道。<br>
+右键成品电路可复制配置到工作台。

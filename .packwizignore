@@ -9,3 +9,9 @@
 /.vscode/
 /.vscode/**
 /modrinth.index.json
+/CurseforgeManifests
+/CurseforgeManifests/**
+/ModrinthManifests
+/ModrinthManifests/**
+/modDownloadManifestBackup
+/modDownloadManifestBackup/**

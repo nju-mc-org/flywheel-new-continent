@@ -1,0 +1,7 @@
+粗制高炉
+简易炼钢
+<&block>用<link;coke_oven;焦炭/木炭>等高碳燃料将铁炼为钢。<np>
+<&outputs>产生<link;industrial_byproducts;矿渣;slag>，需手动清理否则停运。<br>
+矿渣可用于<link;slag_products;制砖>或<link;concrete;混凝土>。<np>
+<&multiblock>27个高炉砖摆成3x3x3立方体，工程师锤点击侧面中心激活。<br>
+§l不可自动化§r，需手动操作。自动化炼钢需<link;improved_blast_furnace;改进型高炉>。

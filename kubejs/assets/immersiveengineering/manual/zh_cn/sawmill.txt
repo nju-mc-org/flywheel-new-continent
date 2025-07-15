@@ -1,0 +1,7 @@
+锯木厂
+目击你的操作
+两段式加工：原木剥皮→锯片切割。<br>
+<&sawdust>产出锯末（用于<link;resin_and_duroplast;纤维板;fiberboard>）。<np>
+工程师锤激活中央金属板，背面插入<link;buzzsaw;锯片>。<br>
+红石信号暂停运行，空载时方可安全拆卸锯片。<br>
+无锯片时仅快速剥皮。

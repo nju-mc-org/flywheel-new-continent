@@ -1,0 +1,1374 @@
+Mods:
+
+  # - <slug>:
+  #   Name: 
+  #   Description: 
+  #   License: 
+  #   Platform:
+  #     Client: 
+  #     Server: 
+  #   Current:
+  #     Version: 
+  #     FileName: 
+  #     Size:
+  #     Checksum:
+  #       SHA1:
+  #       SHA512:
+  #   Curseforge:
+  #     ProjectID: 
+  #     FileID: 
+  #     URI: 
+  #   Modrinth: 
+  #     ProjectID:
+  #     FileID:
+  #     URI:
+
+
+  - almost-unified:
+    Name: "Almost Unified"
+    License: ARR
+    Platform:
+      Client: required
+      Server: required
+    Current:
+      Version: 1.2.7
+      FileName: almostunified-neoforge-1.21.1-1.2.7.jar
+    Modrinth: 
+      ProjectID: sdaSaQEz
+  - akashic-tome:
+    Name: "Akashic Tome"
+    Description: "The Book of Books. Store every documentation book in one."
+    License: N/A
+    Current:
+      Version: 1.8-29
+      FileName: AkashicTome-1.8-29.jar
+    Modrinth:
+      ProjectID: JBthPdnp
+  - appleskin:
+    Name: "AppleSkin"
+    Description: "Food/hunger-related HUD improvements"
+    License: Unlicense
+    Current: 
+      Version: 3.0.7
+      FileName: architectury-13.0.8-neoforge.jar
+    Modrinth: 
+      ProjectID: EsAfCjCV
+  - architectury-api:
+    Name: "Architectury API"
+    Description: "An intermediary api aimed to ease developing multiPlatform mods."
+    License: LGPL-3.0
+    Current:
+      Version: 13.0.8
+      FileName: architectury-13.0.8-neoforge.jar
+    Modrinth:
+      ProjectID: lhGA9TYQ
+  - athena-mod:
+    Name: "Athena"
+    Description: "A crossPlatform (Forge/Fabric) solution to connected block textures for 1.19.4+"
+    License: MIT
+    Current:
+      Version: 4.0.2
+      FileName: athena-neoforge-1.21-4.0.2.jar
+    Modrinth:
+      ProjectID: b1ZV3DIJ
+  - attributefix:
+    Name: "AttributeFix"
+    Description: "Removes arbitrary limits on Minecraft's attribute system. Fixes MANY mods!"
+    License: LGPL-2.1
+    Current:
+      Version: 21.1.2
+      FileName: attributefix-neoforge-1.21.1-21.1.2.jar
+    Modrinth:
+      ProjectID: lOOpEntO
+  - better-tab:
+    Name: "BetterTab"
+    Description: "You can show mobcaps, TPS, MSPT and Custom line in tab list"
+    License: N/A
+    Platform:
+      Client: optional
+      Server: required
+    Current:
+      Version: build.11
+      FileName: BetterTab-neoforge-1.21.1-1.0.0+build.11.jar
+    Modrinth:
+      ProjectID: woulhAPh
+  - biomes-o-plenty:
+    Name: "Biomes O' Plenty"
+    Description: "Adds 50+ unique biomes to enhance your world, with new trees, flowers, and more!"
+    License: ARR
+    Current:
+      Version: 21.1.0.12
+      FileName: BiomesOPlenty-neoforge-1.21.1-21.1.0.12.jar
+    Modrinth:
+      ProjectID: HXF82T3G
+  - bookshelf-lib:
+    Name: "Bookshelf"
+    Description: "An open source library for other mods!"
+    License: LGPL-2.1
+    Current:
+      Version: 21.1.67
+      FileName: bookshelf-neoforge-1.21.1-21.1.67.jar
+    Modrinth:
+      ProjectID: uy4Cnpcm
+  - c2me-neoforge:
+    Name: "Concurrent Chunk Management Engine (NeoForge)"
+    Description: "A mod designed to improve the chunk performance of Minecraft."
+    License: MIT
+    Current:
+      Version: 0.3.0+alpha.0.72
+      FileName: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.72.jar
+    Modrinth:
+      ProjectID: COlSi5iR
+  - caelus:
+    Name: "Caelus API"
+    Description: "A coremod and API to provide developers access to elytra flight mechanics through an entity attribute."
+    License: LGPL-3.0
+    Current:
+      Version: 7.0.1
+      FileName: caelus-neoforge-7.0.1+1.21.1.jar
+    Modrinth:
+      ProjectID: 40FYwb4z
+  - cc-tweaked:
+    Name: "CC: Tweaked"
+    Description: "ComputerCraft fork adding programmable computers, turtles and more to Minecraft."
+    License: N/A
+    Current:
+      Version: 1.116.1
+      FileName: cc-tweaked-1.21.1-forge-1.116.1.jar
+    Modrinth:
+      ProjectID: gu7yAYhd
+  - cerulean-advancements:
+    Name: "Cerulean"
+    Description: "Advancements optimization mod, updated fork of Icterine with added features"
+    License: custom:modify-ask-revenue,modify-revenue-routing^50%,no-redistribute,keep-license,no-competitive-code-snippet 
+    Platform:
+      Client: optional
+      Server: required
+    Current:
+      Version: 1.0.0
+      FileName: cerulean-neoforge-1.0.0-1.21.1.jar
+    Modrinth:
+      ProjectID: dv57xmf9
+  - cfm-refurbished-circuit-breaker:
+    Name: "CFM Refurbished: Circuit Breaker"
+    Description: "This addon for \"MrCrayfish Furniture Mod: Refurbished\" introduces a circuit breaker block that powers the mod's electricity system by using Forge Energy from sources like Mekanism. It eliminates the need for resource-intensive electricity generators, making your home more sustainable. "
+    License: MIT
+    Current:
+      Version: 1.0.2
+      FileName: cfm_circuit_breaker-neoforge-1.0.2.jar
+    Curseforge:
+      ProjectID: 1170251
+      FileID: 6064365
+  - chat-heads:
+    Name: "Chat Heads"
+    Description: "See who you're chatting with!"
+    License: MPL-2.0
+    Platform:
+      Client: recommend
+      Server: unsupported
+    Current:
+      Version: 0.13.18
+      FileName: chat_heads-0.13.18-neoforge-1.21.jar
+    Modrinth:
+      ProjectID: Wb5oqrBJ
+  - chipped:
+    Name: "Chipped"
+    Description: "Every block deserves a friend."
+    License: "ARR:#code,#documention=MIT,#non-code=ARR"
+    Current:
+      Version: 4.0.2
+      FileName: chipped-neoforge-1.21.1-4.0.2.jar
+    Modrinth:
+      ProjectID: BAscRYKm
+  - clientsort:
+    Name: "Client Sort"
+    Description: "A standalone implementation of the sorting algorithm from Mouse Wheelie."
+    License: Apache-2.0
+    Platform:
+      Client: optional
+      Server: unsupported
+    Current:
+      Version: 2.0.0-beta9
+      FileName: clientsort-neoforge-2.0.0-beta.9+1.21.1.jar
+    Modrinth:
+      ProjectID: K0AkAin6
+  - cloth-config:
+    Name: "Cloth Config API"
+    Description: "Configuration Library for Minecraft Mods"
+    License: LGPL-3.0-only
+    Current:
+      Version: 15.0.140
+      FileName: cloth-config-15.0.140-neoforge.jar
+    Modrinth:
+      ProjectID: 9s6osm5g
+  - construction-sticks:
+    Name: "Construction Sticks"
+    Description: "Sticks that make building easier"
+    License: MIT
+    Current:
+      Version: 1.2.1
+      FileName: ConstructionSticks-1.21.1-1.2.1.jar
+    Modrinth:
+      ProjectID: ooyjDLZt
+  - controlling:
+    Name: "Controlling"
+    Description: "Adds a search bar to the Key-Bindings menu"
+    License: MIT
+    Platform:
+      Client: required
+      Server: unsupported
+    Current:
+      Version: 19.0.5
+      FileName: Controlling-neoforge-1.21.1-19.0.5.jar
+    Modrinth:
+      ProjectID: xv94TkTM
+  - create-connected:
+    Name: "Create: Connected"
+    Description: "QoL blocks that you wish existed in Create - Highly configurable, disable what you don't need"
+    License: AGPL-3.0-or-later
+    Current:
+      Version: 1.1.6
+      FileName: create_connected-1.1.6-mc1.21.1.jar
+    Modrinth:
+      ProjectID: Vg5TIO6d
+  - create-deep-dark:
+    Name: "Create: Deep Dark"
+    Description: "A Create mod addon featuring new end-game items based on the Deep Dark biome, making venturing into Warden territory more fun and rewarding."
+    License: ARR:no-source
+    Current:
+      Version: 2.0.0
+      FileName: create_deep_dark-2.0.0-neoforge-1.21.1.jar
+    Modrinth:
+      ProjectID: knrLSB8n
+  - create-curios-jetpack:
+    Name: "Create: Curios Jetpack & Backtank"
+    Description: "Use Create jetpack and backtanks in Curios/Trinkets back slot."
+    License: ARR
+    Current:
+      Version: 1.2.0
+      FileName: create_jetpack_curios-1.2.0-neoforge-1.21.1.jar
+    Modrinth:
+      ProjectID: BBhCMftF
+  - create-let-the-adventure-begin:
+    Name: "Create: Let The Adventure Begin"
+    Description: "Create: Let The Adventure Begin adds Structures 62 unique structures, New Loot, a chance to fish create mod items and much more !!!"
+    License: GPL-3.0-only
+    Current:
+      Version: 2.8.1
+      FileName: create_ltab-2.8.1.jar
+    Modrinth:
+      ProjectID: fUa6OtBG
+  - create-mechanical-spawner:
+    Name: "Create Mechanical Spawner"
+    Description: A mechanical spawner block. Generates Mobs with rotation power. This mod it's meant to be used in modpacks.
+    License: LGPL-3.0-only
+    Current:
+      Version: 6.0.6
+      FileName: create_mechanical_spawner-1.21.1-1.2.4-6.0.6.jar
+    Modrinth:
+      ProjectID: T1hmeGi9
+  - create-pattern-schematics:
+    Name: "Create: Pattern Schematics"
+    Description: "Build with repeating schematics!"
+    License: MIT
+    Current:
+      Version: 2.0.9
+      FileName: create_pattern_schematics-2.0.9.jar
+    Modrinth:
+      ProjectID: cpqKG67r
+  - create-power-loader:
+    Name: "Create: Power Loader"
+    Description: "A Create mod add-on adding immersive chunk loaders."
+    License: MIT
+    Current:
+      Version: 2.0.3
+      FileName: create_power_loader-2.0.3-mc1.21.1.jar
+    Modrinth:
+      ProjectID: wPQ6GgFE
+  - create-winery:
+    Name: "Create: Winery"
+    Description: "Build your own winery with Create."
+    License: ARR
+    Current:
+      Version: 1.7.0
+      FileName: create_winery-1.7.0-neoforge-1.21.1.jar
+    Modrinth:
+      ProjectID: zBuk6egG
+  - create-wizardry:
+    Name: "Create: Wizardry"
+    Description: "This is an addon mod for Create adding enhanced compatibility with Iron's Spells and Spellbooks. Happy spellcasting!"
+    License: ARR
+    Current:
+      Version: 0.2.4
+      FileName: create_wizardry-0.2.4.jar
+    Modrinth:
+      ProjectID: OeGdeWEj
+  - create:
+    Name: "Create"
+    Description: "Aesthetic Technology that empowers the Player"
+    License: MIT
+    Current:
+      Version: 6.0.6
+      FileName: create-1.21.1-6.0.6.jar
+    Modrinth:
+      ProjectID: LNytGWDc
+  - create-central-kitchen:
+    Name: "Create: Central Kitchen"
+    Description: "Offering more tools and methods to automate food processing of other mod in Create."
+    License: LGPL-3.0-or-later
+    Current:
+      Version: 2.1.3
+      FileName: create-central-kitchen-2.1.3.jar
+    Modrinth:
+      ProjectID: btq68HMO
+  - create-dragons-plus:
+    Name: "Create: Dragons Plus"
+    Description: "Provide convenient features to players and dev utilities for Create addon developers."
+    License: LGPL-3.0-or-later
+    Current:
+      Version: 1.6.1
+      FileName: create-dragons-plus-1.6.1.jar
+    Modrinth:
+      ProjectID: dzb1a5WV
+  - create-enchantment-industry:
+    Name: "Create: Enchantment Industry"
+    Description: "Automatic Enchanting, with Create"
+    License: LGPL-3.0-or-later
+    Current:
+      Version: 2.1.7
+      FileName: create-enchantment-industry-2.1.7.jar
+    Modrinth:
+      ProjectID: JWGBpFUP
+  - create-integrated-farming:
+    Name: "Create: Integrated Farming"
+    Description: "Integrated farming automation for Create"
+    License: LGPL-3.0-only
+    Current:
+      Version: 1.0.6
+      FileName: create-integrated-farming-1.0.6.jar
+    Modrinth:
+      ProjectID: 9k1pAsfR
+  - create-stuff-additions:
+    Name: "Create Stuff 'N Additions"
+    Description: "🧲 Dominate your environment with Create technology"
+    License: ARR
+    Current:
+      Version: 2.1.0e
+      FileName: create-stuff-additions1.21.1_v2.1.0e.jar
+    Modrinth:
+      ProjectID: aq9qUUQG
+  - createaddition:
+    Name: "Create Crafts & Additions"
+    Description: "Create Crafts & Additions extends Create and acts as a bridge between electricity and kinetic energy"
+    License: MIT
+    Current:
+      Version: 1.4.2
+      FileName: createaddition-1.4.2.jar
+    Modrinth:
+      ProjectID: kU1G12Nn
+  - createbetterfps:
+    Name: "CreateBetterFps"
+    Description: "Improve your Create FPS when shaderpack is on, up to 50%"
+    License: MIT
+    Platform:
+      Client: recommend
+      Server: unsupported
+    Current:
+      Version: 1.1.1
+      FileName: createbetterfps-1.21.1-1.1.1.jar
+    Modrinth:
+      ProjectID: lMYIHZNH
+  - create-cc-total-logistics:
+    Name: "Create: CC Total Logistics"
+    Description: "Bridge between CC: Tweaked and Create's logistics networks"
+    License: LGPL-3.0-or-later
+    Current:
+      Version: 0.3.6
+      FileName: createcclogistics-1.21.1-0.3.6.jar
+    Modrinth:
+      ProjectID: FuyTRq2g
+  - create-framed:
+    Name: "Create: Framed"
+    Description: "A Create mod addon that adds more Framed Glass variants."
+    License: MIT
+    Current:
+      Version: 1.6.8
+      FileName: createframed-1.21.1-1.6.8.jar
+    Modrinth:
+      ProjectID: 15fFZ3f4
+  - create-ore-excavation:
+    Name: "Create Ore Excavation"
+    Description: "Extract resources using machines powered by Rotational Force"
+    License: ARR
+    Current:
+      Version: 1.6.4
+      FileName: createoreexcavation-1.21-1.6.4.jar
+    Modrinth:
+      ProjectID: ResbpANg
+  - create-railways-navigator:
+    Name: "Create Railways Navigator"
+    Description: "Get possible train connections in your world from one station to another using the Create Railways Navigator. An addon for the Create Mod."
+    License: GPL-3.0-or-later
+    Current:
+      Version: beta-0.8.4
+      FileName: createrailwaysnavigator-neoforge-1.21.1-beta-0.8.4.jar
+    Modrinth:
+      ProjectID: Dq3STxps
+  - create-ultimine:
+    Name: "Create Ultimine"
+    Description: "A Create mod addon that supports FTB Ultimine functionality"
+    License: GPL-3.0-only
+    Current:
+      Version: 1.1.1
+      FileName: createultimine-1.21.1-neoforge-1.1.1.jar
+    Modrinth:
+      ProjectID: vUE54e5E
+  - creativecore:
+    Name: "CreativeCore"
+    Description: "A core mod"
+    License: LGPL-3.0-only
+    Current:
+      Version: 2.13.7
+      FileName: CreativeCore_NEOFORGE_v2.13.7_mc1.21.1.jar
+    Modrinth:
+      ProjectID: OsZiaDHq
+  - creeper-firework:
+    Name: "Creeper Firework"
+    Description: "Creepers explode harmlessly and beautifully"
+    License: MIT
+    Current:
+      Version: 2.2.0
+      FileName: CreeperFirework-neoforge-2.2.0.jar
+    Modrinth:
+      ProjectID: owUiXPam
+  - cuisine-delight:
+    Name: "Cuisine Delight"
+    Description: "Cook your plate with any combinations of ingredients. Create a balanced meal to get nutrition bonus"
+    License: LGPL-2.1-only
+    Current:
+      Version: 1.2.6
+      FileName: cuisinedelight-1.2.6.jar
+    Modrinth:
+      ProjectID: gOQjCAAD
+  - cupboard:
+    Name: "Cupboard"
+    Description: "Cupboard provides code, different frameworks and utilities for minecraft mods Features"
+    License: ARR
+    Current:
+      Version: '2.9'
+      FileName: cupboard-1.21-2.9.jar
+    Curseforge:
+      ProjectID: 326652
+      FileID: 6078150
+  - curios:
+    Name: "Curios API"
+    Description: "A flexible and expandable accessory/equipment API for users and developers."
+    License: LGPL-3.0-or-later
+    Current:
+      Version: 9.5.1
+      FileName: curios-neoforge-9.5.1+1.21.1.jar
+    Modrinth:
+      ProjectID: vvuO3ImH
+  - custom-machinery:
+    Name: "Custom Machinery"
+    Description: "Make your dream machine come true"
+    License: LGPL-3.0-only
+    Current:
+      Version: 0.10.37
+      FileName: CustomMachinery-neoforge-1.21.1-0.10.37.jar
+    Modrinth:
+      ProjectID: OrB5XFtI
+  - custom-machinery-create:
+    Name: "Custom Machinery Create"
+    Description: "Create support for Custom Machinery"
+    License: LGPL-3.0-only
+    Current:
+      Version: 1.2.3
+      FileName: CustomMachineryCreate-1.21.1-1.2.3.jar
+    Modrinth:
+      ProjectID: NHh2cWu8
+  - customskinloader:
+    Name: "CustomSkinLoader"
+    Description: "Custom Skin Loader mod for Minecraft."
+    License: GPL-3.0-only
+    Platform:
+      Client: recommend
+      Server: unsupported
+    Current:
+      Version: V3-14.24
+      FileName: CustomSkinLoader_ForgeV3-14.24.jar
+    Modrinth:
+      ProjectID: idMHQ4n2
+  - elytra-slot:
+    Name: "Elytra Slot"
+    Description: "Adds accessory support to the elytra so you can fly and wear chest armor at the same time. Formerly known as Curious Elytra and Elytra Trinket."
+    License: LGPL-3.0-or-later
+    Current:
+      Version: 9.0.2
+      FileName: elytraslot-neoforge-9.0.2+1.21.1.jar
+    Modrinth:
+      ProjectID: mSQF1NpT
+  - engineers-delight:
+    Name: "Engineers Delight"
+    Description: "adds a bit more integration between Farmers Delight and Immersive Engineering."
+    License: MPL-2.0
+    Current:
+      Version: R.1.5
+      FileName: "Engineers Delight 1.21.1 neoforge R.1.5.jar"
+    Modrinth:
+      ProjectID: 4fb7lmRe
+  - entity-model-features:
+    Name: "[EMF] Entity Model Features"
+    Description: "EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge."
+    License: LGPL-3.0-only
+    Platform:
+      Server: unsupported
+    Current:
+      Version: 2.4.1
+      FileName: entity_model_features_neoforge_1.21.1-2.4.1.jar
+    Modrinth:
+      ProjectID: 4I1XuqiY
+  - entitytexturefeatures:
+    Name: "[ETF] Entity Texture Features"
+    Description: "Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric"
+    License:  LGPL-3.0-only
+    Current:
+      Version: 6.2.9
+      FileName: entity_texture_features_neoforge_1.21.1-6.2.9.jar
+    Modrinth:
+      ProjectID: BVzZfTc1
+  - every-compat:
+    Name: "Every Compat (Wood Good)"
+    Description: "Every Compat (Wood Good)"
+    License: ARR
+    Current:
+      Version: 2.10.14
+      FileName: everycomp-1.21-2.10.14-neoforge.jar
+    Modrinth:
+      ProjectID: eiktJyw1
+  - exposure:
+    Name: "Exposure"
+    Description: "Camera mod with focus on process and aesthetics"
+    License: MIT
+    Current:
+      Version: 1.9.10
+      FileName: exposure-neoforge-1.21.1-1.9.10.jar
+    Modrinth:
+      ProjectID: hB899VmG
+  - extralib:
+    Name: "ExtraLib"
+    Description: "Library for mods."
+    License: ARR
+    Platform:
+      Client: unsupported
+      Server: required
+    Current:
+      Version: 1.7.2
+      FileName: ExtraLib-1.7.2-1.21.1-NeoForge.jar
+    Modrinth:
+      ProjectID: 2GNqVOLH
+  - extraquests:
+    Name: "ExtraQuests"
+    Description: "Sidemod for FTB Quests. Adds new tasks and rewards."
+    License: ARR
+    Current:
+      Version: 1.5.3
+      FileName: ExtraQuests-1.5.3-1.21.1-NeoForge.jar
+    Modrinth:
+      ProjectID: rMvP0ujv
+  - fancymenu:
+    Name: "FancyMenu"
+    Description: "Customize Minecraft's menus with ease!"
+    License: DSMSLv3
+    Platform:
+      Client: recommend
+      Server: unsupported
+    Current:
+      Version: 3.6.2
+      FileName: fancymenu_neoforge_3.6.2_MC_1.21.1.jar
+    Modrinth:
+      ProjectID: Wq5SjeWM
+  - farmers-delight:
+    Name: "Farmer's Delight"
+    Description: "A cozy expansion to farming and cooking!"
+    License: MIT
+    Current:
+      Version: 1.2.8
+      FileName: FarmersDelight-1.21.1-1.2.8.jar
+    Modrinth:
+      ProjectID: R2OftAxM
+  - farsighted-mobs:
+    Name: "Farsighted Mobs"
+    Description: "Helping mobs see in the distance"
+    License: LGPL-3.0-only
+    Current:
+      Version: 3.0.2
+      FileName: farsightedmobs-neoforge-1.21-3.0.2.jar
+    Modrinth:
+      ProjectID: eEpWUjwq
+  - fast-leaf-decay:
+    Name: "Fast Leaf Decay"
+    Description: "Makes Leaves Decay Faster"
+    License: ARR
+    Platform:
+      Client: unsupported
+    Current:
+      Version: '35'
+      FileName: fastleafdecay-35.jar
+    Curseforge:
+      ProjectID: 230976
+      FileID: 5849090
+  - ferrite-core:
+    Name: "FerriteCore"
+    Description: "Memory usage optimizations"
+    License: MIT
+    Current:
+      Version: 7.0.2
+      FileName: ferritecore-7.0.2-neoforge.jar
+    Modrinth:
+      ProjectID: uXXizFIs
+  - framework:
+    Name: "Framework"
+    Description: "Framework is a library designed to aid in the development of multi-Platform mods, containing systems for registration, network messages, and more."
+    License: LGPL-2.1
+    Current:
+      Version: 0.9.6
+      FileName: framework-neoforge-1.21.1-0.9.6.jar
+    Curseforge:
+      ProjectID: 549225
+      FileID: 6531439
+  - fruits-delight:
+    Name: "Fruits Delight"
+    Description: "Adds fruits, jelly, juice, and fruit-based food in Farmer's Delight style"
+    License: LGPL-2.1-only
+    Current:
+      Version: 1.2.8
+      FileName: fruitsdelight-1.2.8.jar
+    Modrinth:
+      ProjectID: g6sbyCTu
+  - ftb-chunks-forge:
+    Name: "FTB Chunks (Forge)"
+    Description: "A mod that allows you to claim chunks to protect your blocks."
+    License: ARR
+    Current:
+      Version: 2101.1.9
+      FileName: ftb-chunks-neoforge-2101.1.9.jar
+    Curseforge:
+      ProjectID: 314906
+      FileID: 6504893
+  - ftb-filter-system:
+    Name: "FTB Filter System"
+    Description: "FTB Filter System (aka FFS) is a powerful item filtering mod with friendly GUI editing."
+    License: ARR
+    Current:
+      Version: 21.1.2
+      FileName: ftb-filter-system-neoforge-21.1.2.jar
+    Curseforge:
+      ProjectID: 943925
+      FileID: 6755210
+  - ftb-library-forge:
+    Name: "FTB Library (Forge)"
+    Description: "FTB Library serves as a foundational component for FTB Mods."
+    License: ARR
+    Current:
+      Version: 2101.1.16
+      FileName: ftb-library-neoforge-2101.1.16.jar
+    Curseforge:
+      ProjectID: 404465
+      FileID: 6711324
+  - ftb-quests-forge:
+    Name: "FTB Quests (Forge)"
+    Description: "FTB Quests is a lightweight, team-based questing mod and is very simple to use."
+    License: ARR
+    Current:
+      Version: 2101.1.12
+      FileName: ftb-quests-neoforge-2101.1.12.jar
+    Curseforge:
+      ProjectID: 289412
+      FileID: 6721642
+  - ftb-teams-forge:
+    Name: "FTB Teams (Forge)"
+    Description: "Library for mods that can utilize team progression like FTB Chunks and FTB Quests."
+    License: ARR
+    Current:
+      Version: 2101.1.2
+      FileName: ftb-teams-neoforge-2101.1.2.jar
+    Curseforge:
+      ProjectID: 404468
+      FileID:  6119437
+  - ftb-ultimine-forge:
+    Name: "FTB Ultimine (Forge)"
+    Description: "FTB Ultimine provides effective modes for harvesting multiple blocks at once. "
+    License: ARR
+    Current:
+      Version: 2101.1.6
+      FileName: ftb-ultimine-neoforge-2101.1.6.jar
+    Curseforge:
+      ProjectID: 386134
+      FileID: 6752899
+  - ftb-xmod-compat:
+    Name: "FTB XMod Compat"
+    Description: "A compatibility mod whose only purpose is to provide cross-mod integration between FTB and non-FTB mods."
+    License: ARR
+    Current:
+      Version: 21.1.4
+      FileName: ftb-xmod-compat-neoforge-21.1.4.jar
+    Curseforge:
+      ProjectID: 889915
+      FileID: 6743720
+  - geckolib:
+    Name: "Geckolib"
+    Description: "A 3D animation library for entities, blocks, items, armor, and more!"
+    License: MIT
+    Current:
+      Version: 4.7.6
+      FileName: geckolib-neoforge-1.21.1-4.7.6.jar
+    Modrinth:
+      ProjectID: 8BmcQJ2H
+  - glitchcore:
+    Name: "GlitchCore"
+    Description: "A library mod aimed at abstracting mod loaders and providing various utilities for our mods."
+    License: ARR
+    Current:
+      Version: 2.1.0.0
+      FileName: GlitchCore-neoforge-1.21.1-2.1.0.0.jar
+    Modrinth:
+      ProjectID: s3dmwKy5
+  - happy-ghast:
+    Name: "Happy Ghast [FORGE/FABRIC]"
+    Description: "Adds a rideable Happy Ghast, with all it's Minecraft Live features!"
+    License: ARR
+    Current:
+      Version: 3.0.0
+      FileName: happy_ghast-3.0.0-neoforge-1.21.1.jar
+    Modrinth:
+      ProjectID: H25juIDM
+  - immediatelyfast:
+    Name: "ImmediatelyFast"
+    Description: "Speed up immediate mode rendering in Minecraft"
+    License: LGPL-3.0-only
+    Platform:
+      Server: unsupported
+    Current:
+      Version: 1.6.6
+      FileName: ImmediatelyFast-NeoForge-1.6.6+1.21.1.jar
+    Modrinth:
+      ProjectID: 5ZwdcRci
+  - immersive-aircraft:
+    Name: "Immersive Aircraft"
+    Description: "A bunch of rustic aircraft to travel, transport, and explore!"
+    License: GPL-3.0-only
+    Current:
+      Version: 1.3.3
+      FileName: immersive_aircraft-1.3.3+1.21.1-neoforge.jar
+    Modrinth:
+      ProjectID: x3HZvrj6
+  - inventory-hud-forge:
+    Name: "Inventory HUD+"
+    Description: ""
+    License: ARR
+    Current:
+      Version: 3.4.28
+      FileName: inventoryhud.neoforged.1.21.1-3.4.28.jar
+    Curseforge:
+      ProjectID: 357540
+      FileID: 6369797
+  - iris:
+    Name: "Iris Shaders"
+    Description: "A modern shader pack loader for Minecraft intended to be compatible with existing OptiFine shader packs"
+    License: LGPL-3.0-only
+    Current:
+      Version: 1.8.12
+      FileName: iris-neoforge-1.8.12+mc1.21.1.jar
+    Modrinth:
+      ProjectID: YL57xq9U
+  - irons-spells-n-spellbooks:
+    Name: "Iron's Spells 'n Spellbooks"
+    Description: "A magic mod bringing back the classic RPG spellcasting fantasy. (irons spells and spellbooks)"
+    License: ARR
+    Current:
+      Version: 3.13.0
+      FileName: irons_spellbooks-1.21.1-3.13.0.jar
+    Modrinth:
+      ProjectID: s4OWxYQQ
+  - jade:
+    Name: "Jade 🔍"
+    Description: "Shows information about what you are looking at. (Hwyla/Waila fork for Minecraft 1.16+)"
+    License: "custom:#code=CC-BY-NC-SA-4.0"
+    Current:
+      Version: 15.10.2
+      FileName: Jade-1.21.1-NeoForge-15.10.2.jar
+    Modrinth:
+      ProjectID: nvQzSEkH
+  - jade-addons-forge:
+    Name: "Jade Addons (Neo/Forge)"
+    Description: "Jade 🔍's additional mod supports for Neo/Forge"
+    License: ARR
+    Current:
+      Version: 6.1.0
+      FileName: JadeAddons-1.21.1-NeoForge-6.1.0.jar
+    Modrinth:
+      ProjectID: xuDOzCLy
+  - justenoughcharacters:
+    Name: "JustEnoughCharacters"
+    Description: "A tweak to many mods to search in Chinese Pinyin"
+    License: MIT
+    Platform:
+      Client: recommend
+      Server: unsupported
+    Current:
+      Version: 4.5.22
+      FileName: jecharacters-1.21-neoforge-4.5.22.jar
+    Modrinth:
+      ProjectID: I7k4B65h
+  - jei:
+    Name: "Just Enough Items"
+    Description: "JEI - View Items and Recipes"
+    License: MIT
+    Current:
+      Version: 19.22.0.315
+      FileName: jei-1.21.1-neoforge-19.22.0.315.jar
+    Modrinth:
+      ProjectID: u6dRKJwZ
+  - just-enough-resources-jer:
+    Name: "Just Enough Resources (JER)"
+    Description: "JEI integration that adds info on mobs, world gen, villagers and many more!"
+    License: "custom:[\"Don't Be a Jerk\"]non-commercial"
+    Current:
+      Version: 1.6.0.17
+      FileName: JustEnoughResources-NeoForge-1.21.1-1.6.0.17.jar
+    Modrinth:
+      ProjectID: uEfK2CXF
+  - konkrete:
+    Name: "Konkrete"
+    Description: "Konkrete"
+    License: Apache-2.0
+    Platform:
+      Client: recommend
+      Server: optional
+    Current:
+      Version: 1.9.9
+      FileName: konkrete_neoforge_1.9.9_MC_1.21.jar
+    Modrinth:
+      ProjectID: J81TRJWm
+  - kubejs:
+    Name: "KubeJS"
+    Description: "Edit recipes, add new custom items, script world events, all in JavaScript!"
+    License: LGPL-3.0-only
+    Current:
+      Version: 2101.7.1-build.181
+      FileName: kubejs-neoforge-2101.7.1-build.181.jar
+    Modrinth:
+      ProjectID: umyGl7zF
+  - lithium:
+    Name: "Lithium"
+    Description: "No-compromises game logic optimization mod. Well suited for clients and servers of all kinds."
+    License: LGPL-3.0-only
+    Current:
+      Version: 0.15.0
+      FileName: lithium-neoforge-0.15.0+mc1.21.1.jar
+    Modrinth:
+      ProjectID: gvQqBUqZ
+  - lithostitched:
+    Name: "Lithostitched"
+    Description: "Library mod with new configurability and compatibility enhancements for worldgen"
+    License: MIT
+    Current:
+      Version: 1.4.11
+      FileName: lithostitched-neoforge-1.21.1-1.4.11.jar
+    Modrinth:
+      ProjectID: XaDC71GB
+  - lootjs:
+    Name: "LootJS: KubeJS Addon"
+    Description: "A Minecraft mod for packdevs to easily modify the loot system with KubeJS."
+    License: LGPL-3.0-only
+    Current:
+      Version: 3.4.0
+      FileName: lootjs-neoforge-1.21.1-3.4.0.jar
+    Modrinth:
+      ProjectID: fJFETWDN
+  - man-of-many-planes:
+    Name: "Man of Many Planes"
+    Description: "A set of additional aircraft for Immersive Aircraft with Create support in mind."
+    License: ARR
+    Current:
+      Version: 0.2.1
+      FileName: man_of_many_planes-0.2.1+1.21.1-neoforge.jar
+    Modrinth:
+      ProjectID: 9qdTHi0q
+  - mechanicals-lib:
+    Name: "Mechanicals Lib"
+    Description: "Modding library"
+    License: LGPL-3.0-only
+    Current:
+      Version: 1.0.12
+      FileName: mechanicals-1.21.1-1.0.12.jar
+    Modrinth:
+      ProjectID: ProvjTA7
+  - melody:
+    Name: "Melody"
+    Description: "OpenAL-based library mod for playing background music."
+    License: MIT
+    Platform:
+      Client: recommend
+      Server: unsupported
+    Current:
+      Version: 1.0.10
+      FileName: melody_neoforge_1.0.10_MC_1.21.jar
+    Modrinth:
+      ProjectID: CVT4pFB2
+  - modernfix:
+    Name: "ModernFix"
+    Description: "All-in-one mod that improves performance, reduces memory usage, and fixes many bugs."
+    License: LGPL-3.0-only
+    Current:
+      Version: 5.24.3
+      FileName: modernfix-neoforge-5.24.3+mc1.21.1.jar
+    Modrinth:
+      ProjectID: nmDcB62a
+  - modern-ui:
+    Name: "Modern UI"
+    Description: "Modern desktop graphics application framework and low-level 3D graphics engine"
+    License: LGPL-3.0-or-later
+    Platform:
+      Client: recommend
+      Server: unsupported
+    Current:
+      Version: 3.11.1.9-universal
+      FileName: ModernUI-NeoForge-1.21.1-3.11.1.9-universal.jar
+    Modrinth:
+      ProjectID: 3sjzyvGR
+  - moonlight:
+    Name: "Moonlight Lib"
+    Description: "dynamic data pack and registration, villager activities, custom map marker and a lot more"
+    License: LGPL(+additional dependency clause)
+    Current:
+      Version: 2.19.5
+      FileName: moonlight-1.21-2.19.5-neoforge.jar
+    Modrinth:
+      ProjectID: twkfQtEc
+  - mouse-tweaks:
+    Name: "Mouse Tweaks"
+    Description: "Enhances inventory management by adding various functions to the mouse buttons."
+    License: BSD-3-Clause
+    Platform:
+      Client: recommend
+      Server: unsupported
+    Current:
+      Version: 2.26.1
+      FileName: MouseTweaks-neoforge-mc1.21-2.26.1.jar
+    Modrinth:
+      ProjectID: aC3cM3Vq
+  - nether-depths-upgrade:
+    Name: "Nether Depths Upgrade"
+    Description: "Nether Depths Upgrade is a small mod that adds some extra flora and fauna to the lava seas of the nether. "
+    License: MIT
+    Current:
+      Version: 3.1.8
+      FileName: netherdepthsupgrade-3.1.8-1.21.jar
+    Modrinth:
+      ProjectID: vI1QKJro
+  - noisium:
+    Name: "Noisium"
+    Description: "Optimises worldgen performance for a better gameplay experience."
+    License: LGPL-3.0-only
+    Platform:
+      Client: recommend
+      Server: recommend
+    Current:
+      Version: 2.3.0
+      FileName: noisium-neoforge-2.3.0+mc1.21-1.21.1.jar
+    Modrinth:
+      ProjectID: KuNKN7d2
+  - not-enough-animations:
+    Name: "Not Enough Animations"
+    Description: "Bringing first-person animations to the third-person"
+    License: custom:[\"tr7zw Protective License\"]non-commercial
+    Platform:
+      Client: recommend
+      Server: unsupported
+    Current:
+      Version: 1.10.1
+      FileName: notenoughanimations-neoforge-1.10.1-mc1.21.jar
+    Modrinth:
+      ProjectID: MPCX6s5C
+  - overflowing-bars:
+    Name: "Overflowing Bars"
+    Description: "Expand health, armor and armor toughness bars beyond vanilla. Nice and compact without confusing colors."
+    License: MPL-2.0
+    Platform:
+      Client: recommend
+      Server: unsupported
+    Current:
+      Version: v21.1.1
+      FileName: OverflowingBars-v21.1.1-1.21.1-NeoForge.jar
+    Modrinth:
+      ProjectID: XD7XOrAF
+  - packet-fixer:
+    Name: "Packet Fixer"
+    Description: "A simple mod to fix various problems with packets and nbt."
+    License: MIT
+    Current:
+      Version: 3.1.2
+      FileName: packetfixer-3.1.2-1.20.5-1.21.7-merged.jar
+    Modrinth:
+      ProjectID: c7m1mi73
+  - patchouli:
+    Name: "Patchouli"
+    Description: "Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers"
+    License: CC-BY-NC-SA-3.0
+    Current:
+      Version: '88'
+      FileName: Patchouli-1.21-88-NEOFORGE.jar
+    Modrinth:
+      ProjectID: nU0bVIaL
+  - playeranimator:
+    Name: "playerAnimator"
+    Description: "animate the player"
+    License: MIT
+    Current:
+      Version: 2.0.1
+      FileName: player-animation-lib-forge-2.0.1+1.21.1.jar
+    Modrinth:
+      ProjectID: gedNE4y2
+  - prickle:
+    Name: "Prickle"
+    Description: "Prickle is a JSON based configuration file format brought to Minecraft."
+    License: LGPL-2.1-only
+    Current:
+      Version: 21.1.8
+      FileName: prickle-neoforge-1.21.1-21.1.8.jar
+    Modrinth:
+      ProjectID: aaRl8GiW
+  - puzzles-lib:
+    Name: "Puzzles Lib"
+    Description: "Why it's called Puzzles, you ask? That's the puzzle!"
+    License: MPL-2.0
+    Current:
+      Version: v21.1.36
+      FileName: PuzzlesLib-v21.1.36-1.21.1-NeoForge.jar
+    Modrinth:
+      ProjectID: QAGBst4M
+  - refurbished-furniture:
+    Name: "MrCrayfish's Furniture Mod: Refurbished"
+    Description: "Adds over 440+ functional and cosmetic blocks to decorate your house!"
+    License: custom:{#code=MIT,#assets=custom:shared-alike}
+    Current:
+      Version: 1.0.16
+      FileName: refurbished_furniture-neoforge-1.21.1-1.0.16.jar
+    Curseforge:
+      ProjectID: 897116
+      FileID: 6623948
+  - resourceful-lib:
+    Name: "Resourceful Lib"
+    Description: "A modding library that contains valuable utilities and APIs developed by Team Resourceful."
+    License: MIT
+    Current:
+      Version: 3.0.12
+      FileName: resourcefullib-neoforge-1.21-3.0.12.jar
+    Modrinth:
+      ProjectID: G1hIVOrD
+  - rhino:
+    Name: "Rhino"
+    Description: "A fork of Mozilla's Rhino library, modified for use in mods"
+    License: MPL-2.0
+    Current:
+      Version: 2101.2.7-build.74
+      FileName: rhino-2101.2.7-build.74.jar
+    Modrinth:
+      ProjectID: sk9knFPE
+  - rolling-gate:
+    Name: "RollingGate"
+    Description: "A NeoForge mod that controls Minecraft technology options"
+    License: LGPL-3.0-only
+    Platform:
+      Client: optional
+      Server: recommend
+    Current:
+      Version: 
+      FileName: RollingGate-neoforge-1.21.1-1.1.0+build.57.jar
+    Modrinth:
+      ProjectID: HXsmHiKu
+  - searchables:
+    Name: "Searchables"
+    Description: "Searchables is a library mod that adds helper methods that allow for searching and filtering elements based on components, as well as offering built in auto-complete"
+    License: MIT
+    Current:
+      Version: 1.0.2
+      FileName: Searchables-neoforge-1.21.1-.jar
+    Modrinth:
+      ProjectID: fuuu3xnx
+  - silicone-dolls:
+    Name: "silicone-dolls"
+    Description: "A Minecraft Neoforge mod about Fake Player"
+    License: LGPL-3.0-only
+    Platform:
+      Client: optional
+      Server: recommend
+    Current:
+      Version: 1.0.0+build.49
+      FileName: SiliconeDolls-neoforge-1.21.1-1.0.0+build.49.jar
+    Modrinth:
+      ProjectID: 7rBlSqmp
+  - simple-backups:
+    Name: "Simple Backups"
+    Description: "A simple mod to create scheduled backups"
+    License: Apache-2.0
+    Platform:
+      Client: recommend
+      Server: recommend
+    Current:
+      Version: 4.0.18
+      FileName: SimpleBackups-1.21-4.0.18.jar
+    Modrinth:
+      ProjectID: fzSKSXVK
+  - small-ships:
+    Name: "Small Ships"
+    Description: "Vanilla friendly Ships for Minecraft. Now with cannons!"
+    License: ARR
+    Current:
+      Version: 2.0.0-b2.1
+      FileName: smallships-neoforge-1.21.1-2.0.0-b2.1.jar
+    Modrinth:
+      ProjectID: rGWEHQrP
+  - smsn:
+    Name: "Save My Shaky Network"
+    Description: "Block common mods from connecting to the internet without affecting the mods' functionality, preventing slow loading or game crashes caused by network issues."
+    License: MIT
+    Platform:
+      Client: recommend
+      Server: recommend
+    Current:
+      Version: 1.2.4
+      FileName: smsn-neoforge-1.2.4+mc1.21.1.jar
+    Modrinth:
+      ProjectID: oXzIQwRj
+  - sophisticated-backpacks:
+    Name: "Sophisticated Backpacks"
+    Description: "Yet another backpack mod this time with backpack you can place in world, color in different color combinations, upgrade with more inventory and enhance with many"
+    License: ARR
+    Current:
+      Version: 3.24.18.1280
+      FileName: sophisticatedbackpacks-1.21.1-3.24.18.1280.jar
+    Modrinth:
+      ProjectID: TyCTlI4b
+  - sophisticated-core:
+    Name: "Sophisticated Core"
+    Description: "Library mod for Sophisticated mods"
+    License: ARR
+    Current:
+      Version: 1.3.55.1037
+      FileName: sophisticatedcore-1.21.1-1.3.55.1037.jar
+    Modrinth:
+      ProjectID: nmoqTijg
+  - spark:
+    Name: "spark"
+    Description: "spark is a performance profiler for Minecraft clients, servers and proxies."
+    License: GPL-3.0-only
+    Platform:
+      Client: recommend
+    Current:
+      Version: 1.10.124
+      FileName: spark-1.10.124-neoforge.jar
+    Modrinth:
+      ProjectID: l6YH9Als
+  - spice-of-life-onion:
+    Name: "Spice of Life Onion"
+    Description: "A mod designed to encourage dietary variety!"
+    License: LGPL-3.0-only
+    Current:
+      Version: v1.5.0
+      FileName: "Spice of Life Onion_NEOFORGE_v1.5.0_mc1.21.1.jar"
+    Modrinth:
+      ProjectID: eHGYGKJz
+  - storagedrawers:
+    Name: "Storage Drawers"
+    Description: "Interactive bulk storage solution"
+    License: MIT
+    Current:
+      Version: 13.8.9
+      FileName: Drawers-neoforge-1.21-13.8.9.jar
+    Modrinth:
+      ProjectID: guitPqEi
+  - storage-delight:
+    Name: "Storage Delight"
+    Description: "Extra furniture for Farmer's Delight that makes your kitchen or any space look better."
+    License: MIT
+    Current:
+      Version: 25.06.24
+      FileName: storagedelight-25.06.24-1.21-neoforge.jar
+    Modrinth:
+      ProjectID: LTTvOp5L
+  - tectonic:
+    Name: "Tectonic"
+    Description: "Terrain shaping brought to new heights, grander and more varied than ever before!"
+    License: MIT
+    Current:
+      Version: 3.0.1
+      FileName: tectonic-3.0.1-neoforge-1.21.1.jar
+    Modrinth:
+      ProjectID: lWDHr9jE
+  - terrablender:
+    Name: "TerraBlender"
+    Description: "A library mod for adding biomes in a simple and compatible manner!"
+    License: LGPL-3.0-only 
+    Current:
+      Version: 4.1.0.8
+      FileName: TerraBlender-neoforge-1.21.1-4.1.0.8.jar
+    Modrinth:
+      ProjectID: kkmrDlKT
+  - tide:
+    Name: "Tide"
+    Description: "Enhances and improves the Minecraft fishing system and adds 60+ new fish to the game!"
+    License: Apache-2.0
+    Current:
+      Version: 1.6.2
+      FileName: tide-neoforge-1.21-1.6.2.jar
+    Modrinth:
+      ProjectID: die1AF7i
+  - tips:
+    Name: "Tips"
+    Description: "This mod adds tips to loading menus. It also allows for modpacks and mods to add their own tips!"
+    License: LGPL-2.1-only
+    Platform:
+      Server: unsupported
+    Current:
+      Version: 21.1.2
+      FileName: tipsmod-neoforge-1.21.1-21.1.2.jar
+    Modrinth:
+      ProjectID: AMCbgyVw
+  - corail-tombstone:
+    Name: "Corail Tombstone"
+    Description: "Corail Tombstone handles your death in Minecraft by providing tons of configuration options, many features to encourage to discover the world and several compatibilities between mods."
+    License: ARR
+    Current:
+      Version: 9.4.3
+      FileName: tombstone-neoforge-1.21.1-9.4.3.jar
+    Curseforge:
+      ProjectID: 243707
+      FileID: 6769652
+  - txnilib:
+    Name: "TxniLib"
+    Description: "Multiversion library mod for Txni projects"
+    License: MIT
+    Current:
+      Version: 1.0.24
+      FileName: txnilib-neoforge-1.0.24-1.21.1.jar
+    Modrinth:
+      ProjectID: vBbPDuOs
+  - flw-vanillin:
+    Name: "Vanillin"
+    Description: "Instanced rendering for entities and block entities using Flywheel"
+    License: MIT
+    Platform:
+      Client: recommend
+      Server: unsupported
+    Current:
+      Version: 1.1.3
+      FileName: vanillin-neoforge-1.21.1-1.1.3.jar
+    Modrinth:
+      ProjectID: 6qTrsXCy
+  - waterframes:
+    Name: "WATERFrAMES: Multimedia Displays"
+    Description: "This mod only adds a Frame and a Projector where you can put video or image URLs and frame shows it"
+    License: ARR
+    Current:
+      Version: v2.1.15
+      FileName: waterframes-NEOFORGE-mc1.21.1-v2.1.15.jar
+    Modrinth:
+      ProjectID: eBzFuVTM
+  - watermedia:
+    Name: "WATERMeDIA"
+    Description: "Library and API for MinecraftForge, NeoForge and Fabric using VLC for multimedia integration with Minecraft"
+    License: "PolyForm Strict License 1.0.0"
+    Platform:
+      Server: unsupported
+    Current:
+      Version: 2.1.25
+      FileName: watermedia-2.1.25.jar
+    Modrinth:
+      ProjectID: G922NeHS
+  - worldedit:
+    Name: "WorldEdit"
+    Description: "A Minecraft Map Editor... that runs in-game! With selections, schematics, copy and paste, brushes, and scripting. Use it in creative, or use it temporarily in survival."
+    License: GPL-3.0-only
+    Platform:
+      Client: recommend
+      Server: recommend
+    Current:
+      Version: 7.3.8
+      FileName: worldedit-mod-7.3.8.jar
+    Modrinth:
+      ProjectID: 1u6JkXh5
+  - wwoo:
+    Name: "William Wythers' Overhauled Overworld"
+    Description: "This mod overhauls all vanilla biomes, with different sub biomes!"
+    License: CC-BY-NC-ND-4.0
+    Current:
+      Version: 2.3.4
+      FileName: wwoo-2.3.4.jar
+    Modrinth:
+      ProjectID: II7t6llZ
+  - xaeros-minimap:
+    Name: "xaeros-minimap"
+    Description: "Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help you find the locations you've..."
+    License: ARR
+    Current:
+      Version: 25.2.6
+      FileName: Xaeros_Minimap_25.2.6_NeoForge_1.21.jar
+    Modrinth:
+      ProjectID: 1bokaNcj
+  - xaeros-world-map:
+    Name: "Xaero's World Map"
+    Description: "Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap."
+    License: ARR
+    Current:
+      Version: 1.39.9
+      FileName: XaerosWorldMap_1.39.9_NeoForge_1.21.jar
+    Modrinth:
+      ProjectID: NcUtCpym
+  - sodium:
+    Name: "Sodium"
+    Description: "The fastest and most compatible rendering optimization mod for Minecraft. "
+    License: "Polyform Shield 1.0.0"
+    Platform:
+      Server: unsupported
+    Current:
+      Version: 0.6.13
+      FileName: sodium-neoforge-0.6.13+mc1.21.1.jar
+    Modrinth:
+      ProjectID: AANobbMI
+  - sodium-extra:
+    Name: "Sodium Extra"
+    Description: "A Sodium addon that adds features that shouldn't be in Sodium."
+    License: LGPL-3.0-only
+    Platform:
+      Client: recommend
+      Server: unsupported
+    Current:
+      Version: 0.6.0
+      FileName: sodium-extra-neoforge-0.6.0+mc1.21.1.jar
+    Modrinth:
+      ProjectID: PtjYWJkn
+  - reeses-sodium-options:
+    Name: "Reese's Sodium Options"
+    Description: "Alternative Options Menu for Sodium"
+    License: MIT
+    Platform:
+      Client: recommend
+      Server: unsupported
+    Current:
+      Version: 1.8.3
+      FileName: reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar
+    Modrinth:
+      ProjectID: Bh37bMuy
+
+  # - slug:
+  #   Name: 
+  #   Description: 
+  #   License: 
+  #   Current:
+  #     Version: 
+  #     FileName: 
+  #   Modrinth:
+  #     ProjectID: 

@@ -1,0 +1,4 @@
+维护工具包
+移动工坊
+<&recipe>便携式工具改装套件，可在野外修改<link;mining_drill;矿钻>钻头或调整<link;ear_defenders;护耳器>参数。<br>
+无需返回<link;engineers_workbench;工程师工作台>即可完成基础维护。

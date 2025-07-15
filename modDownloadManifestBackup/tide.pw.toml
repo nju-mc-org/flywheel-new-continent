@@ -1,0 +1,17 @@
+name = "Tide"
+filename = "tide-neoforge-1.21-1.6.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/die1AF7i/versions/EnuyW6h6/tide-neoforge-1.21-1.6.0.jar"
+hash-format = "sha1"
+hash = "810b407d176f4e634714bb66dd25d79da85f3f0b"
+
+[update]
+[update.curseforge]
+file-id = 6513556
+project-id = 884685
+
+[update.modrinth]
+mod-id = "die1AF7i"
+version = "EnuyW6h6"

@@ -1,0 +1,17 @@
+name = "Create Railways Navigator"
+filename = "createrailwaysnavigator-neoforge-1.21.1-beta-0.8.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Dq3STxps/versions/d3EsaCji/createrailwaysnavigator-neoforge-1.21.1-beta-0.8.1.jar"
+hash-format = "sha1"
+hash = "17349c4bf4ba0b1df800a0a66d0cb613fdc60023"
+
+[update]
+[update.curseforge]
+file-id = 6506183
+project-id = 935929
+
+[update.modrinth]
+mod-id = "Dq3STxps"
+version = "d3EsaCji"

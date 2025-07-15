@@ -1,0 +1,13 @@
+name = "Save My Shaky Network"
+filename = "smsn-neoforge-1.2.4+mc1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "361b5c748132820cbacf406ade10329b2e7d8a6d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6739704
+project-id = 1129397

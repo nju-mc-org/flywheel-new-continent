@@ -1,0 +1,4 @@
+矿车存储
+矿车疾驰
+<&item_storage><link;storage_crates;储物箱>可装入矿车，破坏时保留内容物。<np>
+<&fluid_storage><link;storage_barrels;储液桶>可装入矿车，支持桶装流体交互。

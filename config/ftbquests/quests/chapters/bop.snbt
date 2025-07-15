@@ -1,0 +1,885 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bop"
+	group: "453ACB830008838A"
+	icon: {
+		id: "biomesoplenty:snowblossom_sapling"
+	}
+	id: "7B30EA92CFFC889E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:oak_sapling"
+			}
+			id: "205692445EC4DC03"
+			rewards: [{
+				count: 2
+				id: "56D7562FB968D774"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "7947A8665F4EA884"
+				type: "dimension"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			id: "4D305ABE8BF072BA"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					id: "minecraft:netherrack"
+				}
+				id: "09634E870E9B8FD8"
+				type: "dimension"
+			}]
+			x: -13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			id: "6C7780EF79A5834F"
+			rewards: [
+				{
+					id: "2BA25FB472CB4AC2"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5D675A045EB31272"
+					item: {
+						count: 1
+						id: "biomesoplenty:mahogany_sapling"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "biomesoplenty:rainforest"
+				icon: {
+					id: "biomesoplenty:mahogany_sapling"
+				}
+				id: "30A7D47FD58F87F5"
+				type: "biome"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6C7780EF79A5834F"]
+			hide_details_until_startable: false
+			icon: {
+				id: "biomesoplenty:orange_cosmos"
+			}
+			id: "31EC52E81653150A"
+			rewards: [{
+				id: "2A75D9CED602D068"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0973674FFBCB7546"
+				item: { count: 1, id: "biomesoplenty:orange_cosmos" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			id: "27CCA9B0F988A81F"
+			rewards: [{
+				id: "2912184BE6B597E4"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:volcano"
+				icon: {
+					id: "biomesoplenty:black_sand"
+				}
+				id: "517F53B505B9B1CA"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4D305ABE8BF072BA"]
+			id: "21463761D4D851AB"
+			rewards: [{
+				id: "47DF91A28B669CD0"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					id: "minecraft:end_stone"
+				}
+				id: "4B2E7225D6991E1F"
+				type: "dimension"
+			}]
+			x: -8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			id: "4EE6F6A287679A66"
+			rewards: [{
+				id: "7067B374AD3E495A"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:wasteland"
+				icon: {
+					id: "biomesoplenty:dead_branch"
+				}
+				id: "3C5CD8DE9A5039D1"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			id: "61E2A1C076BC35C9"
+			rewards: [{
+				id: "686891AEE5757D4C"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:dryland"
+				icon: {
+					id: "biomesoplenty:tiny_cactus"
+				}
+				id: "0CAD6DEB3B75AF32"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["205692445EC4DC03"]
+			icon: {
+				id: "biomesoplenty:waterlily"
+			}
+			id: "4CC111C6BF7B77E1"
+			rewards: [{
+				id: "26DDFEBB05B4C3CE"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:floodplain"
+				icon: {
+					id: "biomesoplenty:huge_lily_pad"
+				}
+				id: "61F665CBC2A1807B"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			id: "766AD9522A9DE4ED"
+			rewards: [{
+				id: "14521427A82AB3A3"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:lush_desert"
+				icon: {
+					id: "biomesoplenty:wildflower"
+				}
+				id: "551F2AD85B7E9137"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			id: "2543A7722A326B2D"
+			rewards: [{
+				id: "1DAEC789454E8CC7"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:wasteland_steppe"
+				icon: {
+					id: "biomesoplenty:dead_leaves"
+				}
+				id: "01D2B949D724FAC5"
+				type: "biome"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			id: "619BA0BAE2891AE3"
+			rewards: [{
+				id: "75025350C1F79EA7"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:jacaranda_glade"
+				icon: {
+					id: "biomesoplenty:jacaranda_sapling"
+				}
+				id: "732F2DB8F5C80392"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			icon: {
+				id: "biomesoplenty:barley"
+			}
+			id: "1C4088E7D83880D6"
+			rewards: [{
+				id: "5D178D57E01E6F1F"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:pasture"
+				icon: {
+					id: "biomesoplenty:barley"
+				}
+				id: "3C3EC95C048CE386"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			icon: {
+				id: "biomesoplenty:tall_lavender"
+			}
+			id: "587D708E0C797FFA"
+			rewards: [{
+				id: "79DFCFBEDF49DCCD"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:lavender_field"
+				icon: {
+					id: "biomesoplenty:tall_lavender"
+				}
+				id: "1A9B7E9F57B893A4"
+				type: "biome"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			icon: {
+				id: "biomesoplenty:flowering_oak_sapling"
+			}
+			id: "5DDD88D93B999303"
+			rewards: [{
+				id: "3161C76BD7C84A5A"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:orchard"
+				icon: {
+					id: "biomesoplenty:flowering_oak_leaves"
+				}
+				id: "70800D9CF89E4687"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			icon: {
+				id: "biomesoplenty:magic_sapling"
+			}
+			id: "196D42AA8F2623E6"
+			rewards: [{
+				id: "08953DEC021CF9EE"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:mystic_grove"
+				icon: {
+					id: "biomesoplenty:magic_sapling"
+				}
+				id: "0DAAD4E7E29C2CBC"
+				type: "biome"
+			}]
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			id: "62191BB740CF15B4"
+			rewards: [{
+				id: "088B4042C8D6FF8B"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:jade_cliffs"
+				icon: {
+					id: "biomesoplenty:pine_sapling"
+				}
+				id: "1ED966CA1517AD0A"
+				type: "biome"
+			}]
+			x: -8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			id: "06EE51CFEB561C9E"
+			rewards: [{
+				id: "07DDE0F3C34F09D2"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:redwood_forest"
+				icon: {
+					id: "biomesoplenty:redwood_sapling"
+				}
+				id: "53C5E56AF3F759DF"
+				type: "biome"
+			}]
+			x: -9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			id: "6428263F14C10300"
+			rewards: [{
+				id: "79C27383F45E0953"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:ominous_woods"
+				icon: {
+					id: "biomesoplenty:umbran_sapling"
+				}
+				id: "5B8890B2E4861971"
+				type: "biome"
+			}]
+			x: -11.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6428263F14C10300"]
+			id: "03684430D13CDC76"
+			rewards: [
+				{
+					count: 2
+					id: "70616C9E5752F413"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6ED6B97B379E43C7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "71E7D36B26204CBF"
+				item: { count: 10, id: "minecraft:wither_rose" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			icon: {
+				id: "biomesoplenty:clover"
+			}
+			id: "45C255F627C4DEEA"
+			rewards: [{
+				id: "43572786098729BB"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:overgrown_greens"
+				icon: {
+					id: "biomesoplenty:clover"
+				}
+				id: "78CF54212BAC7077"
+				type: "biome"
+			}]
+			x: -12.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			icon: {
+				id: "biomesoplenty:tall_white_lavender"
+			}
+			id: "34BF9AEF56EE4BF6"
+			rewards: [{
+				id: "4C9457E05EFA175B"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:field"
+				icon: {
+					id: "biomesoplenty:tall_white_lavender"
+				}
+				id: "2335ED878F7E1ABF"
+				type: "biome"
+			}]
+			x: -14.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			icon: {
+				id: "biomesoplenty:fir_sapling"
+			}
+			id: "2D0E0D939E756090"
+			rewards: [{
+				id: "3A0FF1E79DC03497"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:coniferous_forest"
+				icon: {
+					id: "biomesoplenty:fir_sapling"
+				}
+				id: "0503A662EF862E12"
+				type: "biome"
+			}]
+			x: -15.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			icon: {
+				id: "biomesoplenty:red_maple_sapling"
+			}
+			id: "199BA6C738AE008B"
+			rewards: [{
+				count: 2
+				id: "6EFE9F6D48B12885"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					biome: "biomesoplenty:maple_woods"
+					icon: {
+						id: "biomesoplenty:red_maple_leaf_pile"
+					}
+					id: "7553C9E4BEC9D9D6"
+					type: "biome"
+				}
+				{
+					biome: "biomesoplenty:seasonal_forest"
+					icon: {
+						id: "biomesoplenty:yellow_maple_leaf_pile"
+					}
+					id: "35D4BC7C64F719CE"
+					type: "biome"
+				}
+			]
+			x: -16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			icon: {
+				id: "biomesoplenty:goldenrod"
+			}
+			id: "5C0BEAAE3640BE64"
+			rewards: [{
+				id: "28E2C0C5F5DFD86E"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:prairie"
+				icon: {
+					id: "biomesoplenty:goldenrod"
+				}
+				id: "6D53BC8B15BC8C8F"
+				type: "biome"
+			}]
+			x: -17.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["205692445EC4DC03"]
+			icon: {
+				id: "minecraft:pink_petals"
+			}
+			id: "13637F3F35C332FA"
+			rewards: [{
+				id: "3627436946244FE8"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:cherry_grove"
+				icon: {
+					id: "minecraft:pink_petals"
+				}
+				id: "378520019F3BFEDF"
+				type: "biome"
+			}]
+			x: -18.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4D305ABE8BF072BA"]
+			icon: {
+				id: "biomesoplenty:rose_quartz_cluster"
+			}
+			id: "49925926DCF6B069"
+			rewards: [{
+				id: "01862A9ABAAD6F5C"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:crystalline_chasm"
+				icon: {
+					id: "biomesoplenty:rose_quartz_cluster"
+				}
+				id: "35936F66E7440D98"
+				type: "biome"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4D305ABE8BF072BA"]
+			icon: {
+				id: "biomesoplenty:blackstone_bulb"
+			}
+			id: "4A3BBBD49DAE6354"
+			rewards: [{
+				id: "1234BA36A4274B22"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:withered_abyss"
+				icon: {
+					id: "biomesoplenty:blackstone_bulb"
+				}
+				id: "5E0CBDFB7BAA7C5B"
+				type: "biome"
+			}]
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4D305ABE8BF072BA"]
+			icon: {
+				id: "biomesoplenty:bramble"
+			}
+			id: "75AFC01DC71D942A"
+			rewards: [{
+				id: "434C72AD4B71132D"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:undergrowth"
+				icon: {
+					id: "biomesoplenty:bramble"
+				}
+				id: "18678813D3F97AAC"
+				type: "biome"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4D305ABE8BF072BA"]
+			icon: {
+				id: "biomesoplenty:brimstone_fumarole"
+			}
+			id: "7CFAACA1C94B8C02"
+			rewards: [{
+				id: "511AA29213CDCD30"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:erupting_inferno"
+				icon: {
+					id: "biomesoplenty:brimstone_fumarole"
+				}
+				id: "67CB8B01279AB67A"
+				type: "biome"
+			}]
+			x: -17.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4D305ABE8BF072BA"]
+			icon: {
+				id: "biomesoplenty:eyebulb"
+			}
+			id: "1F6737594CD08C81"
+			rewards: [{
+				id: "155257CB58F5D96D"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:visceral_heap"
+				icon: {
+					id: "biomesoplenty:eyebulb"
+				}
+				id: "0B2EB1C2A956E294"
+				type: "biome"
+			}]
+			x: -19.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1F6737594CD08C81"]
+			icon: {
+				id: "biomesoplenty:blood_bucket"
+			}
+			id: "76BD0C7A256A6940"
+			rewards: [{
+				id: "26AC2C8D469C52D8"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A2AE29A3F0ACE8B"
+				item: { count: 1, id: "biomesoplenty:blood_bucket" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["21463761D4D851AB"]
+			icon: {
+				id: "biomesoplenty:empyreal_sapling"
+			}
+			id: "3771F79AA2F16471"
+			rewards: [{
+				id: "03A173D82C610EAF"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:end_wilds"
+				icon: {
+					id: "biomesoplenty:empyreal_sapling"
+				}
+				id: "5093723564C0963E"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["21463761D4D851AB"]
+			icon: {
+				id: "biomesoplenty:null_block"
+			}
+			id: "6B78469B055307C9"
+			rewards: [{
+				id: "14117A906A3B1412"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:end_corruption"
+				icon: {
+					id: "biomesoplenty:null_block"
+				}
+				id: "4F79F3750D11E307"
+				type: "biome"
+			}]
+			x: -12.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["6B78469B055307C9"]
+			icon: {
+				id: "biomesoplenty:liquid_null_bucket"
+			}
+			id: "757DA42CA5B1FDD4"
+			rewards: [{
+				id: "33C2DB3E71D10CBC"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BC7EA0B1D3720F3"
+				item: { count: 1, id: "biomesoplenty:liquid_null_bucket" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["21463761D4D851AB"]
+			icon: {
+				id: "biomesoplenty:barnacles"
+			}
+			id: "4242498C123DBF5B"
+			rewards: [{
+				id: "632193B5B4E51FEC"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "biomesoplenty:end_reef"
+				icon: {
+					id: "biomesoplenty:barnacles"
+				}
+				id: "261496DD3430EE45"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: 14.0d
+		}
+	]
+}

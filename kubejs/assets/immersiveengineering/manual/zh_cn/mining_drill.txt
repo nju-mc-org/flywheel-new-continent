@@ -1,0 +1,10 @@
+矿钻
+穿透基岩之力！
+<&drill_base_recipes>手持式柴油动力钻机，可在<link;engineers_workbench;工程师工作台>改装。<br>
+使用<link;industrial_fluids;生物柴油;biodiesel>驱动，潜行右键切换单格挖掘模式。<np>
+<&drill_head_recipes>§2钻头§r决定开采等级/速度/范围/攻击伤害，损坏后需铁砧修复。<np>
+<&drill_waterproof_recipe>§2加压气罐§r支持水下作业并消除挖掘减速。<np>
+<&drill_lube_recipe>§2高级润滑系统§r降低钻头损耗。<np>
+<&drill_damage_recipe>§2附加钻头§r最高叠加3层提升攻速与伤害。<np>
+<&drill_fortune_recipe>使用<link;industrial_fluids;红石酸;redstone_acid>获得§2时运§r效果。<np>
+<&drill_capacity_recipe>§2大型油箱§r提升燃料容量。

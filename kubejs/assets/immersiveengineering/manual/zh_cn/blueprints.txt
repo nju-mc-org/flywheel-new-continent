@@ -1,0 +1,7 @@
+工程师蓝图
+重返绘图板
+本页展示所有可合成的蓝图，特殊蓝图需从村民或世界中获取。<br>
+所有蓝图均可在<link;engineers_workbench;工程师工作台>使用。<np>
+<&molds_components>模具与组件
+<&banners_signs>旗帜与标牌
+<&projectiles>抛射物

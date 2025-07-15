@@ -1,0 +1,4 @@
+管道阀门
+数不到三
+<&pump_recipe>控制<link;fluid_pipes;管道>流体单向流动（箭头方向）。<br>
+红石信号阻断流动，可连接<link;redstone_wiring;红石接口>控制。

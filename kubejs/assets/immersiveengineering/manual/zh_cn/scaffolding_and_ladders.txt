@@ -1,0 +1,4 @@
+脚手架与梯子
+施工现场警告
+<&scaffolding_recipes>金属脚手架可攀爬，侧面类似梯子。<np>
+<&ladder_recipes>防火金属梯，潜行+工程师锤调整开合状态。

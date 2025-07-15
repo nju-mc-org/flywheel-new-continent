@@ -1,0 +1,17 @@
+name = "Exposure"
+filename = "exposure-neoforge-1.21.1-1.9.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hB899VmG/versions/q0Ah0dIQ/exposure-neoforge-1.21.1-1.9.2.jar"
+hash-format = "sha1"
+hash = "d5392c07621bdc3f8a3defae3a736baa9f9a1bca"
+
+[update]
+[update.curseforge]
+file-id = 6459144
+project-id = 871755
+
+[update.modrinth]
+mod-id = "hB899VmG"
+version = "q0Ah0dIQ"

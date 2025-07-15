@@ -1,0 +1,5 @@
+皮肤
+蓝！不，是黄！
+通过探索/交易获取，可改装<link;revolver;左轮>等工具外观。<br>
+在<link;engineers_workbench;工作台>装备，或右键矿车/旗帜/<link;balloon;气球>应用。<np>
+<&grab_bag>战利品袋随机开皮肤，可拆分为两个低阶袋。

@@ -6,6 +6,9 @@
   "eclipticseasons:crop": null,
   "exposure:lightroom": null,
   "exposure:photograph_frame": null,
+  "immersiveengineering:multiblock_icon": null,
+  "immersiveengineering:multiblock_inventory": null,
+  "immersiveengineering:multiblock_tank": null,
   "jade:block_face": null,
   "jade:block_properties": null,
   "jade:block_states": null,
@@ -79,5 +82,8 @@
   "minecraft:waxed": null,
   "minecraft:zombie_villager": null,
   "storagedrawers:main": null,
-  "tombstone:graves": null
+  "tombstone:graves": null,
+  "toms_peripherals:full_modem_info": null,
+  "toms_peripherals:modem_info": null,
+  "toms_peripherals:wdt_info": null
 }

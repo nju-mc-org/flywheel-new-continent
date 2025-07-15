@@ -28,6 +28,11 @@
 				x: 2
 				y: 0
 			}
+			"ftbultimine:config": {
+				enabled: true
+				x: 0
+				y: 2
+			}
 			"ftblibrary:toggle/gamemode": {
 				enabled: true
 				x: 0

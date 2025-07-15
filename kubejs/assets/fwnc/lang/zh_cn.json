@@ -1,4 +1,19 @@
 {
+  "item.fwnc.coin": "C.s.",
+
+  "item.fwnc.uncommon_upgrade_essence": "罕见精华",
+  "item.fwnc.rare_upgrade_essence": "稀有精华",
+  "item.fwnc.epic_upgrade_essence": "史诗精华",
+  "item.fwnc.legendary_upgrade_essence": "传说精华",
+
+  "item.fwnc.wrought_iron_ingot": "熟铁锭",
+  "item.fwnc.wrought_iron_nugget": "熟铁粒",
+  "item.fwnc.wrought_iron_dust": "熟铁粉",
+  "item.fwnc.wrought_iron_plate": "熟铁板",
+  "item.fwnc.wrought_iron_rod": "熟铁棒",
+  "item.fwnc.wrought_iron_block": "熟铁块",
+  "block.fwnc.wrought_iron_block": "熟铁块",
+
   "item.fwnc.alloybrick_brick": "窑砖砖条",
   "item.fwnc.alloybrick_clay": "窑砖黏土",
   "item.fwnc.cokebrick_brick": "焦炉砖条",
@@ -6,6 +21,8 @@
   "item.fwnc.blastbrick_brick": "高炉砖条",
   "item.fwnc.blastbrick_clay": "高炉砖黏土",
 
+  "item.fwnc.raw_pumpkin_pie": "生南瓜派",
+  "item.fwnc.cookie_dough": "曲奇面团",
   "item.fwnc.sweet_berry_cookie_dough": "甜浆果曲奇面团",
   "item.fwnc.honey_cookie_dough": "蜂蜜曲奇面团",
   "item.fwnc.bayberry_cookie_dough": "杨梅曲奇面团",
