@@ -978,6 +978,15 @@ Mods:
       FileName: MouseTweaks-neoforge-mc1.21-2.26.1.jar
     Modrinth:
       ProjectID: aC3cM3Vq
+  - nedologin:
+    Name: "Nedologin"
+    Description: ""
+    License: 
+    Current:
+      Version: 1.0.9
+      FileName: Nedologin-1.21.1-1.0.9-all.jar
+    Modrinth:
+      ProjectID: fnP1u8PK
   - nether-depths-upgrade:
     Name: "Nether Depths Upgrade"
     Description: "Nether Depths Upgrade is a small mod that adds some extra flora and fauna to the lava seas of the nether. "

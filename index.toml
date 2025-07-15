@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "LICENSE"
-hash = "1490f0d1cb117893886edac496f7103d1836ae3e3862259d01398368f0a9b9a3"
+hash = "fbd6d4d9fb2b7f26f041933220e4edf4b4f12bb287c30f7adc8240194b2b8cd5"
 
 [[files]]
 file = "config/ExtraQuests/config.json"
@@ -39,10 +39,6 @@ hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 [[files]]
 file = "config/akashictome-common.toml"
 hash = "6b4e52c2faa00e329cf68137bde1f8bc1fb2b00a6c0a5a1d3607d3394b936c0a"
-
-[[files]]
-file = "config/almostunified/debug.json"
-hash = "def5b541fa88db047795d5c0647faed56329319298336e072e6b86d5500c4941"
 
 [[files]]
 file = "config/almostunified/debug.json.bak"
@@ -698,7 +694,7 @@ hash = "05e05f47d7a82eb7213d3354c9383ba76d545037e27320b4f906006203e15169"
 
 [[files]]
 file = "config/fancymenu/customization/ru.marduk.nedologin.client.setpasswordscreen_layout.txt"
-hash = "9c15922a3535d116a1d69af133e058047a0947606f299fa5339eb92dc850b922"
+hash = "2413cb6a0a332093f0de3929f42eafa81903e69564172a9b16e4d3f809775fe2"
 
 [[files]]
 file = "config/fancymenu/customization/safety_screen_layout.txt"
@@ -710,7 +706,7 @@ hash = "cbd893259c39cdb60097cdbafe69e4759c648cb7ed720461695e24e6b2963968"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "e0cb51ff6ead9771c78019b28caefcfc8a3c5a65cb04f9cb0e8f528e9ee82169"
+hash = "c8f5e616a75c5efceba5c2538cd8a5462553bfb96d5cc9d1f3ded296637da139"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -722,7 +718,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "fc6bba1a440de2bf948f09da162567942443f6a51ee70b283d8f465471bc734d"
+hash = "b44cdb405b4860f797d58cb7e6230dc2cd0ab497d729aee0300c869eb5f75e22"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
@@ -1994,7 +1990,7 @@ hash = "771a844d13ab6c2ff99f14b8fd912d02c55a1a4104361692b740c3e596084f6f"
 
 [[files]]
 file = "config/xaerominimap.txt"
-hash = "6d33e57ede7565c7e4319fe23de1dda24a5e1192c7877e7616ff169d8871935f"
+hash = "5cbcd165749fecf828f9c608df2192fa71104ddbc83d544b4f27196101ae8236"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
@@ -2641,6 +2637,14 @@ file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
+file = "kubejs/assets/automobility/lang/en_us.json"
+hash = "8b7fd455421bca89f2fd83e2e525183276d9c520d54ef13284d2e9dd4a7b3014"
+
+[[files]]
+file = "kubejs/assets/automobility/lang/zh_cn.json"
+hash = "f3aa2dc7b69565d0e7d154410ff7e73f808d6ebef97d290bcb5c9417fe2dbe97"
+
+[[files]]
 file = "kubejs/assets/biomesoplenty/lang/zh_cn.json"
 hash = "0a31d7ea81011e35de05e13769531a22a11a197e371cc3dcb1b8151b65977b23"
 
@@ -2657,16 +2661,28 @@ file = "kubejs/assets/create_mechanical_spawner/lang/zh_cn.json"
 hash = "205eee3a9988e0b95278875f5aab58aa7d3dcf105d2392e292f796864ae4c342"
 
 [[files]]
-file = "kubejs/assets/emendatusenigmatica/lang/en_us.json"
-hash = "a0f90fefc9302aecce02cb1f6bad4c44d5ad7ac8fdb5258cc46658fbe1afcd1c"
+file = "kubejs/assets/createrailwaysnavigator/lang/en_us.json"
+hash = "01c58f6049df8de630b96975a3e09b68d31cc3a6adb4107e18d2a8bdceb18d06"
 
 [[files]]
-file = "kubejs/assets/emendatusenigmatica/lang/zh_cn.json"
-hash = "d113bd65fd910e0c48f8c909722099abd20a1bdcdd8db9a22d92ec00e553d62d"
+file = "kubejs/assets/createrailwaysnavigator/lang/zh_cn.json"
+hash = "ace1a85b30857c056b399465b4ede2f222b45a10b09ec15ea452c0db58f8ba60"
+
+[[files]]
+file = "kubejs/assets/dried_ghast/lang/zh_cn.json"
+hash = "ab54a0fbdbc86183d880004950dc7f1a9ac4e79e26527829250b3723c39aef3d"
 
 [[files]]
 file = "kubejs/assets/exposure/lang/zh_cn.json"
 hash = "81a265d6e998c3486ac187d90e0533b075018389d13677b1958f2f36ed9546ea"
+
+[[files]]
+file = "kubejs/assets/ftbessentials/lang/en_us.json"
+hash = "b8cf38f4b177371b4142c06be6d470006fa68825586d0b89c3f4571eb534eb5e"
+
+[[files]]
+file = "kubejs/assets/ftbessentials/lang/zh_cn.json"
+hash = "94b0d955a91fced70ace449e977eb2dbad8c1f20cb8eed2aece769d5e801c972"
 
 [[files]]
 file = "kubejs/assets/fwnc/blockstates/wrought_iron_block.json"
@@ -2678,7 +2694,7 @@ hash = "c62a6562c3e33c0e20cd593ce95e130c7fcdac69cd485e815b63cf54d4efbc48"
 
 [[files]]
 file = "kubejs/assets/fwnc/lang/zh_cn.json"
-hash = "70baeb514699c303c1ab140ef8170f3756cf2ca70592a6600e6eacbb3ab7e313"
+hash = "0617d4a43b0dec3e4d585bf725a802cd1ba3fd64642c7dee4d1ad7b3c58d460e"
 
 [[files]]
 file = "kubejs/assets/fwnc/models/block/wrought_iron_block.json"
@@ -3309,6 +3325,194 @@ file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/button.png"
+hash = "2749f4acf8103ae4c0e89bf17a5c250f435c1a2a9c49f0ed3a80ac3cacb1cba9"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/button.png.mcmeta"
+hash = "c8f6fe62c01c357a814223d4ab6a368e5122c195fa2671e585fa24988557a505"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/button_disabled.png"
+hash = "8e703db24bd70b1e191238289286e809912b8f554edf1e311d88894309d7ceac"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/button_disabled.png.mcmeta"
+hash = "d7dd31a632fe41be64e07ef0676b726e50f0af053e638742ec1f6f9550a1b7e5"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/button_highlighted.png"
+hash = "5c0254d2604e01e131d77629ddd157c0cd031655c2281232518d7e7cffea1e5d"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/button_highlighted.png.mcmeta"
+hash = "c8f6fe62c01c357a814223d4ab6a368e5122c195fa2671e585fa24988557a505"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/checkbox.png"
+hash = "c5e3b1c1df7b8d0f83eb2d138e5929454e03645f928bf35ae892b070a34764da"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/checkbox_highlighted.png"
+hash = "9347518e236d477e8b54e269f00eba6f41734729e3329afe3097a04d5241c1f2"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/checkbox_selected.png"
+hash = "b41fa09a9086848dd2ec891161d4bb9702f123554b66ea953988c0e0952fd4d1"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/checkbox_selected_highlighted.png"
+hash = "43a0ced476b334e96734c0063fa129733de71a0c54abb78fae4d9f8943ec1101"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/cross_button.png"
+hash = "16fb982ed77c2958ff4bc1cd803b3529194059f135c241fcedd11fc0937498a2"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/cross_button_highlighted.png"
+hash = "3aa295d02f175dca6bda8c0f0d10d664da626ee1fb270958fd12bb0f453aaf9b"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/locked_button.png"
+hash = "9412abe490edf4d04173428ca3c68398c21f3bdaa5a804ff61094918fc6a3e31"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/locked_button_disabled.png"
+hash = "7d323ab17614ce250efd9de356b6f13a609575cc87990e1bdc38fe22bc4d9a01"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/locked_button_highlighted.png"
+hash = "b8bd96241a80f8b3e8d63339ea3fe586aa959c5df887083e60f7a7def2c34e6a"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/page_backward.png"
+hash = "b10e336b0386e1b6943f3c6b6fc514b6f960a3389cc5dc7535217fc6ccabb6c6"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/page_backward_highlighted.png"
+hash = "837d74730e86c63d0cea138cda4c3665615c08d3ccccae13976179861f129b01"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/page_forward.png"
+hash = "696a12013a94687f555f1d07feec6fa77ee32f25a77e36002538aea58f355a7b"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/page_forward_highlighted.png"
+hash = "2f6564c9ae9562d46449d1207c161d57b4cb55dfdab427bd87b58c5bf6c4c86c"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/scroller.png"
+hash = "f26b07ccfbabad7ee2338914945f8677bc1b256314961753c79eca281df55f5c"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/scroller.png.mcmeta"
+hash = "c1323eb90dd50e0f029f94e5757205a92a5de4b24b35613411b3562e5ec9b1b2"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/scroller_background.png"
+hash = "0955e3a96511b678ac3e86b6c71fe5548b105c27ca1286ab05268c4789767be0"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/scroller_background.png.mcmeta"
+hash = "c1323eb90dd50e0f029f94e5757205a92a5de4b24b35613411b3562e5ec9b1b2"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/slider.png"
+hash = "4895acd147454771fd6a61ad294dfc12e13ff15d6018da26c9fa0e884fd9c14e"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/slider.png.mcmeta"
+hash = "d7dd31a632fe41be64e07ef0676b726e50f0af053e638742ec1f6f9550a1b7e5"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/slider_handle.png"
+hash = "9e9f72ccb8eb7886db92ac8e8dab1bf21ef09451bfcbafaf822fe0dafa54719d"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/slider_handle.png.mcmeta"
+hash = "e455ece745d4f9d34e477a20dc60f0899e769e7c4fbdf0c2b7a9ccfab615201c"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png"
+hash = "2cd50ead04a0bda16b782723ffc1a2469817d556b462107baf19c657e52bd1ca"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png.mcmeta"
+hash = "e455ece745d4f9d34e477a20dc60f0899e769e7c4fbdf0c2b7a9ccfab615201c"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/slider_highlighted.png"
+hash = "406e28df8f21c63364a44d2215f0914bd240854683b06fbf6c53167736bd7c98"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/slider_highlighted.png.mcmeta"
+hash = "d7dd31a632fe41be64e07ef0676b726e50f0af053e638742ec1f6f9550a1b7e5"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/slot_frame.png"
+hash = "961410a267fd130430cb41c5c164ae05e38a3b1ce68b5e5bd75510cff15e2502"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/tab.png"
+hash = "8af09a0fe601ff38e65f55ef643bd9201eceaf29ca34019deeaae7d8b7f80c59"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/tab.png.mcmeta"
+hash = "bb6923221c7e93cd8fc9cbabe4bdd77d581274904a89108bd985d4d6d2ac2c8b"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/tab_highlighted.png"
+hash = "ada5d0e572e91aefdd431c5a03bc110830cfedaca50ff30cbb9ca46de43721f7"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/tab_highlighted.png.mcmeta"
+hash = "bb6923221c7e93cd8fc9cbabe4bdd77d581274904a89108bd985d4d6d2ac2c8b"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/tab_selected.png"
+hash = "0415703f215ab71edbe7136793345f3ab76d0806d0b21569a2166378bec7ead8"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/tab_selected.png.mcmeta"
+hash = "bb6923221c7e93cd8fc9cbabe4bdd77d581274904a89108bd985d4d6d2ac2c8b"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/tab_selected_highlighted.png"
+hash = "108c0c5bb49c53181b3bc7545a71e93710312f102f1e26fbb9c1cf40a5b87628"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/tab_selected_highlighted.png.mcmeta"
+hash = "bb6923221c7e93cd8fc9cbabe4bdd77d581274904a89108bd985d4d6d2ac2c8b"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/text_field.png"
+hash = "612f7835250f9d8477efbe54b9602ad800bbde89e2c983efc3f4bfbb80fb57d0"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/text_field.png.mcmeta"
+hash = "d7dd31a632fe41be64e07ef0676b726e50f0af053e638742ec1f6f9550a1b7e5"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/text_field_highlighted.png"
+hash = "5495b8c462529aea99e953a67916026de845eeb6065cccf2b4a093d10f9151bb"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/text_field_highlighted.png.mcmeta"
+hash = "d7dd31a632fe41be64e07ef0676b726e50f0af053e638742ec1f6f9550a1b7e5"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/unlocked_button.png"
+hash = "1fcea3fc1d406f55c38611ab3b9cd643db0850ff7a682994eb4d0721fb0ecf5e"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/unlocked_button_disabled.png"
+hash = "aa43cd08ef9aa499bee32b58e2b45c0958f3d9678257369f86a5efa639e73698"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/sprites/widget/unlocked_button_highlighted.png"
+hash = "fdeb5d0d98510a2384d9195130e156e6f3bec710ad4fb3daa9248defa24a9ac2"
+
+[[files]]
 file = "kubejs/assets/nedologin/lang/en_us.json"
 hash = "e5a595ca2d902f8da8854f3f245c5ecf575b24cebc49604068a78143ccc1a382"
 
@@ -3390,7 +3594,7 @@ hash = "838e539041c274d6dbdf1b359d472edcf448eca00a6d7071441e3aa9ee808bc6"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/immersive_engineering.js"
-hash = "6377d1f56bf07baa855f2c7bca8587b5139f951b035787db2af118fb2cdcf961"
+hash = "7655440ac5897f45dd5b97c41508563896a7fc990bb78c9f05e0a401d2d30925"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/magic.js"
@@ -3398,15 +3602,15 @@ hash = "3c5a5268aa210441b44cc16e5b7a53285a8f15d405ef9e311d46352f6eb07c5b"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/material_process.js"
-hash = "8e213a6180257fff6bce4d674f88b6f76f93eddc04cb659d614bb8b1be8d2ac9"
+hash = "026f0f2a8249951c868db85702312793b30ae1b48f54a19e26fe68900dccc978"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mine.js"
-hash = "00fd42ead760fd079038ae00dd074c5f94fdebe99d5cfcbf9f0fc809917c52c3"
+hash = "c14a4a46df4ad5bf3b50b28e074296132d909655b1de08b6e7b73e3a6bfdf207"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/other_fix.js"
-hash = "8879f27863142d04e01fefd46098a6df2cad2f4235b23ccdc1026833313c420b"
+hash = "93b807f09d3e1eaad961a189fb71eabc39e1e847831f75785025b1a8b59127e1"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/recycle.js"
@@ -3870,6 +4074,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "7bf459d780e378c5194a1562669db838b32709446a2b1d3962c4292397cb3cec"
+metafile = true
+
+[[files]]
+file = "mods/nedologin.pw.toml"
+hash = "bdd67c767f79a25bb821275f733a58b12441edda2c51a3eab2c99cd7b200c65b"
 metafile = true
 
 [[files]]

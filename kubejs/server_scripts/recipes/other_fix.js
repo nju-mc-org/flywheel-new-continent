@@ -161,4 +161,14 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id("fwnc:compacting/create_compacting_exp_to_exp_nugget_b")
+
+    //copycat
+    event.stonecutting(Item.of('create_connected:copycat_block', 1), '#c:ingots/iron').id("fwnc:stonecutting/copycat_by_iron")
+    event.stonecutting(Item.of('create_connected:copycat_block', 2), '#c:ingots/wrought_iron').id("fwnc:stonecutting/copycat_by_wrought_iron")
+    event.stonecutting(Item.of('create_connected:copycat_block', 4), '#c:ingots/steel').id("fwnc:stonecutting/copycat_by_steel")
+    event.stonecutting(Item.of('create_connected:copycat_block', 2), '#c:ingots/aluminum').id("fwnc:stonecutting/copycat_by_aluminum")
+
+    //server_protect
+    event.remove({ id: "immersiveengineering:crafting/turret_chem" })
+    event.remove({ id: "immersiveengineering:crafting/turret_gun" })
 })

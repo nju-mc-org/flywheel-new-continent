@@ -172,7 +172,7 @@ ServerEvents.recipes(event => {
     SecondProcess('iron')
     SecondProcess('gold')
     SecondProcess('copper')
-    SecondProcess('zinc')
+    //SecondProcess('zinc')
     SecondProcess('silver')
     SecondProcess('lead')
     SecondProcess('aluminum')

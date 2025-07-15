@@ -46,5 +46,9 @@
   "fwnc.tier_siv_circuit.tooltip": "§c6阶电路板（巅峰）",
   
   "desc.immersiveengineering.info.mineral.zinc": "锌矿",
+  "desc.immersiveengineering.info.mineral.ochrum": "赭金砂",
+  "desc.immersiveengineering.info.mineral.asurine": "皓蓝石",
+  "desc.immersiveengineering.info.mineral.crimsite": "绯红岩",
+  "desc.immersiveengineering.info.mineral.veridium": "辉绿岩",
   "tag.biome.c.is_swamp": "沼泽"
 }
