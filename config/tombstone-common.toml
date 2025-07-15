@@ -177,10 +177,6 @@
 	# Default: 100
 	# Range: 0 ~ 1000
 	chance_soul = 100
-	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:30]
-	# Default: 30
-	# Range: 0 ~ 100
-	chance_pray_reward = 30
 
 #Options related to the command recovery and auto-save of players
 [recovery]
@@ -225,7 +221,10 @@
 	allow_halloween = true
 	#Allows Christmas [false/true|default:true]
 	allow_christmas = true
-	#Allows Easter [false/true|default:true]
-	allow_easter = true
 	#Allows April Fools [false/true|default:true]
 	allow_april_fools = true
+	#Allows Spring Bloom [false/true|default:true]
+	allow_spring_bloom = true
+	#Allows you to set a Special Event as permanent [NONE/APRIL_FOOLS/HALLOWEEN/CHRISTMAS/SPRING_BLOOM|default:NONE]
+	#Allowed Values: NONE, APRIL_FOOLS, HALLOWEEN, CHRISTMAS, SPRING_BLOOM
+	force_special_event = "NONE"

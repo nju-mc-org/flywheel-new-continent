@@ -46,6 +46,16 @@
 	font_main_color = "FF2B2622"
 	#Color in hex format. AARRGGBB.
 	font_secondary_color = "FF7A736C"
+	#HUD will be hidden while looking through viewfinder. Default: true
+	hide_hud_while_in_viewfinder = true
+	#X offset of a viewfinder status icon. Default: 0
+	# Default: 0
+	# Range: -999 ~ 999
+	status_icon_offset_x = 0
+	#Y offset of a viewfinder status icon. Default: 0
+	# Default: 0
+	# Range: -999 ~ 999
+	status_icon_offset_y = 0
 
 [capture]
 	#Keep Post Effect (vanilla shader) when capturing an image.
@@ -69,8 +79,8 @@
 	# Range: 0 ~ 100
 	direct_capture_delay_frames = 0
 	#Direct capture will be used if any of these mods is installed.
-	#Format: '["mod_id", "mod_id"]'. Default: [veil]
-	force_direct_capture_default_mods = ["veil"]
+	#Format: '["mod_id", "mod_id"]'. Default: [veil, pmweather]
+	force_direct_capture_default_mods = ["veil", "pmweather"]
 
 [render]
 	#Makes photos in Photograph Frame render with alignment to 16 pixel grid (like paintings). Just for fun. Default: false

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "fwnc:block/material/wrought_iron_block"
+  }
+}

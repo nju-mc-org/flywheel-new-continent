@@ -2,9 +2,402 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "48AF4FCF81CDDBA0"
-	group: ""
+	group: "2A2092ADF7A0F7C8"
+	icon: {
+		id: "farmersdelight:cooked_rice"
+	}
 	id: "48AF4FCF81CDDBA0"
-	order_index: 5
+	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			icon: {
+				id: "farmersdelight:stove"
+			}
+			id: "24BD34AAECBCE76A"
+			tasks: [
+				{
+					id: "5908CED632504A50"
+					item: { count: 1, id: "farmersdelight:stove" }
+					type: "item"
+				}
+				{
+					id: "43869AD1B3A555F0"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+				{
+					id: "0B4E1B2DD3951B76"
+					item: { count: 1, id: "farmersdelight:skillet" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "farmersdelight:cutting_board"
+			}
+			id: "60AC017E8C47ED94"
+			tasks: [
+				{
+					id: "200184649264BB90"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+				{
+					id: "464CFED9B7932F24"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/knives)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["24BD34AAECBCE76A"]
+			dependency_requirement: "all_started"
+			icon: {
+				id: "refurbished_furniture:light_stove"
+			}
+			id: "196C55C9762618A0"
+			tasks: [
+				{
+					id: "3EAC744C574EEAF7"
+					item: { count: 1, id: "refurbished_furniture:light_stove" }
+					type: "item"
+				}
+				{
+					id: "6EB864491E8BBD92"
+					item: { count: 1, id: "refurbished_furniture:dark_stove" }
+					type: "item"
+				}
+				{
+					id: "04AD9A49753C6F46"
+					item: { count: 1, id: "refurbished_furniture:spatula" }
+					type: "item"
+				}
+				{
+					id: "68DDA75B520C0D3F"
+					item: { count: 1, id: "refurbished_furniture:frying_pan" }
+					type: "item"
+				}
+				{
+					id: "59FF9855D0C828FC"
+					item: { count: 1, id: "refurbished_furniture:light_range_hood" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "795AC60D192AF30D"
+					item: { count: 1, id: "refurbished_furniture:dark_range_hood" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["24BD34AAECBCE76A"]
+			dependency_requirement: "all_started"
+			icon: {
+				id: "cuisinedelight:cuisine_skillet"
+			}
+			id: "285BD2F6BA22C9BD"
+			tasks: [
+				{
+					id: "016A5043CBCB5ABF"
+					item: { count: 1, id: "cuisinedelight:cuisine_skillet" }
+					type: "item"
+				}
+				{
+					id: "6A60FADF669E6355"
+					item: { count: 1, id: "cuisinedelight:spatula" }
+					type: "item"
+				}
+				{
+					id: "3B367EFE250D329D"
+					item: { count: 1, id: "cuisinedelight:plate" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "create_integrated_farming:fishing_net"
+			}
+			id: "7F9064E678C74C08"
+			tasks: [
+				{
+					id: "6BCBE4B85F3C3F75"
+					item: { count: 1, id: "create_integrated_farming:fishing_net" }
+					type: "item"
+				}
+				{
+					id: "1FC1ACD25E40B9A8"
+					item: { count: 1, id: "create_integrated_farming:lava_fishing_net" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "create_integrated_farming:chicken_roost"
+			}
+			id: "3BE1994221A1104A"
+			tasks: [
+				{
+					id: "539F937BFEF8FC2E"
+					item: { count: 1, id: "create_integrated_farming:roost" }
+					type: "item"
+				}
+				{
+					id: "6663DDC4C476F41B"
+					item: { count: 1, id: "create_integrated_farming:chicken_roost" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "minecraft:fishing_rod"
+			}
+			id: "721830988D864C4F"
+			tasks: [
+				{
+					id: "62F52CF8FD66ACBC"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tide:customizable_rods)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "51CB01134F1BB215"
+					item: { count: 1, id: "tide:fishing_journal" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["721830988D864C4F"]
+			dependency_requirement: "all_started"
+			icon: {
+				id: "minecraft:carrot_on_a_stick"
+			}
+			id: "680CA4583BCF06EA"
+			tasks: [
+				{
+					id: "354D8BD58B666524"
+					item: { count: 1, id: "netherdepthsupgrade:lava_fishing_rod" }
+					type: "item"
+				}
+				{
+					id: "63EC75B2493DA5DA"
+					item: { count: 1, id: "minecraft:carrot_on_a_stick" }
+					type: "item"
+				}
+				{
+					id: "099C0E72C65D65AB"
+					item: { count: 1, id: "minecraft:warped_fungus_on_a_stick" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["721830988D864C4F"]
+			dependency_requirement: "all_started"
+			icon: {
+				id: "tide:angler_workshop"
+			}
+			id: "1FBBC65CCE41092F"
+			tasks: [
+				{
+					id: "3D1C9E8C0F6919CD"
+					item: { count: 1, id: "tide:angler_workshop" }
+					type: "item"
+				}
+				{
+					id: "4F1387700211E7BE"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tide:lines)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0125490F21885DB4"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tide:bobbers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "24CEFFA78BBB133B"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tide:hooks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["721830988D864C4F"]
+			dependency_requirement: "all_started"
+			icon: {
+				id: "tide:bait"
+			}
+			id: "1E58A1054A4BADC2"
+			tasks: [
+				{
+					id: "5F943D897C761206"
+					item: { count: 1, id: "tide:bait" }
+					type: "item"
+				}
+				{
+					id: "425E51E6DBCC6B27"
+					item: { count: 1, id: "tide:lucky_bait" }
+					type: "item"
+				}
+				{
+					id: "62390D72425DEFFE"
+					item: { count: 1, id: "tide:magnetic_bait" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "netherdepthsupgrade:eyeball_fish_bucket"
+			}
+			id: "03DDDDCE2AC38454"
+			rewards: [{
+				id: "4EA3D2B4C0561180"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1683665D0B57AF93"
+				item: { count: 1, id: "netherdepthsupgrade:eyeball_fish_bucket" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			icon: {
+				id: "fruitsdelight:lemon"
+			}
+			id: "5C21915045786228"
+			rewards: [{
+				id: "2887DE10F4BF827A"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71395DB6C3689B0D"
+				item: { count: 1, id: "fruitsdelight:lemon" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5C21915045786228"]
+			icon: {
+				id: "fruitsdelight:lemon_slice"
+			}
+			id: "056C0D2CFAFC5E63"
+			rewards: [{
+				count: 11
+				id: "38A4EC7AB7957E8B"
+				item: {
+					count: 1
+					id: "fwnc:coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "3C73C103CC06574F"
+					item: { count: 64, id: "fruitsdelight:lemon" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "1D5C8AC5782B1A61"
+					item: { count: 64, id: "fruitsdelight:lemon" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2DDDB60B62CA3430"
+					item: { count: 16, id: "fruitsdelight:lemon_jam" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6B8D7C7A36EB2649"
+					item: { count: 16, id: "fruitsdelight:lemon_jello" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7233F99C28579665"
+					item: { count: 64, id: "fruitsdelight:lemon" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "4E6FBCAAB7A36B2B"
+			tasks: [{
+				id: "745F135E35B23E24"
+				item: { count: 1, id: "solonion:lunchbag" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4E6FBCAAB7A36B2B"]
+			id: "5B7D17B33189ED59"
+			tasks: [{
+				id: "23E93678F999D80A"
+				item: { count: 1, id: "solonion:lunchbox" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B7D17B33189ED59"]
+			id: "389E07717885A6D5"
+			tasks: [{
+				id: "15C64649A0617209"
+				item: { count: 1, id: "solonion:golden_lunchbox" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+	]
 }

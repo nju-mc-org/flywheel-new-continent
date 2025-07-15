@@ -32,29 +32,22 @@
 			y: -2.5d
 		}
 		{
-			id: "263C11DBFAB4ABA5"
-			shape: "gear"
-			size: 1.5d
+			id: "50E196057108DC5B"
 			tasks: [{
-				advancement: "minecolonies:minecolonies/root"
-				criterion: ""
-				id: "1D935C322D0590EB"
-				type: "advancement"
+				id: "5FD3A7748A8BBF95"
+				type: "checkmark"
 			}]
-			x: 2.25d
-			y: 1.5d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
-			id: "06DAD8B570DEF42C"
-			shape: "gear"
-			size: 1.5d
+			id: "6BA0288999B631F3"
 			tasks: [{
-				id: "06046259E60F9A6D"
-				item: { count: 1, id: "minecraft:iron_ingot" }
-				type: "item"
+				id: "63834BD058406B23"
+				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 1.5d
+			x: 1.0d
+			y: -2.0d
 		}
 	]
 }

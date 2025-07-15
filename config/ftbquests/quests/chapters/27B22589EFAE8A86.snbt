@@ -2,12 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "27B22589EFAE8A86"
-	group: ""
+	group: "2A2092ADF7A0F7C8"
 	icon: {
 		id: "minecraft:pink_bed"
 	}
 	id: "27B22589EFAE8A86"
-	order_index: 7
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -136,16 +136,6 @@
 			y: 2.5d
 		}
 		{
-			id: "605B549C6725B1E5"
-			tasks: [{
-				id: "79F0FE8D8E44626C"
-				item: { count: 1, id: "domum_ornamentum:architectscutter" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 1.0d
-		}
-		{
 			icon: {
 				id: "create:copycat_panel"
 			}
@@ -162,7 +152,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: -2.5d
 			y: 1.0d
 		}
 		{

@@ -76,7 +76,7 @@ ServerEvents.recipes(event => {
         results: [
             {
                 count: 1,
-                id: "emendatusenigmatica:wrought_iron_ingot"
+                id: "fwnc:wrought_iron_ingot"
             }
         ]
     }).id("fwnc:mixing/wrought_steel")
@@ -113,7 +113,35 @@ ServerEvents.recipes(event => {
         }).id(`fwnc:crafting/ingot_to_plate_${name}`).damageIngredient({ item: 'immersiveengineering:hammer'}, 1)
     }
     function NewMetal(material) {
-        event.shaped(Item.of(`emendatusenigmatica:${material}_plate`, 1), [
+        event.shaped(Item.of(`fwnc:${material}_nugget`, 9), [
+            'I'
+        ],
+        {
+            I: `#c:ingots/${material}`
+        }).id(`fwnc:crafting/ingot_to_nugget_${material}`)
+        event.shaped(Item.of(`fwnc:${material}_ingot`, 1), [
+            'NNN',
+            'NNN',
+            'NNN'
+        ],
+        {
+            N: `#c:nuggets/${material}`
+        }).id(`fwnc:crafting/nugget_to_ingot_${material}`)
+        event.shaped(Item.of(`fwnc:${material}_ingot`, 9), [
+            'B'
+        ],
+        {
+            B: `#c:storage_blocks/${material}`
+        }).id(`fwnc:crafting/block_to_ingot_${material}`)
+        event.shaped(Item.of(`fwnc:${material}_block`, 1), [
+            'III',
+            'III',
+            'III'
+        ],
+        {
+            I: `#c:ingots/${material}`
+        }).id(`fwnc:crafting/ingot_to_block_${material}`)
+        event.shaped(Item.of(`fwnc:${material}_plate`, 1), [
             'H',
             'I',
             'I'
@@ -131,7 +159,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    id: `emendatusenigmatica:${material}_dust`
+                    id: `fwnc:${material}_dust`
                 }
             ],
             processingTime: 300
@@ -143,7 +171,7 @@ ServerEvents.recipes(event => {
                 tag: `c:ingots/${material}`
             },
             result: {
-                item: `emendatusenigmatica:${material}_dust`
+                item: `fwnc:${material}_dust`
             }
         }).id(`fwnc:ie_crusher/ingot_to_dust_iecrusher_${material}`)
         event.custom({
@@ -155,7 +183,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                id: `emendatusenigmatica:${material}_plate`
+                id: `fwnc:${material}_plate`
                 }
             ]
         }).id(`fwnc:pressing/ingot_to_plate_pressing_${material}`)
@@ -167,7 +195,7 @@ ServerEvents.recipes(event => {
             },
             mold: "immersiveengineering:mold_plate",
             result: {
-                id: `emendatusenigmatica:${material}_plate`
+                id: `fwnc:${material}_plate`
             }
         }).id(`fwnc:ie_metal_press/ingot_to_plate_iepress_${material}`)
         event.custom({
@@ -177,7 +205,7 @@ ServerEvents.recipes(event => {
             },
             result: {
                 count: 2,
-                id: `emendatusenigmatica:${material}_rod`
+                id: `fwnc:${material}_rod`
             }
         }).id(`fwnc:rolling/ingot_to_rod_rolling_${material}`)
         event.custom({
@@ -189,7 +217,7 @@ ServerEvents.recipes(event => {
             mold: "immersiveengineering:mold_rod",
             result: {
                 count: 2,
-                id: `emendatusenigmatica:${material}_rod`
+                id: `fwnc:${material}_rod`
             }
         }).id(`fwnc:ie_metal_press/ingot_to_rod_iepress_${material}`)
     }
@@ -312,8 +340,6 @@ ServerEvents.recipes(event => {
         }
     }).id('fwnc:rolling/ingot_to_rod_rolling_netherite')
 
-    event.remove({ id: 'emendatusenigmatica:plate/from_ingot/wrought_iron' })
-    event.remove({ id: 'emendatusenigmatica:rod/from_ingot/wrought_iron' })
     NewMetal("wrought_iron")
 
     event.custom({
@@ -332,10 +358,11 @@ ServerEvents.recipes(event => {
     function Deduplication(name, input, output, count) {
         event.shapeless(Item.of(output, count),[input]).id(`fwnc:dedup/${name}`)
     }
-
+    /*
     Deduplication("onion", "minecolonies:onion", "farmersdelight:onion", 2)
     Deduplication("wheat", "minecolonies:durum", "minecraft:wheat", 2)
     Deduplication("tomato", "minecolonies:tomato", "farmersdelight:tomato", 2)
     Deduplication("cabbage", "minecolonies:cabbage", "farmersdelight:cabbage", 2)
     Deduplication("rice", "minecolonies:rice", "farmersdelight:rice", 2)
+    */
 })

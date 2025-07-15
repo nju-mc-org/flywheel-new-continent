@@ -1,6 +1,19 @@
 {
   "item.fwnc.coin": "C.s.",
 
+  "item.fwnc.uncommon_upgrade_essence": "Uncommon Essence",
+  "item.fwnc.rare_upgrade_essence": "Rare Essence",
+  "item.fwnc.epic_upgrade_essence": "Epic Essence",
+  "item.fwnc.legendary_upgrade_essence": "Legendary Essence",
+
+  "item.fwnc.wrought_iron_ingot": "Wrought Iron Ingot",
+  "item.fwnc.wrought_iron_nugget": "Wrought Iron Nugget",
+  "item.fwnc.wrought_iron_dust": "Wrought Iron Dust",
+  "item.fwnc.wrought_iron_plate": "Wrought Iron Plate",
+  "item.fwnc.wrought_iron_rod": "Wrought Iron Rod",
+  "item.fwnc.wrought_iron_block": "Wrought Iron Block",
+  "block.fwnc.wrought_iron_block": "Wrought Iron Block",
+
   "item.fwnc.alloybrick_brick": "Alloy Brick Bar",
   "item.fwnc.alloybrick_clay": "Alloy Brick Clay",
   "item.fwnc.cokebrick_brick": "Coke Brick Bar",
@@ -8,6 +21,8 @@
   "item.fwnc.blastbrick_brick": "Blast Brick Bar",
   "item.fwnc.blastbrick_clay": "Blast Brick Clay",
 
+  "item.fwnc.raw_pumpkin_pie": "Raw Pumpkin Pie",
+  "item.fwnc.cookie_dough": "Cookie Dough",
   "item.fwnc.sweet_berry_cookie_dough": "Sweet Berry Cookie Dough",
   "item.fwnc.honey_cookie_dough": "Honey Cookie Dough",
   "item.fwnc.bayberry_cookie_dough": "Bayberry Cookie Dough",

@@ -13,6 +13,8 @@ ServerEvents.tags('item', event => {
     event.add('refurbished_furniture:tools/knives', 'farmersdelight:golden_knife')
     event.add('fwnc:tier_zero_circuit', [ 'fwnc:mechanical_circuit', 'fwnc:early_electronic_circuit'])
     event.add('fwnc:tier_one_circuit', 'fwnc:early_circuit_complex')
+    event.add('c:stripped_logs', [ 'biomesoplenty:stripped_fir_log', 'biomesoplenty:stripped_pine_log', 'biomesoplenty:stripped_maple_log', 'biomesoplenty:stripped_redwood_log', 'biomesoplenty:stripped_mahogany_log', 'biomesoplenty:stripped_jacaranda_log', 'biomesoplenty:stripped_palm_log', 'biomesoplenty:stripped_willow_log', 'biomesoplenty:stripped_dead_log', 'biomesoplenty:stripped_magic_log', 'biomesoplenty:stripped_umbran_log', 'biomesoplenty:stripped_hellbark_log', 'biomesoplenty:stripped_empyreal_log'])
+    event.add('c:stripped_woods', [ 'biomesoplenty:stripped_fir_wood', 'biomesoplenty:stripped_pine_wood', 'biomesoplenty:stripped_maple_wood', 'biomesoplenty:stripped_redwood_wood', 'biomesoplenty:stripped_mahogany_wood', 'biomesoplenty:stripped_jacaranda_wood', 'biomesoplenty:stripped_palm_wood', 'biomesoplenty:stripped_willow_wood', 'biomesoplenty:stripped_dead_wood', 'biomesoplenty:stripped_magic_wood', 'biomesoplenty:stripped_umbran_wood', 'biomesoplenty:stripped_hellbark_wood', 'biomesoplenty:stripped_empyreal_wood'])
 
     event.add("curios:head",['minecolonies:build_goggles']);
 })

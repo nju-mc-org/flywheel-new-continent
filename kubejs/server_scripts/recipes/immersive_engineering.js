@@ -349,7 +349,7 @@ ServerEvents.recipes(event => {
     ClotheOneProduct("fwnc:ie_cloche/pineapple", "fruitsdelight:pineapple_sapling", "immersiveengineering:crop", "fruitsdelight:pineapple", "minecraft:sand", 800, "fruitsdelight:pineapple", 2)
     ClotheOneProduct("fwnc:ie_cloche/carrot_boosted", "minecraft:carrot", "immersiveengineering:crop", "minecraft:carrots", "farmersdelight:rich_soil", 600, "minecraft:carrot", 3)
     ClotheOneProduct("fwnc:ie_cloche/potato_boosted", "minecraft:potato", "immersiveengineering:crop", "minecraft:potatoes", "farmersdelight:rich_soil", 600, "minecraft:potato", 3)
-
+    /*
     ClotheOneProduct("fwnc:ie_cloche/colony_bell_pepper", "minecolonies:bell_pepper", "immersiveengineering:generic", "minecolonies:bell_pepper", "minecraft:dirt", 1600, "minecolonies:bell_pepper", 2)
     ClotheOneProduct("fwnc:ie_cloche/colony_bell_pepper_boosted", "minecolonies:bell_pepper", "immersiveengineering:generic", "minecolonies:bell_pepper", "farmersdelight:rich_soil", 1200, "minecolonies:bell_pepper", 3)
     ClotheOneProduct("fwnc:ie_cloche/colony_cabbage", "minecolonies:cabbage", "immersiveengineering:generic", "minecolonies:cabbage", "minecraft:dirt", 1600, "minecolonies:cabbage", 2)
@@ -380,7 +380,7 @@ ServerEvents.recipes(event => {
     ClotheOneProduct("fwnc:ie_cloche/colony_mint_boosted", "minecolonies:mint", "immersiveengineering:generic", "minecolonies:mint", "farmersdelight:rich_soil", 1200, "minecolonies:mint", 3)
     ClotheOneProduct("fwnc:ie_cloche/colony_butternut_squash", "minecolonies:butternut_squash", "immersiveengineering:generic", "minecolonies:butternut_squash", "minecraft:dirt", 1600, "minecolonies:butternut_squash", 2)
     ClotheOneProduct("fwnc:ie_cloche/colony_butternut_squash_boosted", "minecolonies:butternut_squash", "immersiveengineering:generic", "minecolonies:butternut_squash", "farmersdelight:rich_soil", 1200, "minecolonies:butternut_squash", 3)
-
+    */
     ClotheTwoProduct("fwnc:ie_cloche/wheat_boosted", "minecraft:wheat_seeds", "immersiveengineering:crop", "minecraft:wheat", "farmersdelight:rich_soil", 480, "minecraft:wheat", 3, "minecraft:wheat_seeds", 1)
     ClotheTwoProduct("fwnc:ie_cloche/beetroot_boosted", "minecraft:beetroot_seeds", "immersiveengineering:crop", "minecraft:beetroots", "farmersdelight:rich_soil", 600, "minecraft:beetroot", 3, "minecraft:beetroot_seeds", 1)
     ClotheTwoProduct("fwnc:ie_cloche/cabbage_boosted", "farmersdelight:cabbage_seeds", "immersiveengineering:crop", "farmersdelight:cabbages", "farmersdelight:rich_soil", 600, "farmersdelight:cabbage", 3, "farmersdelight:cabbage_seeds", 1)

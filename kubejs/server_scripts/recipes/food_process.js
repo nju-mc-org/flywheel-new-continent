@@ -6,6 +6,9 @@ ServerEvents.recipes(event => {
     }
 
     //flour and dough problem
+    event.remove({ id: 'farmersdelight:wheat_dough' })
+    event.remove({ id: 'minecraft:farmersdelight.dough' })
+    event.remove({ id: 'minecraft:bread' })
     event.remove({ id: 'create:milling/wheat' })
     event.custom({
         type: 'create:milling',
@@ -147,7 +150,8 @@ ServerEvents.recipes(event => {
         ]
     }).id("fwnc:food_process/create_compacting_pie_crust")
 
-    event.replaceOutput({ id: 'minecraft:pumpkin_pie' }, "minecraft:pumpkin_pie", "minecolonies:raw_pumpkin_pie")
+    event.remove({ id: 'minecraft:pumpkin_pie' })
+    //event.replaceOutput({ id: 'minecraft:pumpkin_pie' }, "minecraft:pumpkin_pie", "fwnc:raw_pumpkin_pie")
     event.custom({
         type: 'create:compacting',
         heat_requirement: "heated",
@@ -405,7 +409,8 @@ ServerEvents.recipes(event => {
 
     //cookie
     event.remove({ id: 'minecraft:cookie' })
-    event.shapeless(Item.of('minecolonies:cookie_dough',8),['#c:doughs/wheat', 'minecraft:cocoa_beans', 'minecraft:cocoa_beans']).id("fwnc:food_process/crafting_cookie_dough")
+    event.shapeless(Item.of('fwnc:cookie_dough',8),['#c:doughs/wheat', 'minecraft:cocoa_beans', 'minecraft:cocoa_beans']).id("fwnc:food_process/crafting_cookie_dough")
+    FurnaceFood("cookie", "fwnc:cookie_dough", "minecraft:cookie")
     event.remove({ id: 'farmersdelight:sweet_berry_cookie' })
     event.shapeless(Item.of('fwnc:sweet_berry_cookie_dough',8),['#c:doughs/wheat', 'minecraft:sweet_berries', 'minecraft:sweet_berries']).id("fwnc:food_process/crafting_sweet_berry_cookie_dough")
     FurnaceFood("sweet_berry_cookie", "fwnc:sweet_berry_cookie_dough", "farmersdelight:sweet_berry_cookie")

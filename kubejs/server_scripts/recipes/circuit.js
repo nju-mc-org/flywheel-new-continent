@@ -663,4 +663,19 @@ ServerEvents.recipes(event => {
             "count": 1
         }
     }).id("fwnc:mechanical_crafter/navigator")
+
+    //other
+    event.remove({ id: 'create_connected:crafting/kinetics/kinetic_battery' })
+    event.shaped(Item.of('create_connected:kinetic_battery',1), [
+        ' P ',
+        'ECE',
+        'IRI'
+    ],
+    {
+        P: 'create:precision_mechanism',
+        C: 'create:brass_casing',
+        E: 'createaddition:capacitor',
+        I: '#c:plates/iron',
+        R: '#c:dusts/redstone'
+    }).id("fwnc:crafting/kinetic_battery")
 })

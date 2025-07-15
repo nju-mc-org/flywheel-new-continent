@@ -111,3 +111,7 @@
 [debug]
 	#Clean up data about timed-out expected exposure uploads on level/server save. Default: true
 	cleanup_timed_out_expected_uploads = true
+
+[integration]
+	#Create Deployers will be able to insert/swap attachments on Camera Stand. Default: true
+	create_deployer_stand_hotswap = true
