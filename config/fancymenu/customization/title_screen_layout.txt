@@ -44,7 +44,7 @@ layout_action_executable_blocks {
 
 element {
   interactable = true
-  source = 欢迎回来，{"placeholder":"playername"}！%n%飞轮工艺：新大陆，版本 0.2.1%n%模组数：{"placeholder":"loadedmods"}%n%基于 Minecraft {"placeholder":"mcversion"}, {"placeholder":"loadername"} {"placeholder":"loaderver"}
+  source = 欢迎回来，{"placeholder":"playername"}！%n%飞轮工艺：新大陆，版本 0.2.2%n%模组数：{"placeholder":"loadedmods"}%n%基于 Minecraft {"placeholder":"mcversion"}, {"placeholder":"loadername"} {"placeholder":"loaderver"}
   source_mode = direct
   shadow = true
   scale = 1.0
