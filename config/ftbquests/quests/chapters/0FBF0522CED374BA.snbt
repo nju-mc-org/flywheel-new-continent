@@ -1,0 +1,270 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0FBF0522CED374BA"
+	group: "40C679D2D47B0271"
+	icon: {
+		id: "immersiveengineering:wirecoil_steel"
+	}
+	id: "0FBF0522CED374BA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6A86FF3AF4B0FFF6"
+				"5F2814805587C1C4"
+			]
+			icon: {
+				id: "immersiveengineering:hammer"
+			}
+			id: "719537150E0A9DB1"
+			tasks: [
+				{
+					id: "02D76B7C54BEA952"
+					item: { count: 1, id: "immersiveengineering:hammer" }
+					type: "item"
+				}
+				{
+					id: "0CD33CDB45B71D14"
+					item: { count: 1, id: "immersiveengineering:wirecutter" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["577A526E57E02415"]
+			id: "6A86FF3AF4B0FFF6"
+			tasks: [{
+				id: "03701799A231A458"
+				item: { count: 1, id: "immersiveengineering:manual" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["719537150E0A9DB1"]
+			id: "6FC1BD3D8FBC71ED"
+			tasks: [{
+				id: "62EE93294A8DACA0"
+				item: { count: 1, id: "immersiveengineering:seed" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["719537150E0A9DB1"]
+			id: "177395191798721C"
+			tasks: [{
+				count: 27L
+				id: "605C03F34963D19F"
+				item: { count: 27, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["177395191798721C"]
+			id: "3A1480762F5299D7"
+			tasks: [{
+				id: "1A1CF85FF9617EC4"
+				item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A1480762F5299D7"]
+			id: "5895F9ADD79B6A5B"
+			tasks: [{
+				id: "1E7C6645BEFBEB3B"
+				item: { count: 1, id: "immersiveengineering:workbench" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5895F9ADD79B6A5B"]
+			id: "7DAD39B0458D6FF6"
+			tasks: [{
+				id: "1774EA758B77B507"
+				item: { components: { "immersiveengineering:blueprint": "components" }, count: 1, id: "immersiveengineering:blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DAD39B0458D6FF6"]
+			id: "5DA356794C14D312"
+			tasks: [{
+				id: "13A4353523FB7F53"
+				item: { count: 1, id: "immersiveengineering:cloche" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7DAD39B0458D6FF6"]
+			id: "5ABEF31EF86FDF4E"
+			tasks: [{
+				id: "1F21F2827FBAE0FB"
+				item: { count: 1, id: "immersiveengineering:fluid_pump" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			id: "577A526E57E02415"
+			tasks: [{
+				id: "39C92075DFE81AD7"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["177395191798721C"]
+			id: "5DE9F663AC55E73B"
+			tasks: [{
+				count: 8L
+				id: "242470D8E941CAF2"
+				item: { count: 8, id: "immersiveengineering:alloybrick" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["177395191798721C"]
+			id: "1B8FFFB6143F63A9"
+			tasks: [{
+				count: 27L
+				id: "179B11ABBD49AF55"
+				item: { count: 1, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7DAD39B0458D6FF6"]
+			id: "32D8827508E4D351"
+			tasks: [{
+				id: "3FA70F372C1DF58B"
+				item: { count: 1, id: "immersiveengineering:dynamo" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7DAD39B0458D6FF6"]
+			id: "124F62FC207792C1"
+			tasks: [{
+				id: "26BAFF451B262513"
+				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DAD39B0458D6FF6"]
+			id: "2C2593D2E08D2F64"
+			tasks: [{
+				id: "0E4B9695F64A7F36"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			id: "77289FEF4C678E57"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:metal_press"
+				}
+				id: "665BEAA9A1E01621"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:metal_press"
+				type: "observation"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"124F62FC207792C1"
+				"32D8827508E4D351"
+				"2C2593D2E08D2F64"
+			]
+			dependency_requirement: "one_completed"
+			id: "7CA6E4864E16E8C7"
+			tasks: [{
+				id: "2E4694617A913BD5"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1L
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			id: "3ECE28A0977CF733"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:crusher"
+				}
+				id: "7F0F1834D0C19E0E"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:crusher"
+				type: "observation"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			id: "0A90B68884B72DA4"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:fermenter"
+				}
+				id: "26948E1C082645CB"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:fermenter"
+				type: "observation"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			id: "6B3A426BA8FA70E5"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:squeezer"
+				}
+				id: "4A44DC37FDED938D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:squeezer"
+				type: "observation"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+	]
+}

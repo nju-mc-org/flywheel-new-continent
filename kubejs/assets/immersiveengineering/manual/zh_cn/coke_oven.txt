@@ -1,0 +1,6 @@
+焦炉
+热门话题！
+<&recipe>焦炉是工业进程的核心设备，通过缺氧热解燃料生成§2焦炭§r或§2木炭§r。<br>
+副产品<link;industrial_fluids;杂酚油;creosote_oil>用于制造<link;treated_wood;防腐木>（工业设备基础材料）。<br>
+需用<link;fluid_pump;流体泵>抽取杂酚油。<np>
+<&multiblock>将27个焦炉砖摆成3x3x3立方体，用工程师锤点击侧面中心方块激活。

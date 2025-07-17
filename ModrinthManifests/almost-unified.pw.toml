@@ -1,0 +1,13 @@
+name = "Almost Unified"
+filename = "almostunified-neoforge-1.21.1-1.2.7.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/sdaSaQEz/versions/Rp9Txpfe/almostunified-neoforge-1.21.1-1.2.7.jar"
+hash-format = "sha1"
+hash = "44cc739c8d0ad35b1de83968dd775a4be1b7fbe0"
+
+[update]
+[update.modrinth]
+mod-id = "sdaSaQEz"
+version = "Rp9Txpfe"

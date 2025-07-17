@@ -1,0 +1,7 @@
+动能发电机
+永动之力
+<&dynamo_recipe>基础发电装置，将机械能转化为电能。<br>
+需配合<link;large_constructions;多结构>风车/水轮机使用，按转速输出能量。<np>
+<&windmill_recipes>风车：空域越开阔转速越快，雨雪天气效率提升。<np>
+<&sail_recipe>用<link;industrial_hemp;坚韧布料;fabric_recipe>覆盖叶片可增加受风面积。<np>
+<&waterwheel_recipes>水轮机：需<link;basic_metal_products;钢;alloys>建造，水流越大转速越高，最多三组并联。

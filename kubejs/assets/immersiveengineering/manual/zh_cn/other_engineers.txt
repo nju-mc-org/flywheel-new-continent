@@ -1,0 +1,7 @@
+其他工程师
+持证村民
+<&engineer>§l结构工程师§r：交易防腐木/混凝土，宝藏地图指向<link;mineral_deposits;矿脉>，工作站§2转盘§r。<np>
+<&machinist>§l机械师§r：交易工具/钻头，高级可提供<link;coke_and_graphite;石墨电极>蓝图，工作站§2工程师工作台§r。<np>
+<&electrician>§l电气工程师§r：交易线缆/法拉第护甲，工作站§2电路工作台§r。<np>
+<&gunsmith>§l军械师§r：交易枪械配件/<link;revolver;左轮>改装件，工作站§2工程师工作台§r。<np>
+<&outfitter>§l装备师§r：设计<link;shaders;着色器>，工作站§2着色旗帜§r。

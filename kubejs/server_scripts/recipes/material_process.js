@@ -76,11 +76,11 @@ ServerEvents.recipes(event => {
         results: [
             {
                 count: 1,
-                id: "emendatusenigmatica:wrought_iron_ingot"
+                id: "fwnc:wrought_iron_ingot"
             }
         ]
     }).id("fwnc:mixing/wrought_steel")
-    event.remove({ id: 'createaddition:constantan' })
+    event.remove({ id: 'createaddition:compat/immersiveengineering/constantan' })
     event.custom({
         type: 'create:mixing',
         heat_requirement: "heated",
@@ -94,7 +94,7 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                count: 1,
+                count: 2,
                 id: "immersiveengineering:ingot_constantan"
             }
         ]
@@ -113,7 +113,35 @@ ServerEvents.recipes(event => {
         }).id(`fwnc:crafting/ingot_to_plate_${name}`).damageIngredient({ item: 'immersiveengineering:hammer'}, 1)
     }
     function NewMetal(material) {
-        event.shaped(Item.of(`emendatusenigmatica:${material}_plate`, 1), [
+        event.shaped(Item.of(`fwnc:${material}_nugget`, 9), [
+            'I'
+        ],
+        {
+            I: `#c:ingots/${material}`
+        }).id(`fwnc:crafting/ingot_to_nugget_${material}`)
+        event.shaped(Item.of(`fwnc:${material}_ingot`, 1), [
+            'NNN',
+            'NNN',
+            'NNN'
+        ],
+        {
+            N: `#c:nuggets/${material}`
+        }).id(`fwnc:crafting/nugget_to_ingot_${material}`)
+        event.shaped(Item.of(`fwnc:${material}_ingot`, 9), [
+            'B'
+        ],
+        {
+            B: `#c:storage_blocks/${material}`
+        }).id(`fwnc:crafting/block_to_ingot_${material}`)
+        event.shaped(Item.of(`fwnc:${material}_block`, 1), [
+            'III',
+            'III',
+            'III'
+        ],
+        {
+            I: `#c:ingots/${material}`
+        }).id(`fwnc:crafting/ingot_to_block_${material}`)
+        event.shaped(Item.of(`fwnc:${material}_plate`, 1), [
             'H',
             'I',
             'I'
@@ -131,7 +159,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                    id: `emendatusenigmatica:${material}_dust`
+                    id: `fwnc:${material}_dust`
                 }
             ],
             processingTime: 300
@@ -143,7 +171,7 @@ ServerEvents.recipes(event => {
                 tag: `c:ingots/${material}`
             },
             result: {
-                item: `emendatusenigmatica:${material}_dust`
+                item: `fwnc:${material}_dust`
             }
         }).id(`fwnc:ie_crusher/ingot_to_dust_iecrusher_${material}`)
         event.custom({
@@ -155,7 +183,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                id: `emendatusenigmatica:${material}_plate`
+                id: `fwnc:${material}_plate`
                 }
             ]
         }).id(`fwnc:pressing/ingot_to_plate_pressing_${material}`)
@@ -167,7 +195,7 @@ ServerEvents.recipes(event => {
             },
             mold: "immersiveengineering:mold_plate",
             result: {
-                id: `emendatusenigmatica:${material}_plate`
+                id: `fwnc:${material}_plate`
             }
         }).id(`fwnc:ie_metal_press/ingot_to_plate_iepress_${material}`)
         event.custom({
@@ -177,7 +205,7 @@ ServerEvents.recipes(event => {
             },
             result: {
                 count: 2,
-                id: `emendatusenigmatica:${material}_rod`
+                id: `fwnc:${material}_rod`
             }
         }).id(`fwnc:rolling/ingot_to_rod_rolling_${material}`)
         event.custom({
@@ -189,7 +217,7 @@ ServerEvents.recipes(event => {
             mold: "immersiveengineering:mold_rod",
             result: {
                 count: 2,
-                id: `emendatusenigmatica:${material}_rod`
+                id: `fwnc:${material}_rod`
             }
         }).id(`fwnc:ie_metal_press/ingot_to_rod_iepress_${material}`)
     }
@@ -312,8 +340,6 @@ ServerEvents.recipes(event => {
         }
     }).id('fwnc:rolling/ingot_to_rod_rolling_netherite')
 
-    event.remove({ id: 'emendatusenigmatica:plate/from_ingot/wrought_iron' })
-    event.remove({ id: 'emendatusenigmatica:rod/from_ingot/wrought_iron' })
     NewMetal("wrought_iron")
 
     event.custom({
@@ -332,10 +358,566 @@ ServerEvents.recipes(event => {
     function Deduplication(name, input, output, count) {
         event.shapeless(Item.of(output, count),[input]).id(`fwnc:dedup/${name}`)
     }
-
+    /*
     Deduplication("onion", "minecolonies:onion", "farmersdelight:onion", 2)
     Deduplication("wheat", "minecolonies:durum", "minecraft:wheat", 2)
     Deduplication("tomato", "minecolonies:tomato", "farmersdelight:tomato", 2)
     Deduplication("cabbage", "minecolonies:cabbage", "farmersdelight:cabbage", 2)
     Deduplication("rice", "minecolonies:rice", "farmersdelight:rice", 2)
+    */
+
+    //stones
+    event.custom({
+        type: 'create:filling',
+        ingredients: [
+            {
+                item: "minecraft:dripstone_block"
+            },
+            {
+                type: "fluid_stack",
+                amount: 250,
+                fluid: "minecraft:water"
+            }
+        ],
+        results: [
+            {
+                id: "minecraft:pointed_dripstone",
+                count: 6
+            }
+        ]
+    }).id("fwnc:filling/dripstones")
+
+    event.custom({
+        type: 'create:compacting',
+        ingredients: [
+            {
+                item: "minecraft:cobblestone"
+            },
+            {
+                item: "minecraft:gold_nugget"
+            },
+            {
+                item: "minecraft:gold_nugget",
+            },
+            {
+                type: "fluid_stack",
+                amount: 200,
+                fluid: "minecraft:lava"
+            }
+        ],
+        results: [
+            {
+                id: "create:ochrum"
+            },
+            {
+                id: "create:ochrum",
+                chance: 0.25
+            }
+        ]
+    }).id("fwnc:compacting/ochrums")
+    event.custom({
+        type: 'create:compacting',
+        heat_requirement: "heated",
+        ingredients: [
+            {
+                item: "minecraft:stone"
+            },
+            {
+                item: "minecraft:gold_nugget"
+            },
+            {
+                item: "minecraft:gold_nugget",
+            },
+            {
+                type: "fluid_stack",
+                amount: 200,
+                fluid: "minecraft:lava"
+            }
+        ],
+        results: [
+            {
+                id: "create:ochrum"
+            },
+            {
+                id: "create:ochrum",
+                count: 2,
+                chance: 0.5
+            }
+        ]
+    }).id("fwnc:compacting/ochrums_heated")
+     event.custom({
+        type: 'create:compacting',
+        heat_requirement: "superheated",
+        ingredients: [
+            {
+                item: "minecraft:deepslate"
+            },
+            {
+                item: "minecraft:gold_nugget"
+            },
+            {
+                item: "minecraft:gold_nugget",
+            },
+            {
+                type: "fluid_stack",
+                amount: 200,
+                fluid: "minecraft:lava"
+            }
+        ],
+        results: [
+            {
+                id: "create:ochrum"
+            },
+            {
+                id: "create:ochrum",
+                count: 3
+            }
+        ]
+    }).id("fwnc:compacting/ochrums_superheated")
+
+    event.custom({
+        type: 'create:compacting',
+        ingredients: [
+            {
+                item: "minecraft:cobblestone"
+            },
+            {
+                item: "minecraft:iron_nugget"
+            },
+            {
+                item: "minecraft:iron_nugget",
+            },
+            {
+                item: "minecraft:iron_nugget"
+            },
+            {
+                item: "minecraft:iron_nugget",
+            },
+            {
+                type: "fluid_stack",
+                amount: 200,
+                fluid: "minecraft:lava"
+            }
+        ],
+        results: [
+            {
+                id: "create:crimsite"
+            },
+            {
+                id: "create:crimsite",
+                chance: 0.25
+            }
+        ]
+    }).id("fwnc:compacting/crimsites")
+    event.custom({
+        type: 'create:compacting',
+        heat_requirement: "heated",
+        ingredients: [
+            {
+                item: "minecraft:stone"
+            },
+            {
+                item: "minecraft:iron_nugget"
+            },
+            {
+                item: "minecraft:iron_nugget",
+            },
+            {
+                item: "minecraft:iron_nugget"
+            },
+            {
+                item: "minecraft:iron_nugget",
+            },
+            {
+                type: "fluid_stack",
+                amount: 200,
+                fluid: "minecraft:lava"
+            }
+        ],
+        results: [
+            {
+                id: "create:crimsite"
+            },
+            {
+                id: "create:crimsite",
+                count: 2,
+                chance: 0.5
+            }
+        ]
+    }).id("fwnc:compacting/crimsites_heated")
+     event.custom({
+        type: 'create:compacting',
+        heat_requirement: "superheated",
+        ingredients: [
+            {
+                item: "minecraft:deepslate"
+            },
+            {
+                item: "minecraft:iron_nugget"
+            },
+            {
+                item: "minecraft:iron_nugget",
+            },
+            {
+                item: "minecraft:iron_nugget"
+            },
+            {
+                item: "minecraft:iron_nugget",
+            },
+            {
+                type: "fluid_stack",
+                amount: 200,
+                fluid: "minecraft:lava"
+            }
+        ],
+        results: [
+            {
+                id: "create:crimsite"
+            },
+            {
+                id: "create:crimsite",
+                count: 3
+            }
+        ]
+    }).id("fwnc:compacting/crimsites_superheated")
+
+    event.custom({
+        type: 'create:compacting',
+        ingredients: [
+            {
+                item: "minecraft:cobblestone"
+            },
+            {
+                item: "create:copper_nugget"
+            },
+            {
+                item: "create:copper_nugget",
+            },
+            {
+                item: "create:copper_nugget"
+            },
+            {
+                item: "create:copper_nugget",
+            },
+            {
+                item: "create:copper_nugget"
+            },
+            {
+                item: "create:copper_nugget",
+            },
+            {
+                item: "create:copper_nugget"
+            },
+            {
+                item: "create:copper_nugget",
+            },
+            {
+                type: "fluid_stack",
+                amount: 200,
+                fluid: "minecraft:lava"
+            }
+        ],
+        results: [
+            {
+                id: "create:veridium"
+            },
+            {
+                id: "create:veridium",
+                chance: 0.25
+            }
+        ]
+    }).id("fwnc:compacting/veridiums")
+    event.custom({
+        type: 'create:compacting',
+        heat_requirement: "heated",
+        ingredients: [
+            {
+                item: "minecraft:stone"
+            },
+            {
+                item: "create:copper_nugget"
+            },
+            {
+                item: "create:copper_nugget",
+            },
+            {
+                item: "create:copper_nugget"
+            },
+            {
+                item: "create:copper_nugget",
+            },
+            {
+                item: "create:copper_nugget"
+            },
+            {
+                item: "create:copper_nugget",
+            },
+            {
+                item: "create:copper_nugget"
+            },
+            {
+                item: "create:copper_nugget",
+            },
+            {
+                type: "fluid_stack",
+                amount: 200,
+                fluid: "minecraft:lava"
+            }
+        ],
+        results: [
+            {
+                id: "create:veridium"
+            },
+            {
+                id: "create:veridium",
+                count: 2,
+                chance: 0.5
+            }
+        ]
+    }).id("fwnc:compacting/veridiums_heated")
+     event.custom({
+        type: 'create:compacting',
+        heat_requirement: "superheated",
+        ingredients: [
+            {
+                item: "minecraft:deepslate"
+            },
+            {
+                item: "create:copper_nugget"
+            },
+            {
+                item: "create:copper_nugget",
+            },
+            {
+                item: "create:copper_nugget"
+            },
+            {
+                item: "create:copper_nugget",
+            },
+            {
+                item: "create:copper_nugget"
+            },
+            {
+                item: "create:copper_nugget",
+            },
+            {
+                item: "create:copper_nugget"
+            },
+            {
+                item: "create:copper_nugget",
+            },
+            {
+                type: "fluid_stack",
+                amount: 200,
+                fluid: "minecraft:lava"
+            }
+        ],
+        results: [
+            {
+                id: "create:veridium"
+            },
+            {
+                id: "create:veridium",
+                count: 3
+            }
+        ]
+    }).id("fwnc:compacting/veridiums_superheated")
+
+    event.custom({
+        type: 'create:compacting',
+        ingredients: [
+            {
+                item: "minecraft:cobblestone"
+            },
+            {
+                item: "create:zinc_nugget"
+            },
+            {
+                item: "create:zinc_nugget",
+            },
+            {
+                item: "create:zinc_nugget",
+            },
+            {
+                type: "fluid_stack",
+                amount: 200,
+                fluid: "minecraft:lava"
+            }
+        ],
+        results: [
+            {
+                id: "create:asurine"
+            },
+            {
+                id: "create:asurine",
+                chance: 0.25
+            }
+        ]
+    }).id("fwnc:compacting/asurines")
+    event.custom({
+        type: 'create:compacting',
+        heat_requirement: "heated",
+        ingredients: [
+            {
+                item: "minecraft:stone"
+            },
+            {
+                item: "create:zinc_nugget"
+            },
+            {
+                item: "create:zinc_nugget",
+            },
+            {
+                item: "create:zinc_nugget",
+            },
+            {
+                type: "fluid_stack",
+                amount: 200,
+                fluid: "minecraft:lava"
+            }
+        ],
+        results: [
+            {
+                id: "create:asurine"
+            },
+            {
+                id: "create:asurine",
+                count: 2,
+                chance: 0.5
+            }
+        ]
+    }).id("fwnc:compacting/asurines_heated")
+     event.custom({
+        type: 'create:compacting',
+        heat_requirement: "superheated",
+        ingredients: [
+            {
+                item: "minecraft:deepslate"
+            },
+            {
+                item: "create:zinc_nugget"
+            },
+            {
+                item: "create:zinc_nugget",
+            },
+            {
+                item: "create:zinc_nugget",
+            },
+            {
+                type: "fluid_stack",
+                amount: 200,
+                fluid: "minecraft:lava"
+            }
+        ],
+        results: [
+            {
+                id: "create:asurine"
+            },
+            {
+                id: "create:asurine",
+                count: 3
+            }
+        ]
+    }).id("fwnc:compacting/asurines_superheated")
+
+    event.custom({
+        type: 'create:mixing',
+        ingredients: [
+            {
+                item: "minecraft:calcite"
+            },
+            {
+                type: "fluid_stack",
+                amount: 100,
+                fluid: "minecraft:water"
+            }
+        ],
+        results: [
+            {
+                id: "create:limestone"
+            },
+            {
+                id: "minecraft:calcite",
+                chance: 0.5
+            }
+        ]
+    }).id("fwnc:mixing/limestones")
+    event.custom({
+        type: 'create:compacting',
+        ingredients: [
+            {
+                item: "minecraft:gravel"
+            },
+            {
+                item: "minecraft:bone_meal"
+            }
+        ],
+        results: [
+            {
+                id: "minecraft:calcite"
+            },
+            {
+                id: "minecraft:calcite",
+                chance: 0.5
+            }
+        ]
+    }).id("fwnc:compacting/calcites")
+
+    event.custom({
+        type: 'create:mixing',
+        ingredients: [
+            [{
+                item: "minecraft:gravel"
+            },
+            {
+                item: "minecraft:sand"
+            },
+            {
+                item: "minecraft:red_sand"
+            },
+            {
+                item: "biomesoplenty:black_sand"
+            }
+            ],
+            {
+                type: "fluid_stack",
+                amount: 100,
+                fluid: "minecraft:lava"
+            }
+        ],
+        results: [
+            {
+                id: "minecraft:tuff"
+            }
+        ]
+    }).id("fwnc:mixing/tuffs")
+
+    event.custom({
+        type: 'create:crushing',
+        ingredients: [
+            {
+                item: "minecraft:blackstone"
+            }
+        ],
+        results: [
+            {
+                id: "biomesoplenty:black_sand"
+            }
+        ]
+    }).id("fwnc:crushing_wheel/black_sand")
+    
+    event.custom({
+        type: 'create:splashing',
+        ingredients: [
+            {
+                item: "biomesoplenty:black_sand"
+            }
+        ],
+        results: [
+            {
+                id: "immersiveengineering:dust_coke",
+                chance: 0.6
+            }
+        ]
+    }).id("fwnc:splashing/black_sand")
 })

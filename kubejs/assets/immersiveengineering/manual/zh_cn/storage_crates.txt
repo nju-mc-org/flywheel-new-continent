@@ -1,0 +1,5 @@
+储物箱
+整装待发
+<&crate>木制储物箱：27格容量，长按<link;basic_tools;工程师锤;engineers_hammer>密封后可完整搬运，抗活塞推动。<br>
+可自定义名称并显示于界面。<np>
+<&reinforced_crate>钢制加固箱：防爆且爆炸时保留物品。

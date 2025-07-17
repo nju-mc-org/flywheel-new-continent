@@ -1,0 +1,13 @@
+name = "Kotlin for Forge"
+filename = "kotlinforforge-5.9.0-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ordsPcFz/versions/4qCjWixP/kotlinforforge-5.9.0-all.jar"
+hash-format = "sha1"
+hash = "8ad166a365c1917fceca3533cdcb74e5149f200c"
+
+[update]
+[update.modrinth]
+mod-id = "ordsPcFz"
+version = "4qCjWixP"

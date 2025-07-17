@@ -281,3 +281,28 @@
 			half_drawers_4 = true
 			half_drawers_2 = true
 			trim = true
+
+		[entries.wood_type.refurbished_furniture]
+			storage_cabinet = true
+			storage_jar = true
+			desk = true
+			cutting_board = true
+			drawer = true
+			kitchen_sink = true
+			toilet = true
+			lattice_fence = true
+			basin = true
+			kitchen_drawer = true
+			kitchen_cabinetry = true
+			crate = true
+			chair = true
+			light_ceiling_fan = true
+			table = true
+			mail_box = true
+			dark_ceiling_fan = true
+			lattice_fence_gate = true
+			bath = true
+			kitchen_storage_cabinet = true
+
+		[entries.leaves_type.refurbished_furniture]
+			hedge = true

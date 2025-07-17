@@ -1,0 +1,53 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0048EA610CDF65ED"
+	group: ""
+	icon: {
+		id: "minecraft:crafting_table"
+	}
+	id: "0048EA610CDF65ED"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "41CE8973C0788D3F"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "559AC6153518961D"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "4165D808C1886F6A"
+			tasks: [{
+				id: "5CC2FC763B6D1DCD"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "50E196057108DC5B"
+			tasks: [{
+				id: "5FD3A7748A8BBF95"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "6BA0288999B631F3"
+			tasks: [{
+				id: "63834BD058406B23"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+}

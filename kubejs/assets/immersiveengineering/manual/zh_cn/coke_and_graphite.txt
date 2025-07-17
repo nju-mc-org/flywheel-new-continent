@@ -1,0 +1,9 @@
+焦炭与石墨
+煤炭制品
+<&coke>焦炭是类似木炭的提纯碳，由煤炭在<link;coke_oven;焦炉>中制成。<br>
+用于从<link;crude_blast_furnace;原始高炉>到<link;arc_furnace;电弧炉>的炼钢流程，燃烧效率优于煤炭。<np>
+<&graphite>高定向热解石墨（HOP）是特殊工程材料。<br>
+HOP石墨粉通过<link;squeezer;工业挤压机>压缩8个焦炭粉制成，可熔炼为锭。<np>
+<&electrode>HOP石墨主要用于<link;arc_furnace;电弧炉>电极。<br>
+需通过<link;blueprints;工程师蓝图>制作（蓝图可在宝箱或村民交易获取）。<br>
+也可用<link;metal_press;金属压机>的棒模具+4个锭制造，但寿命减半。

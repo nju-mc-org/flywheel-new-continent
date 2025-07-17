@@ -1,0 +1,9 @@
+电锯
+别去寂静岭
+<&recipes>便携式电锯可快速清理树木与植被，需在<link;engineers_workbench;工程师工作台;start>安装锯片并注入<link;industrial_fluids;生物柴油;biodiesel>。<br>
+可升级油箱容量、锯片库存与耐久。<np>
+<&rockcutter_recipe>§2岩石切割锯片§r可精准切割石块（类似§2精准采集§r），但无法伐木。<np>
+<&grinding_recipe>§2研磨盘§r由铝粉与<link;resin_and_duroplast;酚醛树脂>制成，擅长切割金属块，也可为铜块除锈或剥除树皮。<np>
+<&tank_recipe>§2大型油箱§r提升2000 mb容量。<np>
+<&lube_recipe>§2高级润滑系统§r减缓锯片损耗。<np>
+<&quiver_recipe>§2锯片箭袋§r可携带两片备用锯片，通过<config;b;tools.chemthrower.scroll;潜行滚动滚轮或;使用>快捷键§l<keybind;key.immersiveengineering.chemthrowerSwitch>§r切换。

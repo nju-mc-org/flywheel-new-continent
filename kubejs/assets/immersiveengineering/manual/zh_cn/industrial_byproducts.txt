@@ -1,0 +1,7 @@
+工业副产品
+废料噩梦
+<&sulfur>§l硫磺粉§r：粉碎<link;mineral_deposits;矿物>获得，用于火药/<link;industrial_byproducts;工业肥料;fertilizer>。<np>
+<&nitrate>§l硝酸盐粉§r：粉碎砂岩获得，催化<link;industrial_fluids;生物柴油>生产。<np>
+<&slag>§l矿渣§r：炼钢副产品，可制<link;concrete;混凝土>或肥料。<np>
+<&fertilizer>§2工业肥料§r：硫磺+矿渣+硝酸盐+水合成，大幅加速<link;garden_cloche;种植钟罩>生长。<np>
+<&gunpowder>硝酸盐+硫磺+木炭=火药，用于<link;revolver_cartridges;弹药>和<link;gunpowder_barrels;火药桶>。

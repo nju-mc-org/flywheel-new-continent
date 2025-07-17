@@ -1,0 +1,8 @@
+斗轮式挖掘机
+矮人下岗器
+<&full>斗轮式挖掘机是工业巅峰之作，可开采<link;mineral_deposits;矿物>深层矿脉。<br>
+需持续消耗<config;i;machines.excavator.consumption> Flux/t能量运行，矿脉最多产出<config;i;machines.excavator.yield>块矿石。<br>
+从斗轮底部开始挖掘，产物从引擎支架后方输出。<br>
+三侧能量接口供电，背面红石控制面板。<np>
+<&wheel>斗轮结构：用工程师锤点击中央钢块激活。<np>
+<&engine>引擎结构：工程师锤点击重型工程砖激活，需正确安装斗轮。

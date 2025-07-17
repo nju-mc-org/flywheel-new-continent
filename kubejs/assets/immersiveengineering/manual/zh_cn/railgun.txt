@@ -1,0 +1,7 @@
+磁轨炮
+速度即毁灭
+电磁加速发射金属棒/末影珍珠等投射物：<br>
+长按蓄力至99释放，潜行+滚轮或§l<keybind;key.immersiveengineering.chemthrowerSwitch>§r切换弹种。<br>
+建议搭配<link;accumulator_backpack;蓄能背包>使用，支持<link;shaders;着色器>改装。<np>
+<&speed>§2高级散热器§r缩短蓄力时间。<np>
+<&scope>§2精密瞄准镜§r按§l<keybind;key.immersiveengineering.railgunZoom>§r启用，滚轮调节倍率。

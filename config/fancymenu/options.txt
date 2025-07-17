@@ -27,7 +27,7 @@ B:game_intro_fade_out = 'true';
 B:show_custom_window_icon = 'false';
 S:custom_window_icon_macos = '';
 S:custom_window_icon_32 = '';
-S:custom_window_title = '';
+S:custom_window_title = 'Flywheel: New Continent 0.2.2-rc1';
 S:custom_window_icon_16 = '';
 
 
@@ -53,6 +53,7 @@ F:layout_editor_grid_snapping_strength = '1.0';
 S:anchor_overlay_color_base_override = '';
 I:layout_editor_grid_size = '10';
 B:invert_anchor_overlay_color = 'false';
+B:enable_buddy = 'true';
 S:anchor_overlay_color_border_override = '';
 F:anchor_overlay_opacity_normal = '0.5';
 F:anchor_overlay_opacity_busy = '0.7';

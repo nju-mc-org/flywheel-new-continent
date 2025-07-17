@@ -27,6 +27,19 @@
 	#.
 	#Whether Deployer can perform sweep attack.
 	deployerSweepAttack = true
+	#.
+	#Whether Crushing Wheel killed entities should drop experience.
+	crushingWheelKillDropXp = true
+	#.
+	#Probability of Crushing Wheel killed entities dropping experience.
+	# Default: 0.30000001192092896
+	# Range: 0.0 ~ 1.0
+	crushingWheelKillDropXpChance = 0.30000001192092896
+	#.
+	#Scale for experience dropped from Crushing Wheel killed entities.
+	# Default: 0.3400000035762787
+	# Range: 0.0 ~ 1.0
+	crushingWheelKillDropXpScale = 0.3400000035762787
 
 		#.
 		#Fine tune the kinetic stats of individual components
@@ -73,13 +86,25 @@
 		# Default: 4000
 		# Range: > 1000
 		blazeForgerFluidCapacity = 4000
+		#.
+		#The amount of liquid an Experience Lantern can hold (mB).
+		#[@cui:RequiresReload:server]
+		# Default: 1000
+		# Range: > 100
+		experienceLanternFluidCapacity = 1000
+		#.
+		#The amount of Experience an Experience Lantern can drain from player per 0.5 tick (mB).
+		#[@cui:RequiresReload:server]
+		# Default: 50
+		# Range: > 1
+		experienceLanternDrainRate = 50
 
 	#.
 	#Parameters and abilities of enchantment operating components
 	[kinetics.enchantments]
 		#.
 		#.
-		#The max experience level a Blaze Enchanter can use in Enchanting
+		#The max experience level a Blaze Enchanter can use in Regular Enchanting
 		# Default: 30
 		# Range: > 0
 		blazeEnchanterMaxEnchantLevel = 30
@@ -89,10 +114,20 @@
 		# Range: > 0
 		blazeEnchanterMaxSuperEnchantLevel = 60
 		#.
-		#Max enchantment level in Super Enchanting and Super Forging will be extended by this value
+		#Max enchantment level in Super Enchanting will be extended by this value
 		# Default: 1
 		# Range: 0 ~ 255
 		enchantmentMaxLevelExtension = 1
 		#.
 		#If Super Enchanting and Super Forging ignores enchantment compatibility
 		ignoreEnchantmentCompatibility = true
+
+	#.
+	#Parameters and abilities of processing mechanisms and appliances
+	[kinetics.processing]
+		#.
+		#.
+		#Probability of regular lightning strike transforming Block of Experience.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		regularLightningStrikeTransformXpBlockChance = 1.0

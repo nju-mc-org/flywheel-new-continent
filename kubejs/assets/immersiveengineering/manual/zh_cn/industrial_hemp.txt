@@ -1,0 +1,6 @@
+工业大麻
+530种用途
+<&items>种子制<link;industrial_fluids;植物油>用于<link;industrial_fluids;生物柴油;biodiesel>，纤维制§2坚韧布料§r。<np>
+<&fabric_recipe>坚韧布料可防水为<link;this;人造皮革;ersatz_leather>，或制造<link;balloon;气球>/<link;hempcrete;麻凝土>/<link;this;弹跳垫;cushion_recipe>。<np>
+<&cushion_recipe>弹跳垫：吸收跌落伤害但无弹跳效果。<np>
+<&ersatz_leather>植物油/蜂蜡浸泡布料=人造皮革，用于<link;conveyor_belts;传送带>等。

@@ -6,6 +6,9 @@ ServerEvents.recipes(event => {
     }
 
     //flour and dough problem
+    event.remove({ id: 'farmersdelight:wheat_dough' })
+    event.remove({ id: 'minecraft:farmersdelight.dough' })
+    event.remove({ id: 'minecraft:bread' })
     event.remove({ id: 'create:milling/wheat' })
     event.custom({
         type: 'create:milling',
@@ -147,7 +150,8 @@ ServerEvents.recipes(event => {
         ]
     }).id("fwnc:food_process/create_compacting_pie_crust")
 
-    event.replaceOutput({ id: 'minecraft:pumpkin_pie' }, "minecraft:pumpkin_pie", "minecolonies:raw_pumpkin_pie")
+    event.remove({ id: 'minecraft:pumpkin_pie' })
+    //event.replaceOutput({ id: 'minecraft:pumpkin_pie' }, "minecraft:pumpkin_pie", "fwnc:raw_pumpkin_pie")
     event.custom({
         type: 'create:compacting',
         heat_requirement: "heated",
@@ -405,7 +409,8 @@ ServerEvents.recipes(event => {
 
     //cookie
     event.remove({ id: 'minecraft:cookie' })
-    event.shapeless(Item.of('minecolonies:cookie_dough',8),['#c:doughs/wheat', 'minecraft:cocoa_beans', 'minecraft:cocoa_beans']).id("fwnc:food_process/crafting_cookie_dough")
+    event.shapeless(Item.of('fwnc:cookie_dough',8),['#c:doughs/wheat', 'minecraft:cocoa_beans', 'minecraft:cocoa_beans']).id("fwnc:food_process/crafting_cookie_dough")
+    FurnaceFood("cookie", "fwnc:cookie_dough", "minecraft:cookie")
     event.remove({ id: 'farmersdelight:sweet_berry_cookie' })
     event.shapeless(Item.of('fwnc:sweet_berry_cookie_dough',8),['#c:doughs/wheat', 'minecraft:sweet_berries', 'minecraft:sweet_berries']).id("fwnc:food_process/crafting_sweet_berry_cookie_dough")
     FurnaceFood("sweet_berry_cookie", "fwnc:sweet_berry_cookie_dough", "farmersdelight:sweet_berry_cookie")
@@ -686,4 +691,80 @@ ServerEvents.recipes(event => {
         N: '#c:nuggets/wrought_iron',
         S: '#c:rods/treated_wood'
     }).id("fwnc:crafting/home_knife")
+
+    function Slicing(name, input, output, count) {
+        event.custom({
+            "type": "refurbished_furniture:cutting_board_slicing",
+            "ingredient": {
+                "item": input
+            },
+            "result": {
+                "count": count,
+                "id": output
+            }
+        }).id(`fwnc:furniture_slicing/${name}`)
+    }
+    event.custom({
+        "type": "refurbished_furniture:cutting_board_slicing",
+        "ingredient": {
+            "tag": "tide:twilight_angler_eatable"
+        },
+        "result": {
+            "count": 2,
+            "id": "tide:fish_slice"
+        }
+    }).id(`fwnc:furniture_slicing/fish_slice`)
+    Slicing("minced_beef", "minecraft:beef", "farmersdelight:minced_beef", 2)
+    Slicing("mutton_chops", "minecraft:mutton", "farmersdelight:mutton_chops", 2)
+    Slicing("cooked_mutton_chops", "minecraft:cooked_mutton", "farmersdelight:cooked_mutton_chops", 2)
+    Slicing("chicken_cuts", "minecraft:chicken", "farmersdelight:chicken_cuts", 2)
+    Slicing("cooked_chicken_cuts", "minecraft:cooked_chicken", "farmersdelight:cooked_chicken_cuts", 2)
+    Slicing("bacon", "minecraft:porkchop", "farmersdelight:bacon", 2)
+    Slicing("porkchop", "farmersdelight:ham", "minecraft:porkchop", 2)
+    Slicing("cooked_porkchop", "farmersdelight:smoked_ham", "minecraft:cooked_porkchop", 2)
+    Slicing("salmon_slice", "minecraft:salmon", "farmersdelight:salmon_slice", 2)
+    Slicing("cooked_salmon_slice", "minecraft:cooked_salmon", "farmersdelight:cooked_salmon_slice", 2)
+    Slicing("cod_slice", "minecraft:cod", "farmersdelight:cod_slice", 2)
+    Slicing("cooked_cod_slice", "minecraft:cooked_cod", "farmersdelight:cooked_cod_slice", 2)
+    Slicing("cooked_fish_slice", "tide:cooked_fish", "tide:cooked_fish_slice", 2)
+    Slicing("sweet_berry_cheesecake_slice", "farmersdelight:sweet_berry_cheesecake", "farmersdelight:sweet_berry_cheesecake_slice", 4)
+    Slicing("chocolate_pie_slice", "farmersdelight:chocolate_pie", "farmersdelight:chocolate_pie_slice", 4)
+    Slicing("apple_pie_slice", "farmersdelight:apple_pie", "farmersdelight:apple_pie_slice", 4)
+    Slicing("fig_pudding_slice", "fruitsdelight:fig_pudding", "fruitsdelight:fig_pudding_slice", 4)
+    Slicing("cake_slice", "minecraft:cake", "farmersdelight:cake_slice", 7)
+    Slicing("experience_cake_slice", "create_enchantment_industry:experience_cake", "create_enchantment_industry:experience_cake_slice", 4)
+    Slicing("raw_pasta", "farmersdelight:wheat_dough", "farmersdelight:raw_pasta", 1)
+    Slicing("kelp_roll_slice", "farmersdelight:kelp_roll", "farmersdelight:kelp_roll_slice", 3)
+    Slicing("tomato_wild", "farmersdelight:wild_tomatoes", "farmersdelight:tomato_seeds", 1)
+    Slicing("cabbage_wild", "farmersdelight:wild_cabbages", "farmersdelight:cabbage_seeds", 1)
+    Slicing("cabbage_leaf", "farmersdelight:cabbage", "farmersdelight:cabbage_leaf", 2)
+    Slicing("carrot_wild", "farmersdelight:wild_carrots", "minecraft:carrot", 1)
+    Slicing("potato_wild", "farmersdelight:wild_potatoes", "minecraft:potato", 1)
+    Slicing("beetroot_wild", "farmersdelight:wild_beetroots", "minecraft:beetroot", 1)
+    Slicing("rice_wild", "farmersdelight:wild_rice", "farmersdelight:rice", 1)
+    Slicing("rice", "farmersdelight:rice_panicle", "farmersdelight:rice", 1)
+    Slicing("onion_wild", "farmersdelight:wild_onions", "farmersdelight:onion", 1)
+    Slicing("brown_mushroom", "farmersdelight:brown_mushroom_colony", "minecraft:brown_mushroom", 5)
+    Slicing("red_mushroom", "farmersdelight:red_mushroom_colony", "minecraft:red_mushroom", 5)
+    Slicing("melon_slice", "minecraft:melon", "minecraft:melon_slice", 9)
+    Slicing("pumpkin_slice", "minecraft:pumpkin", "farmersdelight:pumpkin_slice", 4)
+    Slicing("hamimelon_slice", "fruitsdelight:hamimelon", "fruitsdelight:hamimelon_slice", 9)
+    Slicing("orange_slice", "fruitsdelight:orange", "fruitsdelight:orange_slice", 4)
+    Slicing("lemon_slice", "fruitsdelight:lemon", "fruitsdelight:lemon_slice", 4)
+    Slicing("pineapple_slice", "fruitsdelight:pineapple", "fruitsdelight:pineapple_slice", 6)
+    Slicing("black_dye_from_ink_sac", "minecraft:ink_sac", "minecraft:black_dye", 2)
+    Slicing("black_dye_from_wither_rose", "minecraft:wither_rose", "minecraft:black_dye", 2)
+    Slicing("red_dye_from_tulip", "minecraft:red_tulip", "minecraft:red_dye", 2)
+    Slicing("red_dye_from_poppy", "minecraft:poppy", "minecraft:red_dye", 2)
+    Slicing("blue_dye_from_cornflower", "minecraft:cornflower", "minecraft:blue_dye", 2)
+    Slicing("magenta_dye_from_allium", "minecraft:allium", "minecraft:magenta_dye", 2)
+    Slicing("orange_dye_from_torchflower", "minecraft:torchflower", "minecraft:orange_dye", 2)
+    Slicing("yellow_dye_from_dandelion", "minecraft:dandelion", "minecraft:yellow_dye", 2)
+    Slicing("light_blue_dye_from_blue_orchid", "minecraft:blue_orchid", "minecraft:light_blue_dye", 2)
+    Slicing("light_gray_dye_from_tulip", "minecraft:white_tulip", "minecraft:light_gray_dye", 2)
+    Slicing("light_gray_dye_from_azure_bluet", "minecraft:azure_bluet", "minecraft:light_gray_dye", 2)
+    Slicing("light_gray_dye_from_oxeye_daisy", "minecraft:oxeye_daisy", "minecraft:light_gray_dye", 2)
+    Slicing("orange_dye_from_tulip", "minecraft:orange_tulip", "minecraft:orange_dye", 2)
+    Slicing("pink_dye_from_tulip", "minecraft:pink_tulip", "minecraft:pink_dye", 2)
+    Slicing("white_dye_from_lily_of_the_valley", "minecraft:lily_of_the_valley", "minecraft:white_dye", 2)
 })

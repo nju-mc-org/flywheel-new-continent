@@ -1,0 +1,6 @@
+工厂窗户  
+脏污是标配  
+<&window_recipes>带框玻璃窗可为工厂引入自然光，避免完全依赖<link;engineered_lighting;工业照明>。<br>  
+浸渍木框架较厚，钢或铝框架则更薄。<br>  
+与普通玻璃板不同，这些窗户可水平放置作天窗！<np>  
+<&reinforced>层压玻璃与<link;resin_and_duroplast;耐久塑料板>构成，外覆下界合金框架，可抵御包括凋灵爆炸在内的高强度冲击！

@@ -1,0 +1,9 @@
+工业流体
+油罐山谷
+<&creosote_oil>§l杂酚油§r：焦化煤炭的副产品，用于<link;treated_wood;防腐木>或柴油发电机燃料。<np>
+<&redstone_acid>§l红石酸§r：红石+水合成，电解液用于<link;accumulators;蓄能器>，可氧化铜块。<np>
+<&plant_oil_ethanol>§l植物油§r/§l乙醇§r：生产<link;industrial_fluids;生物柴油;biodiesel>，乙醇还可制<link;resin_and_duroplast;硬质塑料>。<np>
+<&biodiesel>§l生物柴油§r：<link;refinery;精炼厂>合成，<link;diesel_generator;柴油发电机>核心燃料。<np>
+<&high_power_biodiesel>生物柴油+力量药水=§2高十六烷生物柴油§r，燃烧时间+25%。<np>
+<&herbicide>§l除草剂§r：<link;chemical_thrower;化学喷射器>喷洒可摧毁植物，配方为乙醇+铜粉+硫磺粉。<np>
+<&potion>§l药水§r：<link;mixer;混合器>批量生产，无需烈焰粉。

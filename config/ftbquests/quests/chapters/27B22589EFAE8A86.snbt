@@ -1,0 +1,321 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "27B22589EFAE8A86"
+	group: "2A2092ADF7A0F7C8"
+	icon: {
+		id: "minecraft:pink_bed"
+	}
+	id: "27B22589EFAE8A86"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "chipped:tinkering_table"
+			}
+			id: "0FA02C85F1BEE4D3"
+			tasks: [
+				{
+					id: "4614E8D27C3CE161"
+					item: { count: 1, id: "chipped:botanist_workbench" }
+					type: "item"
+				}
+				{
+					id: "49438616DBE7DF89"
+					item: { count: 1, id: "chipped:glassblower" }
+					type: "item"
+				}
+				{
+					id: "7E11CABDFA63D74F"
+					item: { count: 1, id: "chipped:carpenters_table" }
+					type: "item"
+				}
+				{
+					id: "5FE550A011C06BF4"
+					item: { count: 1, id: "chipped:loom_table" }
+					type: "item"
+				}
+				{
+					id: "155F92E7A487DAEC"
+					item: { count: 1, id: "chipped:mason_table" }
+					type: "item"
+				}
+				{
+					id: "3E027E0F2CD319A2"
+					item: { count: 1, id: "chipped:tinkering_table" }
+					type: "item"
+				}
+				{
+					id: "4E8DC5FD7FB39929"
+					item: { count: 1, id: "chipped:alchemy_bench" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "chipped:chisel"
+			}
+			id: "7DF1F851CFC9EA03"
+			tasks: [
+				{
+					id: "1717F73D64BE4BA7"
+					item: { count: 1, id: "chipped:watering_can" }
+					type: "item"
+				}
+				{
+					id: "185E07AE1E07A1C8"
+					item: { count: 1, id: "chipped:alchemy_book" }
+					type: "item"
+				}
+				{
+					id: "610BE8124DC990DE"
+					item: { count: 1, id: "chipped:needles" }
+					type: "item"
+				}
+				{
+					id: "5E1C38FD2A3AFAD7"
+					item: { count: 1, id: "chipped:saw" }
+					type: "item"
+				}
+				{
+					id: "718D0FCD554810AB"
+					item: { count: 1, id: "chipped:chisel" }
+					type: "item"
+				}
+				{
+					id: "6B377D36E26C9BF1"
+					item: { count: 1, id: "chipped:multimeter" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "20195DF2E6377D83"
+			tasks: [{
+				id: "32C997D7C84AF98C"
+				item: { count: 1, id: "refurbished_furniture:workbench" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "cfm_circuit_breaker:circuit_breaker"
+			}
+			id: "34194589E1FA09FE"
+			tasks: [
+				{
+					id: "57C4CDC8E610008B"
+					item: { count: 1, id: "refurbished_furniture:light_electricity_generator" }
+					type: "item"
+				}
+				{
+					id: "11CC34D0F9AE3965"
+					item: { count: 1, id: "refurbished_furniture:dark_electricity_generator" }
+					type: "item"
+				}
+				{
+					id: "675FC56B97BA66EB"
+					item: { count: 1, id: "cfm_circuit_breaker:circuit_breaker" }
+					type: "item"
+				}
+				{
+					id: "5E40368854EB3A65"
+					item: { count: 1, id: "refurbished_furniture:wrench" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "create:copycat_panel"
+			}
+			id: "2BC0997D8151B742"
+			tasks: [
+				{
+					id: "792F4F7C7F311FDF"
+					item: { count: 1, id: "create:copycat_step" }
+					type: "item"
+				}
+				{
+					id: "2A390AE66405C1BC"
+					item: { count: 1, id: "create:copycat_panel" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "constructionstick:diamond_stick"
+			}
+			id: "49F5D7FB913A30B7"
+			tasks: [
+				{
+					id: "2117D72CD777A2C1"
+					item: { count: 1, id: "constructionstick:wooden_stick" }
+					type: "item"
+				}
+				{
+					id: "4F543D6A1D4C8250"
+					item: { count: 1, id: "constructionstick:copper_stick" }
+					type: "item"
+				}
+				{
+					id: "76B21BA7A94E8F8D"
+					item: { count: 1, id: "constructionstick:iron_stick" }
+					type: "item"
+				}
+				{
+					id: "7CADACB685B9BA81"
+					item: { count: 1, id: "constructionstick:diamond_stick" }
+					type: "item"
+				}
+				{
+					id: "4066D04A2764493C"
+					item: { count: 1, id: "constructionstick:netherite_stick" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "constructionstick:template_unbreakable"
+			}
+			id: "3FD51590FE8FBDEC"
+			tasks: [
+				{
+					id: "6C5BEBFFAF607B2A"
+					item: { count: 1, id: "constructionstick:template_angel" }
+					type: "item"
+				}
+				{
+					id: "6D0F73C078B1C796"
+					item: { count: 1, id: "constructionstick:template_destruction" }
+					type: "item"
+				}
+				{
+					id: "7950FE71B4E5BF68"
+					item: { count: 1, id: "constructionstick:template_replacement" }
+					type: "item"
+				}
+				{
+					id: "2259352C984D1A47"
+					item: { count: 1, id: "constructionstick:template_unbreakable" }
+					type: "item"
+				}
+				{
+					id: "5DFB25DD7235E482"
+					item: { count: 1, id: "constructionstick:template_battery" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "exposure:camera"
+			}
+			id: "363A41C9FB43B5EC"
+			tasks: [
+				{
+					id: "5439112D5EDE05A3"
+					item: { count: 1, id: "exposure:camera" }
+					type: "item"
+				}
+				{
+					id: "71ECB0AF155209BE"
+					item: { count: 1, id: "exposure:black_and_white_film" }
+					type: "item"
+				}
+				{
+					id: "1D9FEC3C8FCE4012"
+					item: { count: 1, id: "exposure:developed_black_and_white_film" }
+					type: "item"
+				}
+				{
+					id: "58BFDF6474034F2D"
+					item: { count: 1, id: "exposure:lightroom" }
+					type: "item"
+				}
+				{
+					id: "41821C1853860B8F"
+					item: { count: 1, id: "exposure:photograph" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["363A41C9FB43B5EC"]
+			icon: {
+				id: "exposure:color_film"
+			}
+			id: "4B6C15F7081E1730"
+			tasks: [
+				{
+					id: "3FE50F83EB946A00"
+					item: { count: 1, id: "exposure:color_film" }
+					type: "item"
+				}
+				{
+					id: "19CDA2D38AB86C7A"
+					item: { count: 1, id: "exposure:high_sensitivity_black_and_white_film" }
+					type: "item"
+				}
+				{
+					id: "69B15E443B6488B0"
+					item: { count: 1, id: "exposure:high_sensitivity_color_film" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["363A41C9FB43B5EC"]
+			icon: {
+				id: "exposure:camera_stand"
+			}
+			id: "6D507D98C7566C2C"
+			tasks: [
+				{
+					id: "54E31A0092E99988"
+					item: { count: 1, id: "exposure:interplanar_projector" }
+					type: "item"
+				}
+				{
+					id: "4ED87E30EB32CB2D"
+					item: { count: 1, id: "minecraft:spyglass" }
+					type: "item"
+				}
+				{
+					id: "50A9252E200D22FB"
+					item: { count: 1, id: "minecraft:redstone_lamp" }
+					type: "item"
+				}
+				{
+					id: "452E4773CA36D2BC"
+					item: { count: 1, id: "exposure:camera_stand" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 10.0d
+		}
+	]
+}

@@ -1,0 +1,26 @@
+[server]
+	#Automatically register players (disable this if you choose to register players differently)
+	autoRegister = true
+	#Should the player be able to change the password?
+	enableChangePassword = true
+	#Login Timeout(s)
+	# Default: 600
+	# Range: 0 ~ 1200
+	secs = 600
+	#Commands in whitelist can be executed before player login.
+	commandNames = []
+	#Which storage provider to use
+	#Nedologin provides to available providers by default:
+	#nedologin:file -> file based storage
+	#nedologin:sqlite -> sqlite based storage
+	#nedologin:mariadb -> mariadb based storage (requires additional configuration)
+	#Note that you need to add JDBC sqlite & mariadb yourself if you want to use database based storage
+	storageProvider = "nedologin:file"
+	#Default game type switched after player login
+	#0,1,2,3 represents survival,creative,adventure,spectator
+	# Default: 0
+	# Range: 0 ~ 3
+	defaultGameType = 0
+	#Player login handler plugins to load
+	#nedologin:protect_coord is disabled by default, add to here to enable coord protect feature
+	plugins = ["nedologin:auto_save", "nedologin:resend_request", "nedologin:restrict_game_type", "nedologin:restrict_movement", "nedologin:timeout"]

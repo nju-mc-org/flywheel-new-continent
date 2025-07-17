@@ -1,0 +1,13 @@
+name = "Create Ultimine"
+filename = "createultimine-1.21.1-neoforge-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vUE54e5E/versions/UOmZtnyp/createultimine-1.21.1-neoforge-1.2.1.jar"
+hash-format = "sha1"
+hash = "39384a4acf532cd5726489ab58e169b2729ccb59"
+
+[update]
+[update.modrinth]
+mod-id = "vUE54e5E"
+version = "UOmZtnyp"

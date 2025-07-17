@@ -1,0 +1,5 @@
+油罐
+超越水桶
+<&recipe>金属制流体容器，可存储10桶流体。<br>
+无法从世界中直接装填，需通过<link;storage_barrels;储液桶>或<link;tank;大型储罐>补充。<br>
+可与<link;mining_drill;矿钻>等耗流工具放入合成格补充流体。
