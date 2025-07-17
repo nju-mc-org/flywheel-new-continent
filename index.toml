@@ -3630,7 +3630,7 @@ hash = "6d96b3c28c3f00edbc970935a30bb8c0b6fae3f36191d4904a30ab116c80d6ba"
 
 [[files]]
 file = "kubejs/startup_scripts/item.js"
-hash = "993e0a443a1886fd4261b4952322b946f1ca7474c5dcf99aa2e807b85d593ee6"
+hash = "a62ac9834501d8925d8c8d6b6a8e403585ddfa5f03eda5b63eb41644320d0997"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
@@ -3643,7 +3643,7 @@ metafile = true
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
-hash = "b392d89c27a59f903eba93db1d2f4564bcc5c205f5916faaf30713378fc49194"
+hash = "c7597898731b4c0459f4971cd0ed23f071080a7448234c5148722cd9a0c1cab3"
 metafile = true
 
 [[files]]
@@ -3698,7 +3698,7 @@ metafile = true
 
 [[files]]
 file = "mods/cerulean-advancements.pw.toml"
-hash = "43a86b96d868ac4ab65320e1e5e9bfb19623316ce9b784151464becfb13d373c"
+hash = "3e65d3da431b2efafc39edebffb7cc6ae838b9d3c246bfc0e18cd460577a0548"
 metafile = true
 
 [[files]]
@@ -3748,7 +3748,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-curios-jetpack.pw.toml"
-hash = "a9f68ab67d5f6a982520d37709bc944107343725057b50e7b8ea967c48905080"
+hash = "cb35507459dbf9810056994a102a19578c8dfa0f41b963f33204a08fc1b85532"
 metafile = true
 
 [[files]]
@@ -3908,7 +3908,7 @@ metafile = true
 
 [[files]]
 file = "mods/extralib.pw.toml"
-hash = "7e7e5ac335ddeea73224312f52f07a0df93c43f920f0b815e6b4b295dc4e1b5e"
+hash = "7b78038f8514a5114cdbc37643f12be949390105660ad73b6b6cac10993cda01"
 metafile = true
 
 [[files]]
@@ -3928,7 +3928,7 @@ metafile = true
 
 [[files]]
 file = "mods/farsighted-mobs.pw.toml"
-hash = "86a38f18f1d6e1ca3629fbc2a7cd65d9afba68a42e522352173fd967dcd2c00d"
+hash = "e5480b25ded9185b9b048a309a7eee18998cd5d0facaf981ecdbfff41b1ac285"
 metafile = true
 
 [[files]]
@@ -4033,7 +4033,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "4a89828ef4ac95c5dd25f79b04f366a8ba609bf98e7074f3f247ecd3014a6346"
+hash = "789d9fbc0026f367a28426ae05a19e0dc1c056a7001c4b3eaf425de86dd3c3fd"
 metafile = true
 
 [[files]]
@@ -4088,7 +4088,7 @@ metafile = true
 
 [[files]]
 file = "mods/noisium.pw.toml"
-hash = "185bfb2745e513fea5d9424ca953d74a21b4a423e94952ea5bfd5a629e66a105"
+hash = "cf8096980a817d325b860d3d7e341883888584a50f481c1687c0dcd31e4fe28d"
 metafile = true
 
 [[files]]
@@ -4248,22 +4248,22 @@ metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
-hash = "4fd0d40dfda1403970491c7d33a748477f50613fd138b0c5c1fcd87c5ed6f804"
+hash = "d6345112de5ea7610bcd0c308896e8869d50a3917e495cc5b61e20f76d1e3a50"
 metafile = true
 
 [[files]]
 file = "mods/wwoo.pw.toml"
-hash = "3e62e3ed38bf1e9c4ed77f026d99b2143c10976d46273cfd20ad40692383e0f5"
+hash = "dc1645b81e22c25ff5751fcfe0153449d1483ea4ddaf08fab7d9cccdc7caa7ec"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "54110f16b12eef92086cbbf82a703a48b02f93a11969b3cd7642f63b3f4031c6"
+hash = "e3a32182ea21963f0065fe5bf752cbb359b8fcc41a32087ddae496c96bc787d1"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "27426fab65fd12a837b5a480f39713e02a9cafd0a3e9da651f7af5015ad88b2c"
+hash = "895e8e4a3a52003934ad5143f15fdaa1619cee19fd2973d11e18faf12f8c5780"
 metafile = true
 
 [[files]]

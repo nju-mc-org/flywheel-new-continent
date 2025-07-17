@@ -335,6 +335,21 @@
             "fileSize": 73938
         },
         {
+            "path": "mods/Nedologin-1.21.1-1.0.9-all.jar",
+            "hashes": {
+                "sha1": "ef3fb34368f6261db43b9930899677f2c8b2ad74",
+                "sha512": "332067b1109826c0f53d276cebde112d53b4814f095d85b71c4e1b4c9e0200e2f0473f654b595b0e18d4d880bd9501a6d40f5392b05b42dcf43d0bc2e3650285"
+            },
+            "env": {
+                "client": "required",
+                "server": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/fnP1u8PK/versions/3neDQjqp/Nedologin-1.21.1-1.0.9-all.jar"
+            ],
+            "fileSize": 3768617
+        },
+        {
             "path": "mods/OverflowingBars-v21.1.1-1.21.1-NeoForge.jar",
             "hashes": {
                 "sha1": "a9dea4b9ef893fc955512ff2dee75c9c82e09a52",
@@ -1871,7 +1886,7 @@
                 "sha512": "4ca1ffa9274152e6b5bf978f03be0bd350599e2481ca42494b3a65f0390cb1c83284185f9758e41fe32136c42dc5d5944d6d355679b2939e2b1f592181fc1c89"
             },
             "env": {
-                "client": "unsupported",
+                "client": "required",
                 "server": "required"
             },
             "downloads": [
