@@ -1,6 +1,6 @@
 name = "Lithostitched"
 filename = "lithostitched-neoforge-1.21.1-1.4.11.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/XaDC71GB/versions/r3TO8PWe/lithostitched-neoforge-1.21.1-1.4.11.jar"

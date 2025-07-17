@@ -54,5 +54,6 @@ StartupEvents.registry('item', event => {
             .glow(glow)
     })
     MaterialRegister("wrought_iron", "common")
+    Platform.mods.kubejs.name = "Flywheel: New Continent"
 })
 

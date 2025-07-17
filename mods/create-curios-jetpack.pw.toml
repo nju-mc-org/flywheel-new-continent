@@ -1,6 +1,6 @@
 name = "Create: Curios Jetpack & Backtank [Forge/Fabric/NeoForge]"
 filename = "create_jetpack_curios-1.2.0-neoforge-1.21.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/BBhCMftF/versions/JEmLrfe6/create_jetpack_curios-1.2.0-neoforge-1.21.1.jar"

@@ -1,6 +1,6 @@
 name = "ExtraLib"
 filename = "ExtraLib-1.7.2-1.21.1-NeoForge.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/2GNqVOLH/versions/NEk0bwbs/ExtraLib-1.7.2-1.21.1-NeoForge.jar"

@@ -1,6 +1,6 @@
 name = "William Wythers' Overhauled Overworld"
 filename = "wwoo-2.3.4.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/II7t6llZ/versions/5nUEDt1Z/wwoo-2.3.4.jar"
