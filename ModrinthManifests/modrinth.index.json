@@ -2224,6 +2224,21 @@
                 "https://mediafilez.forgecdn.net/files/6769/652/tombstone-neoforge-1.21.1-9.4.3.jar"
             ],
             "fileSize": 2159658
+        },
+        {
+            "path": "mods/irons_spellbooks-1.21.1-3.14.0.jar",
+            "hashes": {
+                "sha1": "97059a6a1e97d5fedb4342238dbcaa78c01540f9",
+                "sha512": "775ebd2786c473bb50d77750f39aeddc69b1db7079c406cf8d8882739d7fec0c9c9d8db93a13c1107dd6324735297f8de230bc22ac64a20789112a9d8b8a0770"
+            },
+            "env": {
+                "client": "required",
+                "server": "required"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6769/20/irons_spellbooks-1.21.1-3.14.0.jar"
+            ],
+            "fileSize": 12422424 
         }
     ],
     "dependencies": {

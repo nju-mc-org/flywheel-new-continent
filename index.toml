@@ -718,7 +718,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "03125a1db56f4f67af57588025e8126dfcb2915f8f300fd433de81bf86b3cf65"
+hash = "265269afdc1221811323124043bea9d1802c47b4496e746fc7b3c37bd1ff188a"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
@@ -4308,7 +4308,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "97d75626049fe4d780a2df3765e13599dba40828dfdb10a99b34e1e87477f29a"
+hash = "210f1a631de2114c4d610b90601c845556a030b48a2c64756de43f9514a25501"
 
 [[files]]
 file = "servers.dat"
