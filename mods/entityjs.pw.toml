@@ -1,0 +1,13 @@
+name = "EntityJS"
+filename = "entityjs-1.3.3-1.21.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/OvPZ16yX/versions/Ga0YpQ6f/entityjs-1.3.3-1.21.jar"
+hash-format = "sha1"
+hash = "9d294a39538a45cb85101f769ff8dd40bf4a6341"
+
+[update]
+[update.modrinth]
+mod-id = "OvPZ16yX"
+version = "Ga0YpQ6f"

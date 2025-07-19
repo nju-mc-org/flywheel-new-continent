@@ -80,6 +80,15 @@ Mods:
       FileName: attributefix-neoforge-1.21.1-21.1.2.jar
     Modrinth:
       ProjectID: lOOpEntO
+  - automobility:
+    Name: "Automobility"
+    Description: 
+    License: 
+    Current:
+      Version: 0.5.0h
+      FileName: automobility-0.5.0.h+1.21.1-neoforge.jar
+    Modrinth:
+      ProjectID: rqIsPf9F
   - better-tab:
     Name: "BetterTab"
     Description: "You can show mobcaps, TPS, MSPT and Custom line in tab list"
@@ -362,8 +371,8 @@ Mods:
     Description: "Create Crafts & Additions extends Create and acts as a bridge between electricity and kinetic energy"
     License: MIT
     Current:
-      Version: 1.4.2
-      FileName: createaddition-1.4.2.jar
+      Version: 1.5.1
+      FileName: createaddition-1.5.1.jar
     Modrinth:
       ProjectID: kU1G12Nn
   - createbetterfps:
@@ -840,6 +849,15 @@ Mods:
       FileName: jei-1.21.1-neoforge-19.22.0.315.jar
     Modrinth:
       ProjectID: u6dRKJwZ
+  - jei-multiblocks:
+    Name: "Just Enough Immersive Multiblocks"
+    Description: 
+    License: 
+    Current:
+      Version: 1.0.4
+      FileName: jeimultiblocks-1.21.1-1.0.4.jar
+    Modrinth:
+      ProjectID: ffLYPaWN
   - just-enough-resources-jer:
     Name: "Just Enough Resources (JER)"
     Description: "JEI integration that adds info on mobs, world gen, villagers and many more!"
