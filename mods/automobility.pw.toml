@@ -1,0 +1,13 @@
+name = "Automobility"
+filename = "automobility-0.5.0.h+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rqIsPf9F/versions/PHugwn1A/automobility-0.5.0.h%2B1.21.1-neoforge.jar"
+hash-format = "sha1"
+hash = "e4ebac6eb03c2657c53d1aa81685516a8275a398"
+
+[update]
+[update.modrinth]
+mod-id = "rqIsPf9F"
+version = "PHugwn1A"
