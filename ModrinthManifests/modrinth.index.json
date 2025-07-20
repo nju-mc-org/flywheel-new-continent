@@ -2091,6 +2091,21 @@
             "fileSize": 1083814
         },
         {
+            "path": "mods/ftb-essentials-neoforge-2101.1.6.jar",
+            "hashes": {
+                "sha1": "c639625861cfb585a2897771e605b325f2e0addf",
+                "sha512": "6a54e1c91eab2e0b48b6f8e78aca71c8ca5d539fc0d0393e84eacb2014339bec20fa4e3788c9bdc7516715c737752111a270f9f12a1545bcdf0de8b661974112"
+            },
+            "env": {
+                "client": "required",
+                "server": "required"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6179/42/ftb-essentials-neoforge-2101.1.6.jar"
+            ],
+            "fileSize": 195165
+        },
+        {
             "path": "mods/ftb-filter-system-neoforge-21.1.2.jar",
             "hashes": {
                 "sha1": "d79427fbf456f030ec4ba23eb2f20420f17c55cd",
