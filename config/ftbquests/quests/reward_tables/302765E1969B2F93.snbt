@@ -1,0 +1,87 @@
+{
+	id: "302765E1969B2F93"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 32
+			id: "1596FB5EA2250652"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+		}
+		{
+			count: 48
+			id: "151672A207D913D6"
+			item: {
+				count: 1
+				id: "minecraft:cooked_mutton"
+			}
+		}
+		{
+			count: 32
+			id: "4B35423AA17882CD"
+			item: {
+				count: 1
+				id: "minecraft:cooked_porkchop"
+			}
+		}
+		{
+			count: 64
+			id: "69041FA44B956576"
+			item: {
+				count: 1
+				id: "minecraft:cooked_chicken"
+			}
+		}
+		{
+			count: 64
+			id: "7F3506CF0CD42CED"
+			item: {
+				count: 1
+				id: "refurbished_furniture:sweet_berry_jam_toast"
+			}
+		}
+		{
+			count: 64
+			id: "60762803DEA49B78"
+			item: {
+				count: 1
+				id: "refurbished_furniture:glow_berry_jam_toast"
+			}
+		}
+		{
+			count: 32
+			id: "3F0C9D227B36E867"
+			item: {
+				count: 1
+				id: "create:honeyed_apple"
+			}
+		}
+		{
+			count: 48
+			id: "421B9CAE64314113"
+			item: {
+				count: 1
+				id: "farmersdelight:salmon_roll"
+			}
+		}
+		{
+			count: 48
+			id: "61571D18CB7DAD25"
+			item: {
+				count: 1
+				id: "farmersdelight:cod_roll"
+			}
+		}
+		{
+			count: 64
+			id: "07A6F99344B5F4A4"
+			item: {
+				count: 1
+				id: "farmersdelight:kelp_roll_slice"
+			}
+		}
+	]
+}

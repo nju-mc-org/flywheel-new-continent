@@ -1,0 +1,13 @@
+name = "Create: Deep Dark [Forge/NeoForge]"
+filename = "create_deep_dark-2.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/knrLSB8n/versions/dNuHzj7S/create_deep_dark-2.0.0-neoforge-1.21.1.jar"
+hash-format = "sha1"
+hash = "821109565025b2696cbd28d207e5235dc2ce7937"
+
+[update]
+[update.modrinth]
+mod-id = "knrLSB8n"
+version = "dNuHzj7S"

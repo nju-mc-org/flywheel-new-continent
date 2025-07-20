@@ -1,0 +1,87 @@
+{
+	id: "3B558FF0C957C03E"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 16
+			id: "640AFB4355233744"
+			item: {
+				count: 1
+				id: "farmersdelight:hamburger"
+			}
+		}
+		{
+			count: 16
+			id: "62827B8B828F1012"
+			item: {
+				count: 1
+				id: "farmersdelight:chicken_sandwich"
+			}
+		}
+		{
+			count: 16
+			id: "7AAF1D7ED76A1110"
+			item: {
+				count: 1
+				id: "farmersdelight:bacon_sandwich"
+			}
+		}
+		{
+			count: 16
+			id: "73266700A7DF1E76"
+			item: {
+				count: 1
+				id: "farmersdelight:mutton_wrap"
+			}
+		}
+		{
+			count: 8
+			id: "7A0D8E07E2601862"
+			item: {
+				count: 1
+				id: "farmersdelight:mushroom_rice"
+			}
+		}
+		{
+			count: 8
+			id: "730AB1024ED3C988"
+			item: {
+				count: 1
+				id: "farmersdelight:fish_stew"
+			}
+		}
+		{
+			count: 8
+			id: "55F95AAEB7D2C153"
+			item: {
+				count: 1
+				id: "farmersdelight:pasta_with_meatballs"
+			}
+		}
+		{
+			count: 8
+			id: "5AE6EBB517E3EFEE"
+			item: {
+				count: 1
+				id: "farmersdelight:pasta_with_mutton_chop"
+			}
+		}
+		{
+			count: 8
+			id: "67AFA825D63A112E"
+			item: {
+				count: 1
+				id: "farmersdelight:beef_stew"
+			}
+		}
+		{
+			count: 8
+			id: "323A43C0A6F76CD9"
+			item: {
+				count: 1
+				id: "farmersdelight:steak_and_potatoes"
+			}
+		}
+	]
+}

@@ -82,8 +82,15 @@
   "minecraft:waxed": null,
   "minecraft:zombie_villager": null,
   "storagedrawers:main": null,
+  "tombstone:decorative_graves": null,
   "tombstone:graves": null,
+  "tombstone:player_graves": null,
   "toms_peripherals:full_modem_info": null,
   "toms_peripherals:modem_info": null,
-  "toms_peripherals:wdt_info": null
+  "toms_peripherals:wdt_info": null,
+  "touhou_little_maid:altar": null,
+  "touhou_little_maid:maid": null,
+  "touhou_little_maid:picnic_mat": null,
+  "touhou_little_maid:shrine_lamp": null,
+  "touhou_little_maid:tombstone": null
 }

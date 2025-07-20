@@ -1,0 +1,13 @@
+name = "Happy Ghast [FORGE/FABRIC]"
+filename = "happy_ghast-3.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/H25juIDM/versions/snuUaxrW/happy_ghast-3.0.0-neoforge-1.21.1.jar"
+hash-format = "sha1"
+hash = "f7eba2f5f3fc0c9533e47e3e005f8751849bf497"
+
+[update]
+[update.modrinth]
+mod-id = "H25juIDM"
+version = "snuUaxrW"

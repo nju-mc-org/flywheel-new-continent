@@ -15,6 +15,22 @@
 				id: "farmersdelight:stove"
 			}
 			id: "24BD34AAECBCE76A"
+			rewards: [
+				{
+					count: 2
+					id: "74B0331B50DF9000"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1813267F44EB1D33"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					id: "5908CED632504A50"
@@ -40,6 +56,15 @@
 				id: "farmersdelight:cutting_board"
 			}
 			id: "60AC017E8C47ED94"
+			rewards: [{
+				count: 32
+				id: "059B5DCBD2A27F66"
+				item: {
+					count: 1
+					id: "tide:cooked_fish"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "200184649264BB90"
@@ -62,6 +87,12 @@
 				id: "refurbished_furniture:light_stove"
 			}
 			id: "196C55C9762618A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5827B2139533902E"
+				table_id: 4275481685591048254L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "3EAC744C574EEAF7"
@@ -106,6 +137,12 @@
 				id: "cuisinedelight:cuisine_skillet"
 			}
 			id: "285BD2F6BA22C9BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FD9A4C576852203"
+				table_id: 3469854057481056147L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "016A5043CBCB5ABF"
@@ -131,6 +168,25 @@
 				id: "create_integrated_farming:fishing_net"
 			}
 			id: "7F9064E678C74C08"
+			rewards: [
+				{
+					id: "5972E9B197889E6F"
+					item: {
+						count: 1
+						id: "tide:blazing_swordfish"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "65AB21EB03ACD53B"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "6BCBE4B85F3C3F75"
@@ -151,6 +207,25 @@
 				id: "create_integrated_farming:chicken_roost"
 			}
 			id: "3BE1994221A1104A"
+			rewards: [
+				{
+					count: 16
+					id: "1F6F39D6C306E525"
+					item: {
+						count: 1
+						id: "farmersdelight:bacon_and_eggs"
+					}
+					type: "item"
+				}
+				{
+					id: "5DADB8D2CC6A07B7"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "539F937BFEF8FC2E"
@@ -171,6 +246,21 @@
 				id: "minecraft:fishing_rod"
 			}
 			id: "721830988D864C4F"
+			rewards: [
+				{
+					id: "3B71AA7C0B8C36BE"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+				{
+					id: "509E73BB7B731F19"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [
 				{
 					id: "62F52CF8FD66ACBC"
@@ -193,6 +283,32 @@
 				id: "minecraft:carrot_on_a_stick"
 			}
 			id: "680CA4583BCF06EA"
+			rewards: [
+				{
+					id: "2C2CD1F1B0470E54"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+				{
+					id: "122FFD4D76F53693"
+					item: {
+						count: 1
+						id: "minecraft:pig_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "3B9BD85F275726C5"
+					item: {
+						count: 1
+						id: "minecraft:strider_spawn_egg"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "354D8BD58B666524"
@@ -220,6 +336,25 @@
 				id: "tide:angler_workshop"
 			}
 			id: "1FBBC65CCE41092F"
+			rewards: [
+				{
+					id: "17688EEC46F66B98"
+					item: {
+						count: 1
+						id: "tide:reinforced_line"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "17057D7A2D2CCE50"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3D1C9E8C0F6919CD"
@@ -255,6 +390,25 @@
 				id: "tide:bait"
 			}
 			id: "1E58A1054A4BADC2"
+			rewards: [
+				{
+					count: 64
+					id: "35B7B5DAE155570D"
+					item: {
+						count: 1
+						id: "tide:bait"
+					}
+					type: "item"
+				}
+				{
+					id: "570BB1AE7BCF6712"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "5F943D897C761206"
@@ -280,14 +434,22 @@
 				id: "netherdepthsupgrade:eyeball_fish_bucket"
 			}
 			id: "03DDDDCE2AC38454"
-			rewards: [{
-				id: "4EA3D2B4C0561180"
-				item: {
-					count: 1
-					id: "fwnc:coin"
+			rewards: [
+				{
+					count: 2
+					id: "4EA3D2B4C0561180"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "77D1B88630992A98"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "1683665D0B57AF93"
 				item: { count: 1, id: "netherdepthsupgrade:eyeball_fish_bucket" }
@@ -301,14 +463,21 @@
 				id: "fruitsdelight:lemon"
 			}
 			id: "5C21915045786228"
-			rewards: [{
-				id: "2887DE10F4BF827A"
-				item: {
-					count: 1
-					id: "fwnc:coin"
+			rewards: [
+				{
+					id: "2887DE10F4BF827A"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0DE0255784CE98AD"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "71395DB6C3689B0D"
 				item: { count: 1, id: "fruitsdelight:lemon" }
@@ -323,15 +492,44 @@
 				id: "fruitsdelight:lemon_slice"
 			}
 			id: "056C0D2CFAFC5E63"
-			rewards: [{
-				count: 11
-				id: "38A4EC7AB7957E8B"
-				item: {
-					count: 1
-					id: "fwnc:coin"
+			rewards: [
+				{
+					count: 11
+					id: "38A4EC7AB7957E8B"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 16
+					id: "799B9AC9D0FB4A36"
+					item: {
+						count: 1
+						id: "fruitsdelight:lemon_juice"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "03F212046F396282"
+					item: {
+						count: 1
+						id: "fruitsdelight:lemon_tart"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4961A1EED9285117"
+					item: {
+						count: 1
+						id: "fruitsdelight:lemon_cookie"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 64L
@@ -369,6 +567,15 @@
 		}
 		{
 			id: "4E6FBCAAB7A36B2B"
+			rewards: [{
+				count: 64
+				id: "757F832385CFE542"
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "745F135E35B23E24"
 				item: { count: 1, id: "solonion:lunchbag" }
@@ -380,6 +587,12 @@
 		{
 			dependencies: ["4E6FBCAAB7A36B2B"]
 			id: "5B7D17B33189ED59"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A48B7030298E0B4"
+				table_id: 3469854057481056147L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "23E93678F999D80A"
 				item: { count: 1, id: "solonion:lunchbox" }
@@ -391,6 +604,12 @@
 		{
 			dependencies: ["5B7D17B33189ED59"]
 			id: "389E07717885A6D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C0DF3FED4B85D43"
+				table_id: 4275481685591048254L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "15C64649A0617209"
 				item: { count: 1, id: "solonion:golden_lunchbox" }
@@ -398,6 +617,32 @@
 			}]
 			x: -4.0d
 			y: -3.5d
+		}
+		{
+			id: "720B76960173345D"
+			rewards: [
+				{
+					count: 16
+					id: "1940BCCBB2F2308F"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2EEC3910331C9384"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "2F06B770B298D65B"
+				item: { count: 1, id: "fruitsdelight:durian" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
 		}
 	]
 }

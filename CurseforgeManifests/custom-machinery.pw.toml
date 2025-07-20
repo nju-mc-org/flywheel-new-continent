@@ -1,0 +1,13 @@
+name = "Custom Machinery"
+filename = "CustomMachinery-neoforge-1.21.1-0.10.37.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c4ee3209d95f6aedf6873a5f56690374c681c309"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6757961
+project-id = 457017

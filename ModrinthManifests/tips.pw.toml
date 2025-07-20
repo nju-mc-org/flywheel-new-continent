@@ -1,0 +1,13 @@
+name = "Tips"
+filename = "tipsmod-neoforge-1.21.1-21.1.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/AMCbgyVw/versions/5LEcXxOJ/tipsmod-neoforge-1.21.1-21.1.2.jar"
+hash-format = "sha1"
+hash = "863234dd637a478c5c6d03ba3421539a7fed76ae"
+
+[update]
+[update.modrinth]
+mod-id = "AMCbgyVw"
+version = "5LEcXxOJ"

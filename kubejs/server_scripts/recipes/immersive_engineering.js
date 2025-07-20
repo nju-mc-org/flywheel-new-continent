@@ -127,7 +127,7 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'immersiveengineering:arc_furnace',
         additives: [],
-        energy: 25600,
+        energy: 512000,
         input: {
             tag: "c:raw_materials/mithril"
         },
@@ -146,6 +146,21 @@ ServerEvents.recipes(event => {
         ],
         time: 100
     }).id("fwnc:ie_arcfur/mithril")
+
+    event.custom({
+        type: 'immersiveengineering:arc_furnace',
+        additives: [],
+        energy: 2560,
+        input: {
+            tag: "c:nuggets/iron"
+        },
+        results: [
+            {
+                tag: "c:nuggets/wrought_iron"
+            }
+        ],
+        time: 20
+    }).id("fwnc:ie_arcfur/wrought_iron_by_nugget")
 
     //crush
     function SecondProcess(material) {
@@ -172,7 +187,7 @@ ServerEvents.recipes(event => {
     SecondProcess('iron')
     SecondProcess('gold')
     SecondProcess('copper')
-    SecondProcess('zinc')
+    //SecondProcess('zinc')
     SecondProcess('silver')
     SecondProcess('lead')
     SecondProcess('aluminum')
@@ -349,6 +364,12 @@ ServerEvents.recipes(event => {
     ClotheOneProduct("fwnc:ie_cloche/pineapple", "fruitsdelight:pineapple_sapling", "immersiveengineering:crop", "fruitsdelight:pineapple", "minecraft:sand", 800, "fruitsdelight:pineapple", 2)
     ClotheOneProduct("fwnc:ie_cloche/carrot_boosted", "minecraft:carrot", "immersiveengineering:crop", "minecraft:carrots", "farmersdelight:rich_soil", 600, "minecraft:carrot", 3)
     ClotheOneProduct("fwnc:ie_cloche/potato_boosted", "minecraft:potato", "immersiveengineering:crop", "minecraft:potatoes", "farmersdelight:rich_soil", 600, "minecraft:potato", 3)
+    ClotheOneProduct("fwnc:ie_cloche/cocoas", "minecraft:cocoa_beans", "immersiveengineering:crop", "minecraft:cocoa", "minecraft:jungle_log", 800, "minecraft:cocoa_beans", 3)
+
+    ClotheOneProduct("fwnc:ie_cloche/red_grapes", "create_winery:red_grapes", "immersiveengineering:generic", "create_winery:red_grape_bush_stage_2", "minecraft:dirt", 1200, "create_winery:red_grapes", 3)
+    ClotheOneProduct("fwnc:ie_cloche/red_grapes_boosted", "create_winery:red_grapes", "immersiveengineering:generic", "create_winery:red_grape_bush_stage_2", "farmersdelight:rich_soil", 900, "create_winery:red_grapes", 4)
+    ClotheOneProduct("fwnc:ie_cloche/white_grapes", "create_winery:white_grapes", "immersiveengineering:generic", "create_winery:white_grape_bush_stage_2", "minecraft:dirt", 1200, "create_winery:white_grapes", 3)
+    ClotheOneProduct("fwnc:ie_cloche/white_grapes_boosted", "create_winery:white_grapes", "immersiveengineering:generic", "create_winery:white_grape_bush_stage_2", "farmersdelight:rich_soil", 900, "create_winery:white_grapes", 4)
     /*
     ClotheOneProduct("fwnc:ie_cloche/colony_bell_pepper", "minecolonies:bell_pepper", "immersiveengineering:generic", "minecolonies:bell_pepper", "minecraft:dirt", 1600, "minecolonies:bell_pepper", 2)
     ClotheOneProduct("fwnc:ie_cloche/colony_bell_pepper_boosted", "minecolonies:bell_pepper", "immersiveengineering:generic", "minecolonies:bell_pepper", "farmersdelight:rich_soil", 1200, "minecolonies:bell_pepper", 3)

@@ -1,0 +1,13 @@
+name = "BetterTab"
+filename = "BetterTab-neoforge-1.21.1-1.0.0+build.11.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/woulhAPh/versions/VVw4TROM/BetterTab-neoforge-1.21.1-1.0.0%2Bbuild.11.jar"
+hash-format = "sha1"
+hash = "9d8396264e0f99db6c33e7ec6a5d4f5d72d0fa94"
+
+[update]
+[update.modrinth]
+mod-id = "woulhAPh"
+version = "VVw4TROM"

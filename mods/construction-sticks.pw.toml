@@ -1,0 +1,13 @@
+name = "Construction Sticks"
+filename = "ConstructionSticks-1.21.1-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ooyjDLZt/versions/6Mip8P1Z/ConstructionSticks-1.21.1-1.2.1.jar"
+hash-format = "sha1"
+hash = "f1b1227a8cb9118485ebeddb81eff5a3d53952a3"
+
+[update]
+[update.modrinth]
+mod-id = "ooyjDLZt"
+version = "6Mip8P1Z"

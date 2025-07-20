@@ -1,0 +1,13 @@
+name = "Mechanicals Lib"
+filename = "mechanicals-1.21.1-1.0.12.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ProvjTA7/versions/UZo8s2tI/mechanicals-1.21.1-1.0.12.jar"
+hash-format = "sha1"
+hash = "ae10957216d3a3b08c0d6b1ffd21467a96e4eb82"
+
+[update]
+[update.modrinth]
+mod-id = "ProvjTA7"
+version = "UZo8s2tI"

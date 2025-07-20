@@ -1,0 +1,13 @@
+name = "Engineers Delight"
+filename = "Engineers Delight 1.21.1 neoforge R.1.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4fb7lmRe/versions/8GMeVRh2/Engineers%20Delight%201.21.1%20neoforge%20R.1.5.jar"
+hash-format = "sha1"
+hash = "0c3af61d24288df977f3a0cadfdfa7dfa32575d7"
+
+[update]
+[update.modrinth]
+mod-id = "4fb7lmRe"
+version = "8GMeVRh2"

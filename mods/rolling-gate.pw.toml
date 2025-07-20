@@ -1,0 +1,13 @@
+name = "RollingGate"
+filename = "RollingGate-neoforge-1.21.1-1.1.0+build.57.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/HXsmHiKu/versions/ayVhHI5H/RollingGate-neoforge-1.21.1-1.1.0%2Bbuild.57.jar"
+hash-format = "sha1"
+hash = "c75070d2b3e417988ea8239d7d2cd75fb8eda649"
+
+[update]
+[update.modrinth]
+mod-id = "HXsmHiKu"
+version = "ayVhHI5H"

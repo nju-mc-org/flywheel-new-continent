@@ -1,0 +1,13 @@
+name = "SiliconeDolls"
+filename = "SiliconeDolls-neoforge-1.21.1-1.0.0+build.49.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b70a4ea93ef4d344d29faf35747435248ece87e2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6475856
+project-id = 1197018

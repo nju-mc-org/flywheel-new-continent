@@ -21,6 +21,8 @@
   "item.fwnc.blastbrick_brick": "高炉砖条",
   "item.fwnc.blastbrick_clay": "高炉砖黏土",
 
+  "item.fwnc.small_wheat_flour": "小堆小麦粉",
+
   "item.fwnc.raw_pumpkin_pie": "生南瓜派",
   "item.fwnc.cookie_dough": "曲奇面团",
   "item.fwnc.sweet_berry_cookie_dough": "甜浆果曲奇面团",
@@ -29,6 +31,13 @@
   "item.fwnc.persimmon_cookie_dough": "柿饼干面团",
   "item.fwnc.lemon_cookie_dough": "柠檬饼干面团",
   "item.fwnc.cranberry_cookie_dough": "蔓越莓饼干面团",
+  "item.fwnc.incomplete_sweet_berry_jam": "加工中的甜浆果果酱",
+  "item.fwnc.incomplete_glow_berry_jam": "加工中的发光浆果果酱",
+  "item.fwnc.incomplete_meatlovers_pizza": "制作中的肉披萨",
+  "item.fwnc.incomplete_vegetable_pizza": "制作中的蔬菜披萨",
+  "item.fwnc.incomplete_cheese_sandwich": "制作中的奶酪三明治",
+  "item.fwnc.incomplete_cheese_toastie": "制作中的烤奶酪三明治",
+  "item.fwnc.incomplete_ham": "制作中的火腿",
 
   "item.fwnc.mechanical_circuit": "机械电路板",
   "item.fwnc.incomplete_mechanical_circuit": "机械电路板（半成品）",
@@ -46,5 +55,9 @@
   "fwnc.tier_siv_circuit.tooltip": "§c6阶电路板（巅峰）",
   
   "desc.immersiveengineering.info.mineral.zinc": "锌矿",
+  "desc.immersiveengineering.info.mineral.ochrum": "赭金砂",
+  "desc.immersiveengineering.info.mineral.asurine": "皓蓝石",
+  "desc.immersiveengineering.info.mineral.crimsite": "绯红岩",
+  "desc.immersiveengineering.info.mineral.veridium": "辉绿岩",
   "tag.biome.c.is_swamp": "沼泽"
 }

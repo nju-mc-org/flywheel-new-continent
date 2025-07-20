@@ -1,5 +1,5 @@
 [
   {"version":2},
   {"ingredient":{"id":"minecraft:spruce_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"pfm:deepslate_dark_oak_kitchen_counter_oven"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"escalated:wooden_walkway_steps"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

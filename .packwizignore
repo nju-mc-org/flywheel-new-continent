@@ -8,3 +8,15 @@
 /.github/**
 /.vscode/
 /.vscode/**
+/modrinth.index.json
+/CurseforgeManifests
+/CurseforgeManifests/**
+/ModrinthManifests
+/ModrinthManifests/**
+/modDownloadManifestBackup
+/modDownloadManifestBackup/**
+/resourcepacks/
+/resourcepacks/**
+/shaderpacks/
+/shaderpacks/**
+/ModList.yml

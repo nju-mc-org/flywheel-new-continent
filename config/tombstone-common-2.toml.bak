@@ -207,6 +207,8 @@
 	max_xp_lost_page = 2000
 	#Denied mods for equipment drops
 	denied_modid_for_equipment = ["tombstone"]
+	#Only vanilla drops for equipment [false/true|default:false]
+	only_vanilla_for_equipment = false
 
 #Allows to enable some features related to others mods
 [compatibility]

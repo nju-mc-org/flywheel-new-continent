@@ -1,0 +1,13 @@
+name = "WATERMeDIA"
+filename = "watermedia-2.1.25.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/G922NeHS/versions/8MrS6vpH/watermedia-2.1.25.jar"
+hash-format = "sha1"
+hash = "76747f5509c7c2adea22931230207669c9ee87d2"
+
+[update]
+[update.modrinth]
+mod-id = "G922NeHS"
+version = "8MrS6vpH"

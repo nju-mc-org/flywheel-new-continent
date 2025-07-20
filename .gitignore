@@ -49,13 +49,10 @@
 /patchouli_data.json
 
 # Contents controlled by user, but we don't give recommend configures
-/resourcepacks/
-/resourcepacks/**
+
 /saves/
 /saves/**
 /schematics/
 /schematics/**
 /screenshots/
 /screenshots/**
-/shaderpacks/
-/shaderpacks/**

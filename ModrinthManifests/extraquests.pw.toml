@@ -1,0 +1,13 @@
+name = "ExtraQuests"
+filename = "ExtraQuests-1.5.3-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rMvP0ujv/versions/nCIPolVy/ExtraQuests-1.5.3-1.21.1-NeoForge.jar"
+hash-format = "sha1"
+hash = "089a4397aa7c846123d457dfb12636ef87c9764c"
+
+[update]
+[update.modrinth]
+mod-id = "rMvP0ujv"
+version = "nCIPolVy"

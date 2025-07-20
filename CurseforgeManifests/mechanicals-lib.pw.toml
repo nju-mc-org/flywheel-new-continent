@@ -1,0 +1,13 @@
+name = "Mechanicals Lib"
+filename = "mechanicals-1.21.1-1.0.12.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ae10957216d3a3b08c0d6b1ffd21467a96e4eb82"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6684686
+project-id = 1253573

@@ -77,13 +77,18 @@
     "entity_variant": true
   },
   "tombstone": {
-    "graves": true
+    "decorative_graves": true,
+    "player_graves": true
   },
   "create_mechanical_spawner": {
     "data": true
   },
   "immersiveengineering": {
     "multiblock_icon": true
+  },
+  "touhou_little_maid": {
+    "maid": true,
+    "shrine_lamp": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -95,11 +100,6 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
-  },
-  "toms_peripherals": {
-    "modem_info": true,
-    "full_modem_info": true,
-    "wdt_info": true
   },
   "custommachinery": {
     "machine_component_provider": true
