@@ -7,6 +7,48 @@
 		id: "minecraft:pink_bed"
 	}
 	id: "27B22589EFAE8A86"
+	images: [
+		{
+			height: 2.0d
+			image: "touhou_little_maid:item/maid_spawn_egg"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			height: 2.5d
+			image: "exposure:item/camera_stand"
+			rotation: 0.0d
+			width: 2.5d
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "exposure:item/camera/camera_gui_gold"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			height: 2.5d
+			image: "touhou_little_maid:item/change_chair_model"
+			rotation: 0.0d
+			width: 2.5d
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/scaffold/brass_scaffold"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: 3.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -15,6 +57,22 @@
 				id: "chipped:tinkering_table"
 			}
 			id: "0FA02C85F1BEE4D3"
+			rewards: [
+				{
+					count: 4
+					id: "732F73FB7A8B93A2"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5B2CFA8F6FE045C9"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					id: "4614E8D27C3CE161"
@@ -52,14 +110,30 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -0.5d
+			x: 0.5d
+			y: 2.0d
 		}
 		{
 			icon: {
 				id: "chipped:chisel"
 			}
 			id: "7DF1F851CFC9EA03"
+			rewards: [
+				{
+					count: 2
+					id: "25F6D7F7228A116A"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+				{
+					id: "439675055C879E8A"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [
 				{
 					id: "1717F73D64BE4BA7"
@@ -92,24 +166,56 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -0.5d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			id: "20195DF2E6377D83"
+			rewards: [
+				{
+					count: 2
+					id: "18020B876433DF25"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1427F501BBC0FE75"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "32C997D7C84AF98C"
 				item: { count: 1, id: "refurbished_furniture:workbench" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.5d
+			x: -1.0d
+			y: 6.0d
 		}
 		{
 			icon: {
 				id: "cfm_circuit_breaker:circuit_breaker"
 			}
 			id: "34194589E1FA09FE"
+			rewards: [
+				{
+					id: "0D1F49975568335D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "2EE22CC9DC69AE41"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "57C4CDC8E610008B"
@@ -132,14 +238,34 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 2.5d
+			x: 0.5d
+			y: 6.0d
 		}
 		{
 			icon: {
-				id: "create:copycat_panel"
+				id: "create_connected:copycat_block"
 			}
 			id: "2BC0997D8151B742"
+			rewards: [
+				{
+					count: 256
+					id: "6BE6CA7F01191D70"
+					item: {
+						count: 1
+						id: "create_connected:copycat_block"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "45B9939AB983CEF1"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "792F4F7C7F311FDF"
@@ -151,50 +277,123 @@
 					item: { count: 1, id: "create:copycat_panel" }
 					type: "item"
 				}
+				{
+					id: "73BF5673410F5DDF"
+					item: { count: 1, id: "create_connected:copycat_beam" }
+					type: "item"
+				}
+				{
+					id: "00CDBB316A498939"
+					item: { count: 1, id: "create_connected:copycat_vertical_step" }
+					type: "item"
+				}
+				{
+					id: "5848BEB5F6592CF1"
+					item: { count: 1, id: "create_connected:copycat_stairs" }
+					type: "item"
+				}
+				{
+					id: "0729E3512F474E3D"
+					item: { count: 1, id: "create_connected:copycat_fence" }
+					type: "item"
+				}
+				{
+					id: "46BE48BBF7049247"
+					item: { count: 1, id: "create_connected:copycat_fence_gate" }
+					type: "item"
+				}
+				{
+					id: "6A44A7BEF70BBB03"
+					item: { count: 1, id: "create_connected:copycat_wall" }
+					type: "item"
+				}
+				{
+					id: "241A89DFD6D55BEA"
+					item: { count: 1, id: "create_connected:copycat_board" }
+					type: "item"
+				}
+				{
+					id: "2DC7B3E031E47737"
+					item: { count: 1, id: "create_connected:copycat_box" }
+					type: "item"
+				}
+				{
+					id: "54EFD246760DBA8C"
+					item: { count: 1, id: "create_connected:copycat_catwalk" }
+					type: "item"
+				}
+				{
+					id: "7C1A94B775E55B79"
+					item: { count: 1, id: "create_connected:copycat_block" }
+					type: "item"
+				}
+				{
+					id: "4389D3BCD978ABAD"
+					item: { count: 1, id: "create_connected:copycat_slab" }
+					type: "item"
+				}
 			]
-			x: -2.5d
-			y: 1.0d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			icon: {
 				id: "constructionstick:diamond_stick"
 			}
 			id: "49F5D7FB913A30B7"
-			tasks: [
+			rewards: [
 				{
-					id: "2117D72CD777A2C1"
-					item: { count: 1, id: "constructionstick:wooden_stick" }
+					count: 2
+					id: "697B10B8913A63E7"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
 					type: "item"
 				}
 				{
-					id: "4F543D6A1D4C8250"
-					item: { count: 1, id: "constructionstick:copper_stick" }
-					type: "item"
-				}
-				{
-					id: "76B21BA7A94E8F8D"
-					item: { count: 1, id: "constructionstick:iron_stick" }
-					type: "item"
-				}
-				{
-					id: "7CADACB685B9BA81"
-					item: { count: 1, id: "constructionstick:diamond_stick" }
-					type: "item"
-				}
-				{
-					id: "4066D04A2764493C"
-					item: { count: 1, id: "constructionstick:netherite_stick" }
-					type: "item"
+					id: "5875DA3355EC2BFD"
+					type: "xp"
+					xp: 10
 				}
 			]
-			x: -2.5d
-			y: 4.5d
+			tasks: [{
+				id: "2117D72CD777A2C1"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(constructionstick:construction_sticks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
 		}
 		{
 			icon: {
 				id: "constructionstick:template_unbreakable"
 			}
 			id: "3FD51590FE8FBDEC"
+			rewards: [
+				{
+					count: 16
+					id: "06B8E52BA0606BF0"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7A5A3AAAB3084471"
+					item: {
+						count: 1
+						id: "constructionstick:diamond_stick"
+					}
+					type: "item"
+				}
+				{
+					id: "16C6C65EED1F0BB6"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "6C5BEBFFAF607B2A"
@@ -222,14 +421,34 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: 6.0d
+			x: 0.5d
+			y: 3.5d
 		}
 		{
 			icon: {
 				id: "exposure:camera"
 			}
 			id: "363A41C9FB43B5EC"
+			rewards: [
+				{
+					count: 4
+					id: "7109F76B49AB5E53"
+					item: {
+						count: 1
+						id: "exposure:black_and_white_film"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "00C960739CAD1ECF"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "5439112D5EDE05A3"
@@ -257,8 +476,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 8.0d
+			x: -1.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["363A41C9FB43B5EC"]
@@ -266,6 +485,26 @@
 				id: "exposure:color_film"
 			}
 			id: "4B6C15F7081E1730"
+			rewards: [
+				{
+					count: 4
+					id: "656D5149EDA55535"
+					item: {
+						count: 1
+						id: "exposure:color_film"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4A4A3980D62FA8B3"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3FE50F83EB946A00"
@@ -283,8 +522,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 8.0d
+			x: 0.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["363A41C9FB43B5EC"]
@@ -292,6 +531,26 @@
 				id: "exposure:camera_stand"
 			}
 			id: "6D507D98C7566C2C"
+			rewards: [
+				{
+					count: 2
+					id: "2E2024FF7EBC9F1A"
+					item: {
+						count: 1
+						id: "exposure:interplanar_projector"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "624DDDEB1FE63307"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "54E31A0092E99988"
@@ -314,8 +573,418 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: -1.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["230FBA7FDA19B3BD"]
+			icon: {
+				id: "minecraft:red_wool"
+			}
+			id: "07A5E0BAC520120C"
+			rewards: [
+				{
+					count: 2
+					id: "088924241DC80E05"
+					item: {
+						count: 1
+						id: "touhou_little_maid:power_point"
+					}
+					type: "item"
+				}
+				{
+					id: "56D81131C45D8365"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 18L
+					id: "2B7EA0904D32941B"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 20L
+					icon: {
+						id: "minecraft:red_wool"
+					}
+					id: "6BE3F513D09F31B7"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dyed/red)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "69947AD6AFB8BEAD"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(touhou_little_maid:gohei_enchantable)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "touhou_little_maid:base/build_altar"
+					criterion: ""
+					id: "205511A64CB280E4"
+					type: "advancement"
+				}
+			]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["07A5E0BAC520120C"]
+			icon: {
+				components: {
+					"touhou_little_maid:recipe_id": "spawn_box"
+				}
+				id: "touhou_little_maid:entity_placeholder"
+			}
+			id: "3EE1B398D8204204"
+			rewards: [
+				{
+					count: 4
+					id: "5056FA9885D9A542"
+					item: {
+						count: 1
+						id: "touhou_little_maid:power_point"
+					}
+					type: "item"
+				}
+				{
+					id: "03522A9CC2BD3EC4"
+					item: {
+						count: 1
+						id: "touhou_little_maid:favorability_tool_add"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "52205E654B5E25F0"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "touhou_little_maid:base/spawn_maid"
+					criterion: ""
+					id: "1A7B29A1325E2E9C"
+					type: "advancement"
+				}
+				{
+					id: "5936E70961803553"
+					item: { count: 1, id: "minecraft:cake" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3EE1B398D8204204"]
+			id: "11E4AB2664653EEC"
+			rewards: [{
+				count: 2
+				id: "7676711A403AAC8B"
+				item: {
+					count: 1
+					id: "touhou_little_maid:power_point"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15D1055F5D07425D"
+				item: { count: 1, id: "touhou_little_maid:smart_slab_init" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3EE1B398D8204204"]
+			icon: {
+				components: {
+					"touhou_little_maid:recipe_id": "reborn_maid"
+				}
+				id: "touhou_little_maid:entity_placeholder"
+			}
+			id: "26A2BF1ED11F26A1"
+			rewards: [
+				{
+					id: "3C58B7A2ABA018C7"
+					item: {
+						count: 1
+						id: "touhou_little_maid:power_point"
+					}
+					type: "item"
+				}
+				{
+					id: "2303FCFBA1F7A10B"
+					item: {
+						count: 1
+						id: "touhou_little_maid:favorability_tool_add"
+					}
+					type: "item"
+				}
+				{
+					id: "5C7B55F9F0FC6B49"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "74F07D86DC985910"
+				item: { count: 1, id: "touhou_little_maid:film" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "230FBA7FDA19B3BD"
+			rewards: [{
+				id: "73F78D00751824F5"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6F7590B1E39EC5D9"
+				item: { components: { "patchouli:book": "touhou_little_maid:memorizable_gensokyo" }, count: 1, id: "patchouli:guide_book" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["230FBA7FDA19B3BD"]
+			icon: {
+				id: "touhou_little_maid:power_point"
+			}
+			id: "3D6A2E30AEC6DBBE"
+			rewards: [
+				{
+					id: "0C12EBC650E982A2"
+					item: {
+						count: 1
+						id: "touhou_little_maid:power_point"
+					}
+					type: "item"
+				}
+				{
+					id: "49D0C8C1C5423868"
+					item: {
+						count: 1
+						id: "touhou_little_maid:maid_beacon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "touhou_little_maid:base/pickup_power_point"
+					criterion: ""
+					id: "4AB688360877C8CF"
+					type: "advancement"
+				}
+				{
+					advancement: "touhou_little_maid:base/kill_maid_fairy"
+					criterion: ""
+					id: "47F26BE675545C6F"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					id: "5CD193363E4263E2"
+					item: { count: 1, id: "create:experience_block" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3EE1B398D8204204"]
+			id: "25E7055BEA04140D"
+			rewards: [{
+				id: "5E57D639C03DFB96"
+				item: {
+					count: 1
+					id: "touhou_little_maid:power_point"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B908F2EE250ED19"
+				item: { count: 1, id: "touhou_little_maid:maid_bed" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3EE1B398D8204204"]
+			icon: {
+				id: "touhou_little_maid:favorability_tool_add"
+			}
+			id: "3AA613C3545C87E4"
+			rewards: [{
+				id: "5038810E89442C84"
+				item: {
+					count: 1
+					id: "touhou_little_maid:power_point"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C063C9EE34DC7BC"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3EE1B398D8204204"]
+			icon: {
+				id: "touhou_little_maid:ultramarine_orb_elixir"
+			}
+			id: "61DECE062DE4BFA9"
+			rewards: [
+				{
+					count: 1024
+					id: "0DE612FFF3826851"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "16DD129B11D8848E"
+					item: {
+						count: 1
+						id: "touhou_little_maid:favorability_tool_full"
+					}
+					type: "item"
+				}
+				{
+					id: "047FAADC58CB860C"
+					item: {
+						count: 1
+						id: "touhou_little_maid:substitute_jizo"
+					}
+					type: "item"
+				}
+				{
+					id: "1678567589821910"
+					item: {
+						count: 1
+						id: "touhou_little_maid:smart_slab_init"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "404B0E0B9681A13E"
+					item: {
+						count: 1
+						id: "touhou_little_maid:power_point"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "743A6D8663BE7267"
+					item: { count: 1, id: "touhou_little_maid:explosion_protect_bauble" }
+					type: "item"
+				}
+				{
+					id: "0B61A4E3784DF285"
+					item: { count: 1, id: "touhou_little_maid:fire_protect_bauble" }
+					type: "item"
+				}
+				{
+					id: "508B63D800F3B91F"
+					item: { count: 1, id: "touhou_little_maid:projectile_protect_bauble" }
+					type: "item"
+				}
+				{
+					id: "57F737084D3CD398"
+					item: { count: 1, id: "touhou_little_maid:magic_protect_bauble" }
+					type: "item"
+				}
+				{
+					id: "7CD2D09EF61C409B"
+					item: { count: 1, id: "touhou_little_maid:fall_protect_bauble" }
+					type: "item"
+				}
+				{
+					id: "3B12FC3D00899142"
+					item: { count: 1, id: "touhou_little_maid:drown_protect_bauble" }
+					type: "item"
+				}
+				{
+					id: "4606EDAE1DB84988"
+					item: { count: 1, id: "touhou_little_maid:ultramarine_orb_elixir" }
+					type: "item"
+				}
+				{
+					id: "70FDF3F5B6ADCD56"
+					item: { count: 1, id: "touhou_little_maid:nimble_fabric" }
+					type: "item"
+				}
+				{
+					id: "56DB0ACA581C9AA0"
+					item: { count: 1, id: "touhou_little_maid:item_magnet_bauble" }
+					type: "item"
+				}
+				{
+					id: "0AF4ACEB74EFC631"
+					item: { count: 1, id: "touhou_little_maid:wireless_io" }
+					type: "item"
+				}
+				{
+					id: "6BCCC1396DCEE87D"
+					item: { count: 1, id: "touhou_little_maid:mute_bauble" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3EE1B398D8204204"]
+			icon: {
+				id: "touhou_little_maid:computer"
+			}
+			id: "07F8872C6333E63E"
+			rewards: [{
+				id: "0E795FDE6B4D25F2"
+				item: {
+					count: 1
+					id: "touhou_little_maid:power_point"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37895EC4F090F46E"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.5d
 		}
 	]
 }

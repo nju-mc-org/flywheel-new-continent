@@ -1,0 +1,14 @@
+[
+    {
+        "when": "position",
+        "biome": ["minecraft:stony_shore", "minecraft:beach", "minecraft:snowy_beach", "biomesoplenty:marsh", "biomesoplenty:gravel_beach", "biomesoplenty:dune_beach"],
+        "biometags": "minecraft:is_beach",
+        "mob": "touhou_little_maid:fairy",
+        "result": "allow"
+    },
+    {
+        "when": "position",
+        "mob": "touhou_little_maid:fairy",
+        "result": "deny"
+    }
+]

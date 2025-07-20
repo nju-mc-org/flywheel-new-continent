@@ -1,0 +1,20 @@
+{
+  "advancements.a_little_woozy.descr": "让我们干一杯...",
+  "advancements.a_little_woozy.title": "有点晕",
+  "item.tmted.bottle_of_wodka": "伏特加",
+  "item.tmted.steel_knife":"钢刀",
+  "item.tmted.wheat_flour": "小麦粉",
+  "fluid.tmted.apple_cider": "苹果酒",
+  "fluid_type.tmted.apple_cider": "苹果酒",
+  "block.tmted.apple_cider": "苹果酒",
+  "fluid.tmted.melon_juice": "西瓜汁",
+  "fluid_type.tmted.melon_juice": "西瓜汁",
+  "block.tmted.melon_juice": "西瓜汁",
+  "block.tmted.tomato_sauce": "番茄酱",
+  "fluid.tmted.tomato_sauce": "番茄酱",
+  "fluid_type.tmted.tomato_sauce": "番茄酱",
+  "item.tmted.milk_bucket": "奶桶",
+  "block.tmted.milk": "牛奶",
+  "fluid.tmted.milk": "牛奶",
+  "fluid_type.tmted.milk": "牛奶"
+}

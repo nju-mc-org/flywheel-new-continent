@@ -169,14 +169,14 @@
 	# Default: 60
 	# Range: 1 ~ 1000
 	restock_time_grave_guardian = 60
-	#Time in minutes to check if a soul appears on a grave [1..10000|default:30]
-	# Default: 30
+	#Time in minutes to check if a soul appears on a grave [1..10000|default:10]
+	# Default: 10
 	# Range: 1 ~ 10000
-	time_soul = 30
-	#Chance on 1000 that a soul appears on a grave [0..1000|default:100]
-	# Default: 100
-	# Range: 0 ~ 1000
-	chance_soul = 100
+	soul_time = 10
+	#Chance on 1000 that a soul appears on a grave [0..100|default:25]
+	# Default: 25
+	# Range: 0 ~ 100
+	soul_chance = 25
 
 #Options related to the command recovery and auto-save of players
 [recovery]
@@ -221,10 +221,8 @@
 	allow_halloween = true
 	#Allows Christmas [false/true|default:true]
 	allow_christmas = true
-	#Allows April Fools [false/true|default:true]
-	allow_april_fools = true
 	#Allows Spring Bloom [false/true|default:true]
 	allow_spring_bloom = true
-	#Allows you to set a Special Event as permanent [NONE/APRIL_FOOLS/HALLOWEEN/CHRISTMAS/SPRING_BLOOM|default:NONE]
-	#Allowed Values: NONE, APRIL_FOOLS, HALLOWEEN, CHRISTMAS, SPRING_BLOOM
+	#Allows you to set a Special Event as permanent [NONE/HALLOWEEN/CHRISTMAS/SPRING_BLOOM|default:NONE]
+	#Allowed Values: NONE, HALLOWEEN, CHRISTMAS, SPRING_BLOOM
 	force_special_event = "NONE"

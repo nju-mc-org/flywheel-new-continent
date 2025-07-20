@@ -478,10 +478,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"5C88FBC728E55965"
-				"1AA37F25EDCBE8D6"
-			]
+			dependencies: ["5C88FBC728E55965"]
 			id: "3CCAFE4CE0719CF2"
 			invisible: true
 			min_required_dependencies: 1
@@ -504,16 +501,6 @@
 				value: 1000
 			}]
 			x: 4.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["2DF8477EC5D92341"]
-			id: "1AA37F25EDCBE8D6"
-			tasks: [{
-				id: "62B4DE3990EBDDA8"
-				type: "checkmark"
-			}]
-			x: 2.5d
 			y: -7.5d
 		}
 		{
@@ -697,6 +684,11 @@
 				id: "minecraft:oak_boat"
 			}
 			id: "6C6771E93857ABC1"
+			rewards: [{
+				id: "1F7C9D64A0486D25"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -711,6 +703,15 @@
 			dependencies: ["6C6771E93857ABC1"]
 			hide_dependency_lines: true
 			id: "378AAF3314CD1AB1"
+			rewards: [{
+				count: 8
+				id: "6E7726F7985EABF5"
+				item: {
+					count: 1
+					id: "create:white_sail"
+				}
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "1BBF58097A1A018E"
@@ -723,6 +724,11 @@
 		{
 			dependencies: ["378AAF3314CD1AB1"]
 			id: "6E4F761D176CD891"
+			rewards: [{
+				id: "071A4C1B60167F04"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "1379CB9C7DB4FF08"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(smallships:cogs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -734,6 +740,11 @@
 		{
 			dependencies: ["378AAF3314CD1AB1"]
 			id: "6B4EAC0BEE5896AC"
+			rewards: [{
+				id: "58D3D6B9BF65E9BE"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "68E25D54B47B2DC3"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(smallships:briggs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -745,6 +756,11 @@
 		{
 			dependencies: ["378AAF3314CD1AB1"]
 			id: "5CAD98ECF9770C12"
+			rewards: [{
+				id: "5AD2E7E7A73A339D"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "5C9275C37F57F529"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(smallships:galleys)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -756,6 +772,11 @@
 		{
 			dependencies: ["378AAF3314CD1AB1"]
 			id: "2C02E26FD30721C6"
+			rewards: [{
+				id: "47B3CD8304F08BAC"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4E13912F3BE3AE66"
 				item: { count: 1, id: "smallships:oak_drakkar" }
@@ -773,7 +794,19 @@
 			]
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
+			icon: {
+				id: "smallships:cannon"
+			}
 			id: "720AA975355DD522"
+			rewards: [{
+				count: 16
+				id: "30D5D4D2B47E9F9B"
+				item: {
+					count: 1
+					id: "smallships:cannon_ball"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6A3536DD31ECF8C6"
@@ -794,6 +827,11 @@
 				id: "create:mechanical_crafter"
 			}
 			id: "5E0AE12267422161"
+			rewards: [{
+				id: "66AD890482C480A3"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -805,7 +843,29 @@
 		}
 		{
 			dependencies: ["5E0AE12267422161"]
+			icon: {
+				id: "immersive_aircraft:engine"
+			}
 			id: "4987AA2D86EFE2C5"
+			rewards: [
+				{
+					id: "247CDF535E0C2B85"
+					item: {
+						count: 1
+						id: "immersive_aircraft:engine"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5E20772B8BED6922"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "734F39B6C14C9D1D"
@@ -844,6 +904,15 @@
 			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			id: "28F374A36E720EA0"
+			rewards: [{
+				count: 64
+				id: "2CF42C94AB60C466"
+				item: {
+					count: 1
+					id: "farmersdelight:hamburger"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "661F3BE92E9F91B6"
 				item: { count: 1, id: "immersive_aircraft:gyrodyne" }
@@ -860,6 +929,25 @@
 			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			id: "00C3478D3D9BD4E2"
+			rewards: [
+				{
+					count: 2
+					id: "64A2C8935FC8F53A"
+					item: {
+						count: 1
+						id: "immersive_aircraft:propeller"
+					}
+					type: "item"
+				}
+				{
+					id: "2E4B9F937A0F3E58"
+					item: {
+						count: 1
+						id: "dried_ghast:dried_ghast"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "54234CB530A95EC9"
 				item: { count: 1, id: "immersive_aircraft:quadrocopter" }
@@ -876,6 +964,15 @@
 			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			id: "6EA96FB8C8BD0B46"
+			rewards: [{
+				count: 8
+				id: "69CFF067751BAFA8"
+				item: {
+					count: 1
+					id: "immersive_aircraft:sail"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3CF92ADDC28F9E04"
 				item: { count: 1, id: "immersive_aircraft:airship" }
@@ -888,6 +985,14 @@
 			dependencies: ["6EA96FB8C8BD0B46"]
 			dependency_requirement: "one_started"
 			id: "73E2551677F99186"
+			rewards: [{
+				id: "6B9461160246815B"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:diamond_backpack"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "69CDECABF9B9215E"
 				item: { count: 1, id: "immersive_aircraft:cargo_airship" }
@@ -904,6 +1009,25 @@
 			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			id: "792D35460FE860A9"
+			rewards: [
+				{
+					id: "5806073C605F8D4D"
+					item: {
+						count: 1
+						id: "create_sa:netherite_jetpack_chestplate"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "63EEA73E00BF2B3F"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "06432E8C67D11436"
 				item: { count: 1, id: "immersive_aircraft:warship" }
@@ -920,6 +1044,15 @@
 			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			id: "0D9E097077B5FE7E"
+			rewards: [{
+				count: 64
+				id: "71807346CF467DE3"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "1B4BD3450251DE4B"
@@ -937,6 +1070,15 @@
 			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			id: "735DC400325A1E89"
+			rewards: [{
+				count: 8
+				id: "17FC7D6275B143CA"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7F590AF0095618C9"
 				item: { count: 1, id: "man_of_many_planes:economy_plane" }
@@ -953,6 +1095,14 @@
 			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			id: "239855F15FF70AEF"
+			rewards: [{
+				id: "59268F971AA55982"
+				item: {
+					count: 1
+					id: "minecraft:netherite_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7EEB522FD0A7D97F"
 				item: { count: 1, id: "man_of_many_planes:scarlet_biplane" }
@@ -968,7 +1118,29 @@
 			]
 			dependency_requirement: "one_started"
 			hide_dependency_lines: true
+			icon: {
+				id: "immersive_aircraft:nether_engine"
+			}
 			id: "1C8888410DFCFD78"
+			rewards: [
+				{
+					id: "166ABDB358C9B990"
+					item: {
+						count: 1
+						id: "immersive_aircraft:nether_engine"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5CE89B9FA3315BA8"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "5ED936A3AAB350C1"
@@ -1026,7 +1198,26 @@
 			]
 			dependency_requirement: "one_started"
 			hide_dependency_lines: true
+			icon: {
+				id: "immersive_aircraft:rotary_cannon"
+			}
 			id: "3F74ECB7338A7D28"
+			rewards: [
+				{
+					count: 64
+					id: "2BCD9AF94A205A1F"
+					item: {
+						count: 1
+						id: "minecraft:tnt"
+					}
+					type: "item"
+				}
+				{
+					id: "763876DBCFEC94D3"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [
 				{
 					id: "4C19910F8AB90C0B"
@@ -1055,6 +1246,11 @@
 		{
 			dependencies: ["5E0AE12267422161"]
 			id: "48F10D3AB907993E"
+			rewards: [{
+				id: "4FBE2EDCE13AC6A3"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "2CE0804F19D72F00"
 				type: "checkmark"
@@ -1076,6 +1272,28 @@
 				id: "automobility:automobile"
 			}
 			id: "09F4705935FB9D7D"
+			rewards: [
+				{
+					id: "38A9DDAF829EA535"
+					item: {
+						components: {
+							"automobility:automobile_part": "automobility:passenger_seat"
+						}
+						count: 1
+						id: "automobility:rear_attachment"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3AF78DAF4A720608"
+					item: {
+						count: 1
+						id: "fwnc:coin"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -1100,6 +1318,11 @@
 		}
 		{
 			id: "048214CD47E9933A"
+			rewards: [{
+				id: "7A14E54587C7993C"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "26ABDEA9BAA86241"
 				item: { components: { "automobility:frame": "automobility:amethyst_rickshaw" }, count: 1, id: "automobility:automobile_frame" }
@@ -1110,6 +1333,11 @@
 		}
 		{
 			id: "1AF451F745D8A8C1"
+			rewards: [{
+				id: "55054CBD48F9740B"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "624252FE74A29507"
 				item: { components: { "automobility:wheel": "automobility:bejeweled" }, count: 1, id: "automobility:automobile_wheel" }
@@ -1120,6 +1348,11 @@
 		}
 		{
 			id: "4639DC67FCB3749B"
+			rewards: [{
+				id: "460E5824FDEA84FC"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "2950179FFA2482B0"
 				item: { components: { "automobility:engine": "automobility:diamond" }, count: 1, id: "automobility:automobile_engine" }
@@ -1127,6 +1360,58 @@
 			}]
 			x: -17.0d
 			y: 12.0d
+		}
+		{
+			id: "3EC48502712E7965"
+			rewards: [
+				{
+					count: 8
+					id: "4CA6468A37D727A4"
+					item: {
+						count: 1
+						id: "automobility:dash_panel"
+					}
+					type: "item"
+				}
+				{
+					id: "706B4CCBF013D110"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "4E81D586E646F001"
+				item: { count: 1, id: "automobility:dash_panel" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: 12.5d
+		}
+		{
+			id: "03F8B93C62403449"
+			rewards: [
+				{
+					count: 16
+					id: "0D369DBD0535CED6"
+					item: {
+						count: 1
+						id: "automobility:autopilot_sign"
+					}
+					type: "item"
+				}
+				{
+					id: "25864DBE0FD09001"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "2DD45C90D20CADB8"
+				item: { count: 1, id: "automobility:autopilot_sign" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: 12.5d
 		}
 	]
 }

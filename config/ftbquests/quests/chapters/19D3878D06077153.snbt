@@ -1377,114 +1377,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["144E57FB6AA7418B"]
-			icon: {
-				id: "immersive_aircraft:propeller"
-			}
-			id: "2DF8477EC5D92341"
-			rewards: [{
-				count: 4
-				id: "132A74EC9E4FB14C"
-				item: {
-					count: 1
-					id: "fwnc:coin"
-				}
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			tasks: [
-				{
-					id: "1ABBA68BE8F5B29B"
-					item: { count: 1, id: "immersive_aircraft:propeller" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "1D4155CC079B57FF"
-					item: { count: 4, id: "immersive_aircraft:hull" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 17.25d
-		}
-		{
-			dependencies: ["2DF8477EC5D92341"]
-			icon: {
-				id: "immersive_aircraft:quadrocopter"
-			}
-			id: "06F5F0C085E3B1FC"
-			rewards: [{
-				count: 4
-				id: "527EA4D3A1210C2E"
-				item: {
-					count: 1
-					id: "fwnc:coin"
-				}
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			tasks: [
-				{
-					icon: {
-						id: "immersive_aircraft:gyrodyne"
-					}
-					id: "7362829E35899421"
-					item: { count: 1, id: "immersive_aircraft:gyrodyne" }
-					type: "item"
-				}
-				{
-					icon: {
-						id: "immersive_aircraft:quadrocopter"
-					}
-					id: "197E7DC449993A85"
-					item: { count: 1, id: "immersive_aircraft:quadrocopter" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 19.5d
-		}
-		{
-			dependencies: ["06F5F0C085E3B1FC"]
-			icon: {
-				id: "man_of_many_planes:scarlet_biplane"
-			}
-			id: "5AF060783681D5D3"
-			rewards: [{
-				count: 7
-				id: "32718CC42EB51F16"
-				item: {
-					count: 1
-					id: "fwnc:coin"
-				}
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			tasks: [
-				{
-					id: "57F62BA81A208BD0"
-					item: { count: 1, id: "man_of_many_planes:scarlet_biplane" }
-					type: "item"
-				}
-				{
-					id: "271A61DB4346F26A"
-					item: { count: 1, id: "man_of_many_planes:economy_plane" }
-					type: "item"
-				}
-				{
-					id: "27F7591FA1DDCB33"
-					item: { count: 1, id: "immersive_aircraft:biplane" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 21.75d
-		}
-		{
 			dependencies: [
 				"44010097D62087E3"
 				"144E57FB6AA7418B"
@@ -2354,6 +2246,19 @@
 			}]
 			x: -3.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["144E57FB6AA7418B"]
+			icon: {
+				id: "immersive_aircraft:biplane"
+			}
+			id: "31A1CE0A0D170DB0"
+			tasks: [{
+				id: "1785227906549E3F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 17.0d
 		}
 	]
 }

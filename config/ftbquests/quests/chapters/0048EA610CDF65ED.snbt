@@ -24,6 +24,11 @@
 		}
 		{
 			id: "4165D808C1886F6A"
+			rewards: [{
+				id: "5A07A9788125F3D7"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "5CC2FC763B6D1DCD"
 				type: "checkmark"
@@ -33,6 +38,11 @@
 		}
 		{
 			id: "50E196057108DC5B"
+			rewards: [{
+				id: "06435B727E4BF9DB"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "5FD3A7748A8BBF95"
 				type: "checkmark"
@@ -42,6 +52,11 @@
 		}
 		{
 			id: "6BA0288999B631F3"
+			rewards: [{
+				id: "729C412533673781"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "63834BD058406B23"
 				type: "checkmark"

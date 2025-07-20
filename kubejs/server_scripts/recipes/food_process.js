@@ -1,13 +1,32 @@
 ServerEvents.recipes(event => {
     function FurnaceFood(name, input, output) {
-        event.smelting(output, input, 0, 2000).id(`fwnc:food_process/smelting_${name}`)
-        event.smoking(output, input, 0, 2000).id(`fwnc:food_process/smoking_${name}`)
-        event.campfireCooking(output, input, 0, 2000).id(`fwnc:food_process/campfire_${name}`)
+        event.smelting(output, input, 0.1, 200).id(`fwnc:food_process/smelting_${name}`)
+        event.smoking(output, input, 0.1, 100).id(`fwnc:food_process/smoking_${name}`)
+        event.campfireCooking(output, input, 0, 600).id(`fwnc:food_process/campfire_${name}`)
     }
 
     //flour and dough problem
+    event.shapeless(Item.of('fwnc:small_wheat_flour',4),['#c:flours/wheat']).id("fwnc:crafting/small_wheat_flour")
+    event.shaped(Item.of('tmted:wheat_flour',1), [
+            'FF',
+            'FF'
+        ],
+        {
+            F: 'fwnc:small_wheat_flour'
+        }).id("fwnc:crafting/wheat_flour_from_small")
+    event.custom({
+        type: 'immersiveengineering:metal_press',
+        energy: 2400,
+        input: {
+            tag: 'c:flours/wheat'
+        },
+        mold: "immersiveengineering:mold_unpacking",
+        result: {
+            id: 'fwnc:small_wheat_flour',
+            count: 4
+        }
+    }).id("fwnc:ie_metal_press/small_wheat_flour")
     event.remove({ id: 'farmersdelight:wheat_dough' })
-    event.remove({ id: 'minecraft:farmersdelight.dough' })
     event.remove({ id: 'minecraft:bread' })
     event.remove({ id: 'create:milling/wheat' })
     event.custom({
@@ -76,16 +95,84 @@ ServerEvents.recipes(event => {
             },
             {
                 type: "fluid_stack",
-                amount: 1000,
+                amount: 100,
                 fluid: "minecraft:water"
             }
         ],
         results: [
             {
-                id: "farmersdelight:wheat_dough"
+                id: "farmersdelight:wheat_dough",
+                count: 2
             }
         ]
     }).id("fwnc:food_process/create_mixing_wheat_flour_using_tmted_dough")
+    event.remove({ id: 'tmted:bottling/wheat_dough' })
+    event.custom({
+        type: 'immersiveengineering:bottling_machine',
+        fluid: {
+            amount: 25,
+            tag: "minecraft:water"
+        },
+        input: {
+            item: "fwnc:small_wheat_flour"
+        },
+        results: [
+            {
+                item: "farmersdelight:wheat_dough",
+            }
+        ]
+    }).id("fwnc:food_process/ie_bottling_wheat_dough")
+    event.replaceOutput({ id: 'refurbished_furniture:dough' }, "refurbished_furniture:dough", "farmersdelight:wheat_dough")
+    event.remove({ id: 'refurbished_furniture:combining/raw_vegetable_pizza' })
+    event.custom({
+        type: 'refurbished_furniture:cutting_board_combining',
+        ingredients: [
+            {
+                item: "farmersdelight:wheat_dough",
+            },
+            {
+                item: "minecraft:carrot",
+            },
+            {
+                item: "minecraft:beetroot",
+            },
+            {
+                item: "minecraft:potato",
+            },
+            {
+                item: "refurbished_furniture:cheese",
+            }
+        ],
+        result:{
+            count: 1,
+            id: "refurbished_furniture:raw_vegetable_pizza"
+        }
+    }).id("fwnc:cutting_board_combining/raw_vegetable_pizza")
+    event.remove({ id: 'refurbished_furniture:combining/raw_meatlovers_pizza' })
+    event.custom({
+        type: 'refurbished_furniture:cutting_board_combining',
+        ingredients: [
+            {
+                item: "farmersdelight:wheat_dough",
+            },
+            {
+                item: "minecraft:cooked_beef",
+            },
+            {
+                item: "minecraft:cooked_chicken",
+            },
+            {
+                item: "minecraft:cooked_porkchop",
+            },
+            {
+                item: "refurbished_furniture:cheese",
+            }
+        ],
+        result:{
+            count: 1,
+            id: "refurbished_furniture:raw_meatlovers_pizza"
+        }
+    }).id("fwnc:cutting_board_combining/raw_meatlovers_pizza")
     event.remove({ id: 'createaddition:compacting/cake_base' })
     event.remove({ id: 'minecraft:cake' })
     event.remove({ id: 'farmersdelight:cake_from_milk_bottle' })
@@ -528,7 +615,6 @@ ServerEvents.recipes(event => {
             ]
         }).id(`fwnc:food_process/ie_bottling_${name}`)
     }
-
     CreateFilling("hot_cocoa", "create:chocolate", 250, "minecraft:glass_bottle", "farmersdelight:hot_cocoa")
     CreateEmptying("hot_cocoa", "create:chocolate", 250, "minecraft:glass_bottle", "farmersdelight:hot_cocoa")
     IEBottling("hot_cocoa", "c:chocolates", 250, "minecraft:glass_bottle", "farmersdelight:hot_cocoa")
@@ -767,4 +853,773 @@ ServerEvents.recipes(event => {
     Slicing("orange_dye_from_tulip", "minecraft:orange_tulip", "minecraft:orange_dye", 2)
     Slicing("pink_dye_from_tulip", "minecraft:pink_tulip", "minecraft:pink_dye", 2)
     Slicing("white_dye_from_lily_of_the_valley", "minecraft:lily_of_the_valley", "minecraft:white_dye", 2)
+
+    //recipe_0.2
+    event.custom({
+        type: 'create:filling',
+        ingredients: [
+            {
+                item: "minecraft:beef"
+            },
+            {
+                type: "fluid_stack",
+                amount: 200,
+                fluid: "irons_spellbooks:blood"
+            }
+        ],
+        results: [
+            {
+                id: "minecraft:beef",
+                count: 2
+            }
+        ]
+    }).id("fwnc:filling/beefs")
+    event.custom({
+        type: 'create:filling',
+        ingredients: [
+            {
+                item: "minecraft:porkchop"
+            },
+            {
+                type: "fluid_stack",
+                amount: 200,
+                fluid: "irons_spellbooks:blood"
+            }
+        ],
+        results: [
+            {
+                id: "minecraft:porkchop",
+                count: 2
+            }
+        ]
+    }).id("fwnc:filling/porkchops")
+    event.custom({
+        type: 'create:filling',
+        ingredients: [
+            {
+                item: "minecraft:mutton"
+            },
+            {
+                type: "fluid_stack",
+                amount: 200,
+                fluid: "irons_spellbooks:blood"
+            }
+        ],
+        results: [
+            {
+                id: "minecraft:mutton",
+                count: 2
+            }
+        ]
+    }).id("fwnc:filling/muttons")
+    event.custom({
+        type: 'create:filling',
+        ingredients: [
+            {
+                item: "minecraft:chicken"
+            },
+            {
+                type: "fluid_stack",
+                amount: 100,
+                fluid: "irons_spellbooks:blood"
+            }
+        ],
+        results: [
+            {
+                id: "minecraft:chicken",
+                count: 2
+            }
+        ]
+    }).id("fwnc:filling/chickens")
+    event.custom({
+        type: 'create:filling',
+        ingredients: [
+            {
+                item: "minecraft:rabbit"
+            },
+            {
+                type: "fluid_stack",
+                amount: 100,
+                fluid: "irons_spellbooks:blood"
+            }
+        ],
+        results: [
+            {
+                id: "minecraft:rabbit",
+                count: 2
+            }
+        ]
+    }).id("fwnc:filling/rabbits")
+    event.custom({
+        type: 'create:crushing',
+        ingredients: [
+            {
+                item: "minecraft:rabbit"
+            }
+        ],
+        results: [
+            {
+                id: "minecraft:rabbit_foot",
+                chance: 0.15
+            }
+        ]
+    }).id("fwnc:crushing_wheel/rabbit_feet")
+    event.custom({
+        type: 'create:haunting',
+        ingredients: [
+            {
+                tag: "c:foods/raw_meat"
+            }
+        ],
+        results: [
+            {
+                id: "minecraft:rotten_flesh"
+            }
+        ]
+    }).id("fwnc:haunting/rotten_flesh")
+    event.custom({
+        type: 'create:filling',
+        ingredients: [
+            {
+                item: "minecraft:spider_eye"
+            },
+            {
+                type: "fluid_stack",
+                amount: 100,
+                fluid: "irons_spellbooks:blood"
+            }
+        ],
+        results: [
+            {
+                id: "minecraft:spider_eye",
+                count: 2
+            }
+        ]
+    }).id("fwnc:filling/spider_eye")
+    event.custom({
+        type: 'create:mixing',
+        heat_requirement: "heated",
+        ingredients: [
+            {
+                type: "fluid_stack",
+                amount: 500,
+                fluid: "minecraft:water"
+            }
+        ],
+        results: [
+            {
+                id: "refurbished_furniture:sea_salt",
+                count: 2
+            }
+        ]
+    }).id("fwnc:mixing/sea_salts")
+    event.custom({
+        type: 'create:mixing',
+        ingredients: [
+            {
+                item: "refurbished_furniture:sea_salt"
+            },
+            {
+                type: "fluid_stack",
+                amount: 1000,
+                fluid: "minecraft:milk"
+            }
+        ],
+        results: [
+            {
+                id: "refurbished_furniture:cheese",
+                count: 2
+            }
+        ]
+    }).id("fwnc:mixing/cheeses")
+
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: {
+            item: "minecraft:sweet_berries"
+        },
+        loops: 1,
+        results: [
+            {
+                id: "refurbished_furniture:sweet_berry_jam",
+                count:4
+            }
+        ],
+        sequence: [
+            {
+                type: "create:filling",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_sweet_berry_jam"
+                    },
+                    {
+                        type: "fluid_stack",
+                        amount: 10,
+                        fluid: "minecraft:water"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_sweet_berry_jam"
+                    }
+                ]
+            },
+            {
+                type: "create:cutting",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_sweet_berry_jam"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_sweet_berry_jam"
+                    }
+                ]
+            },
+            {
+                type: "create:cutting",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_sweet_berry_jam"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_sweet_berry_jam"
+                    }
+                ]
+            }
+        ],
+        transitional_item: {
+            id: "fwnc:incomplete_sweet_berry_jam"
+        }
+    }).id("fwnc:sequenced_cook/sweet_berry_jams")
+    event.custom({
+        "type": "create:deploying",
+        "ingredients": [
+            {
+                "item": "refurbished_furniture:toast"
+            },
+            {
+                "item": "refurbished_furniture:sweet_berry_jam"
+            }
+        ],
+        "keep_held_item": false,
+        "results": [
+            {
+                "id": "refurbished_furniture:sweet_berry_jam_toast"
+            }
+        ]
+    }).id("fwnc:deploying/sweet_berry_jam_toast")
+    event.shaped(Item.of('fruitsdelight:sweetberry_jam_block',1), [
+            'JJJ',
+            'JJJ',
+            'JJJ'
+        ],
+        {
+            J: 'refurbished_furniture:sweet_berry_jam'
+        }).id("fwnc:crafting/sweetberry_jam_block_from_rf")
+    event.custom({
+        type: 'create:mixing',
+        ingredients: [
+            {
+                item: "fruitsdelight:sweetberry_jam_block"
+            }
+        ],
+        results: [
+            {
+                amount: 1000,
+                id: "fruitsdelight:sweetberry_jam"
+            }
+        ]
+    }).id("fwnc:mixing/sweetberry_jam_fluid_from_block")
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: {
+            item: "minecraft:glow_berries"
+        },
+        loops: 1,
+        results: [
+            {
+                id: "refurbished_furniture:glow_berry_jam",
+                count:4
+            }
+        ],
+        sequence: [
+            {
+                type: "create:filling",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_glow_berry_jam"
+                    },
+                    {
+                        type: "fluid_stack",
+                        amount: 10,
+                        fluid: "minecraft:water"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_glow_berry_jam"
+                    }
+                ]
+            },
+            {
+                type: "create:cutting",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_glow_berry_jam"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_glow_berry_jam"
+                    }
+                ]
+            },
+            {
+                type: "create:cutting",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_glow_berry_jam"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_glow_berry_jam"
+                    }
+                ]
+            }
+        ],
+        transitional_item: {
+            id: "fwnc:incomplete_glow_berry_jam"
+        }
+    }).id("fwnc:sequenced_cook/glow_berry_jams")
+    event.custom({
+        "type": "create:deploying",
+        "ingredients": [
+            {
+                "item": "refurbished_furniture:toast"
+            },
+            {
+                "item": "refurbished_furniture:glow_berry_jam"
+            }
+        ],
+        "keep_held_item": false,
+        "results": [
+            {
+                "id": "refurbished_furniture:glow_berry_jam_toast"
+            }
+        ]
+    }).id("fwnc:deploying/glow_berry_jam_toast")
+    event.shaped(Item.of('fruitsdelight:glowberry_jam_block',1), [
+            'JJJ',
+            'JJJ',
+            'JJJ'
+        ],
+        {
+            J: 'refurbished_furniture:glow_berry_jam'
+        }).id("fwnc:crafting/glowberry_jam_block_from_rf")
+    event.custom({
+        type: 'create:mixing',
+        ingredients: [
+            {
+                item: "fruitsdelight:glowberry_jam_block"
+            }
+        ],
+        results: [
+            {
+                amount: 1000,
+                id: "fruitsdelight:glowberry_jam"
+            }
+        ]
+    }).id("fwnc:mixing/glowberry_jam_fluid_from_block")
+
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: {
+            item: "farmersdelight:wheat_dough"
+        },
+        loops: 1,
+        results: [
+            {
+                id: "refurbished_furniture:raw_meatlovers_pizza"
+            }
+        ],
+        sequence: [
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_meatlovers_pizza"
+                    },
+                    {
+                        item: "minecraft:cooked_beef"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_meatlovers_pizza"
+                    }
+                ]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_meatlovers_pizza"
+                    },
+                    {
+                        item: "minecraft:cooked_chicken"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_meatlovers_pizza"
+                    }
+                ]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_meatlovers_pizza"
+                    },
+                    {
+                        item: "minecraft:cooked_porkchop"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_meatlovers_pizza"
+                    }
+                ]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_meatlovers_pizza"
+                    },
+                    {
+                        item: "refurbished_furniture:cheese"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_meatlovers_pizza"
+                    }
+                ]
+            }
+        ],
+        transitional_item: {
+            id: "fwnc:incomplete_meatlovers_pizza"
+        }
+    }).id("fwnc:sequenced_cook/raw_meatpizzas")
+    event.smoking("refurbished_furniture:cooked_meatlovers_pizza","refurbished_furniture:raw_meatlovers_pizza",0.5,100).id("fwnc:smoking/cooked_meatpizzas")
+    event.custom({
+        type: 'create:cutting',
+        ingredients: [
+            {
+                item: "refurbished_furniture:cooked_meatlovers_pizza"
+            }
+        ],
+        results: [
+            {
+                id: "refurbished_furniture:meatlovers_pizza_slice",
+                count:8
+            }
+        ]
+    }).id("fwnc:cutting/meatpizzas")
+
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: {
+            item: "farmersdelight:wheat_dough"
+        },
+        loops: 1,
+        results: [
+            {
+                id: "refurbished_furniture:raw_vegetable_pizza"
+            }
+        ],
+        sequence: [
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_vegetable_pizza"
+                    },
+                    {
+                        item: "minecraft:carrot"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_vegetable_pizza"
+                    }
+                ]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_vegetable_pizza"
+                    },
+                    {
+                        item: "minecraft:beetroot"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_vegetable_pizza"
+                    }
+                ]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_vegetable_pizza"
+                    },
+                    {
+                        item: "minecraft:potato"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_vegetable_pizza"
+                    }
+                ]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_vegetable_pizza"
+                    },
+                    {
+                        item: "refurbished_furniture:cheese"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_vegetable_pizza"
+                    }
+                ]
+            }
+        ],
+        transitional_item: {
+            id: "fwnc:incomplete_vegetable_pizza"
+        }
+    }).id("fwnc:sequenced_cook/raw_vegepizzas")
+    event.smoking("refurbished_furniture:cooked_vegetable_pizza","refurbished_furniture:raw_vegetable_pizza",0.5,100).id("fwnc:smoking/cooked_vegepizzas")
+    event.custom({
+        type: 'create:cutting',
+        ingredients: [
+            {
+                item: "refurbished_furniture:cooked_vegetable_pizza"
+            }
+        ],
+        results: [
+            {
+                id: "refurbished_furniture:vegetable_pizza_slice",
+                count:8
+            }
+        ]
+    }).id("fwnc:cutting/vegepizzas")
+
+    event.custom({
+        type: 'create:cutting',
+        ingredients: [
+            {
+                item: "minecraft:bread"
+            }
+        ],
+        results: [
+            {
+                id: "refurbished_furniture:bread_slice",
+                count:8
+            }
+        ]
+    }).id("fwnc:cutting/breads")
+    event.custom({
+        type: 'create:mixing',
+        heat_requirement:"heated",
+        ingredients: [
+            {
+                item: "refurbished_furniture:bread_slice"
+            }
+        ],
+        results: [
+            {
+                id: "refurbished_furniture:toast"
+            }
+        ]
+    }).id("fwnc:mixing/toasts")
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: {
+            item: "refurbished_furniture:bread_slice"
+        },
+        loops: 1,
+        results: [
+            {
+                id: "refurbished_furniture:cheese_sandwich"
+            }
+        ],
+        sequence: [
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_cheese_sandwich"
+                    },
+                    {
+                        item:"refurbished_furniture:cheese"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_cheese_sandwich"
+                    }
+                ]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_cheese_sandwich"
+                    },
+                    {
+                        item:"refurbished_furniture:bread_slice"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_cheese_sandwich"
+                    }
+                ]
+            }
+        ],
+        transitional_item: {
+            id: "fwnc:incomplete_cheese_sandwich"
+        }
+    }).id("fwnc:sequenced_cook/cheese_sandwiches")
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: {
+            item: "refurbished_furniture:toast"
+        },
+        loops: 1,
+        results: [
+            {
+                id: "refurbished_furniture:cheese_toastie"
+            }
+        ],
+        sequence: [
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_cheese_toastie"
+                    },
+                    {
+                        item:"refurbished_furniture:cheese"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_cheese_toastie"
+                    }
+                ]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_cheese_toastie"
+                    },
+                    {
+                        item:"refurbished_furniture:toast"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_cheese_toastie"
+                    }
+                ]
+            }
+        ],
+        transitional_item: {
+            id: "fwnc:incomplete_cheese_toastie"
+        }
+    }).id("fwnc:sequenced_cook/cheese_toasties")
+
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: {
+            item: "minecraft:bone"
+        },
+        loops: 1,
+        results: [
+            {
+                id: "farmersdelight:ham"
+            }
+        ],
+        sequence: [
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_ham"
+                    },
+                    {
+                        item:"minecraft:porkchop"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_ham"
+                    }
+                ]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_ham"
+                    },
+                    {
+                        item:"minecraft:porkchop"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_ham"
+                    }
+                ]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "fwnc:incomplete_ham"
+                    },
+                    {
+                        item:"refurbished_furniture:sea_salt"
+                    }
+                ],
+                results: [
+                    {
+                        id: "fwnc:incomplete_ham"
+                    }
+                ]
+            }
+        ],
+        transitional_item: {
+            id: "fwnc:incomplete_ham"
+        }
+    }).id("fwnc:sequenced_cook/hams")
 })

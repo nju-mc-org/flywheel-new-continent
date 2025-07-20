@@ -24,16 +24,20 @@ StartupEvents.registry('item', event => {
     }
     let itemRegisters = [
         ["coin", "rare", false],
+        
         ["uncommon_upgrade_essence", "common", false],
         ["rare_upgrade_essence", "common", false],
         ["epic_upgrade_essence", "common", false],
         ["legendary_upgrade_essence", "common", false],
+        
         ["alloybrick_brick", "common", false],
         ["alloybrick_clay", "common", false],
         ["cokebrick_brick", "common", false],
         ["cokebrick_clay", "common", false],
         ["blastbrick_brick", "common", false],
         ["blastbrick_clay", "common", false],
+
+        ["small_wheat_flour", "common", false],
         ["cookie_dough", "common", false],
         ["sweet_berry_cookie_dough", "common", false],
         ["honey_cookie_dough", "common", false],
@@ -41,6 +45,14 @@ StartupEvents.registry('item', event => {
         ["persimmon_cookie_dough", "common", false],
         ["lemon_cookie_dough", "common", false],
         ["cranberry_cookie_dough", "common", false],
+        ["incomplete_sweet_berry_jam", "common", false],
+        ["incomplete_glow_berry_jam", "common", false],
+        ["incomplete_meatlovers_pizza", "common", false],
+        ["incomplete_vegetable_pizza", "common", false],
+        ["incomplete_cheese_sandwich", "common", false],
+        ["incomplete_cheese_toastie", "common", false],
+        ["incomplete_ham", "common", false],
+
         ["mechanical_circuit", "common", false],
         ["incomplete_mechanical_circuit", "common", false],
         ["early_electronic_circuit", "common", false],

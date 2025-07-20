@@ -21,6 +21,8 @@
   "item.fwnc.blastbrick_brick": "Blast Brick Bar",
   "item.fwnc.blastbrick_clay": "Blast Brick Clay",
 
+  "item.fwnc.small_wheat_flour": "Small Pile Wheat Flour",
+
   "item.fwnc.raw_pumpkin_pie": "Raw Pumpkin Pie",
   "item.fwnc.cookie_dough": "Cookie Dough",
   "item.fwnc.sweet_berry_cookie_dough": "Sweet Berry Cookie Dough",
@@ -29,6 +31,13 @@
   "item.fwnc.persimmon_cookie_dough": "Persimmon Cookie Dough",
   "item.fwnc.lemon_cookie_dough": "Lemon Cookie Dough",
   "item.fwnc.cranberry_cookie_dough": "Cranberry Cookie Dough",
+  "item.fwnc.incomplete_sweet_berry_jam": "Incomplete Sweet Berry Jam",
+  "item.fwnc.incomplete_glow_berry_jam": "Incomplete Glow Berry Jam",
+  "item.fwnc.incomplete_meatlovers_pizza": "Incomplete Meatlovers Pizza",
+  "item.fwnc.incomplete_vegetable_pizza": "Incomplete Vegetable Pizza",
+  "item.fwnc.incomplete_cheese_sandwich": "Incomplete Cheese Sandwich",
+  "item.fwnc.incomplete_cheese_toastie": "Incomplete Cheese Toastie",
+  "item.fwnc.incomplete_ham": "Incomplete Ham",
 
   "item.fwnc.mechanical_circuit": "Mechanical Circuit",
   "item.fwnc.incomplete_mechanical_circuit": "Incomplete Mechanical Circuit",

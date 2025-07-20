@@ -114,4 +114,7 @@ LootJS.lootTables(event => {
         .getLootTable("irons_spellbooks:entities/fire_boss_per_player")
         .firstPool()
         .addEntry(LootEntry.of("fwnc:legendary_upgrade_essence").randomChance(1))
+
+    //chest_ban
+    event.clearLootTables(/.*touhou_little_maid:chest.*/)
 })

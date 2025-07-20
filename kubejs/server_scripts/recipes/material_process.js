@@ -200,13 +200,17 @@ ServerEvents.recipes(event => {
         }).id(`fwnc:ie_metal_press/ingot_to_plate_iepress_${material}`)
         event.custom({
             type: 'createaddition:rolling',
-            input: {
-                tag: `c:ingots/${material}`
-            },
-            result: {
-                count: 2,
-                id: `fwnc:${material}_rod`
-            }
+            ingredients: [
+                {
+                    tag: `c:ingots/${material}`
+                }
+            ],
+            results: [
+                {
+                    count: 2,
+                    id: `fwnc:${material}_rod`
+                }
+            ]
         }).id(`fwnc:rolling/ingot_to_rod_rolling_${material}`)
         event.custom({
             type: 'immersiveengineering:metal_press',
@@ -331,14 +335,88 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'immersiveengineering:crafting/stick_netherite' })
     event.custom({
         type: 'createaddition:rolling',
-        input: {
-            tag: 'c:ingots/netherite'
-        },
-        result: {
-            count: 2,
-            id: 'immersiveengineering:stick_netherite'
-        }
+        ingredients: [
+            {
+                tag: 'c:ingots/netherite'
+            }
+        ],
+        results: [
+            {
+                count: 2,
+                id: 'immersiveengineering:stick_netherite'
+            }
+        ]
     }).id('fwnc:rolling/ingot_to_rod_rolling_netherite')
+    event.custom({
+        type: 'createaddition:rolling',
+        ingredients: [
+            {
+                tag: 'c:ingots/steel'
+            }
+        ],
+        results: [
+            {
+                count: 2,
+                id: 'immersiveengineering:stick_steel'
+            }
+        ]
+    }).id('fwnc:rolling/ingot_to_rod_rolling_steel')
+    event.custom({
+        type: 'createaddition:rolling',
+        ingredients: [
+            {
+                tag: 'c:ingots/aluminum'
+            }
+        ],
+        results: [
+            {
+                count: 2,
+                id: 'immersiveengineering:stick_aluminum'
+            }
+        ]
+    }).id('fwnc:rolling/ingot_to_rod_rolling_aluminum')
+    event.custom({
+        type: 'createaddition:rolling',
+        ingredients: [
+            {
+                tag: 'c:plates/lead'
+            }
+        ],
+        results: [
+            {
+                count: 2,
+                id: 'immersiveengineering:wire_lead'
+            }
+        ]
+    }).id('fwnc:rolling/plate_to_wire_rolling_lead')
+    event.custom({
+        type: 'createaddition:rolling',
+        ingredients: [
+            {
+                tag: 'c:plates/steel'
+            }
+        ],
+        results: [
+            {
+                count: 2,
+                id: 'immersiveengineering:wire_steel'
+            }
+        ]
+    }).id('fwnc:rolling/plate_to_wire_rolling_steel')
+    event.custom({
+        type: 'createaddition:rolling',
+        ingredients: [
+            {
+                tag: 'c:plates/aluminum'
+            }
+        ],
+        results: [
+            {
+                count: 2,
+                id: 'immersiveengineering:wire_aluminum'
+            }
+        ]
+    }).id('fwnc:rolling/plate_to_wire_rolling_aluminum')
 
     NewMetal("wrought_iron")
 
@@ -866,7 +944,7 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'create:mixing',
         ingredients: [
-            [{
+            {
                 item: "minecraft:gravel"
             },
             {
@@ -877,8 +955,7 @@ ServerEvents.recipes(event => {
             },
             {
                 item: "biomesoplenty:black_sand"
-            }
-            ],
+            },
             {
                 type: "fluid_stack",
                 amount: 100,

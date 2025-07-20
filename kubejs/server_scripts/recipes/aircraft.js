@@ -376,4 +376,61 @@ ServerEvents.recipes(event => {
         },
         show_notification: false
     }).id("fwnc:mechanical_crafter/aircraft_economy_plane")
+
+    //mobile
+    event.remove({ id: 'automobility:auto_mechanic_table' })
+    event.shaped(Item.of('automobility:auto_mechanic_table',1), [
+        'II',
+        'BB',
+        'BB'
+    ],
+    {
+        I: '#c:ingots/brass',
+        B: '#c:storage_blocks/wrought_iron'
+    }).id("fwnc:crafting/auto_mechanic_table_a")
+    event.shaped(Item.of('automobility:auto_mechanic_table',1), [
+        'II',
+        'BB'
+    ],
+    {
+        I: '#c:ingots/brass',
+        B: '#c:storage_blocks/steel'
+    }).id("fwnc:crafting/auto_mechanic_table_b")
+    event.remove({ id: 'automobility:automobile_assembler' })
+    event.shaped(Item.of('automobility:automobile_assembler',1), [
+        'III',
+        ' B ',
+        'BBB'
+    ],
+    {
+        I: '#c:ingots/brass',
+        B: '#c:storage_blocks/wrought_iron'
+    }).id("fwnc:crafting/automobile_assembler_a")
+    event.shaped(Item.of('automobility:automobile_assembler',1), [
+        'III',
+        'BBB'
+    ],
+    {
+        I: '#c:ingots/brass',
+        B: '#c:storage_blocks/steel'
+    }).id("fwnc:crafting/automobile_assembler_b")
+    event.remove({ id: 'automobility:crowbar' })
+    event.shaped(Item.of('automobility:crowbar',1), [
+        '  I',
+        ' B ',
+        'I  '
+    ],
+    {
+        I: '#c:ingots/wrought_iron',
+        B: '#c:ingots/brass'
+    }).id("fwnc:crafting/automobile_crowbar_a")
+    event.shaped(Item.of('automobility:crowbar',1), [
+        '  I',
+        ' B ',
+        'I  '
+    ],
+    {
+        I: '#c:ingots/steel',
+        B: '#c:ingots/brass'
+    }).id("fwnc:crafting/automobile_crowbar_b")
 })
