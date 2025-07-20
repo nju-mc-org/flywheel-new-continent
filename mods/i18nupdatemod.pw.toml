@@ -1,0 +1,13 @@
+name = "I18nUpdateMod"
+filename = "I18nUpdateMod-3.6.2-all.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/PWERr14M/versions/23iTpHt8/I18nUpdateMod-3.6.2-all.jar"
+hash-format = "sha1"
+hash = "60c831f5f137e5591dd56d81f21f500339f69d2a"
+
+[update]
+[update.modrinth]
+mod-id = "PWERr14M"
+version = "23iTpHt8"

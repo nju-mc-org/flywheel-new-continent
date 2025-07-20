@@ -718,7 +718,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "03125a1db56f4f67af57588025e8126dfcb2915f8f300fd433de81bf86b3cf65"
+hash = "265269afdc1221811323124043bea9d1802c47b4496e746fc7b3c37bd1ff188a"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
@@ -3667,6 +3667,11 @@ hash = "420695b9216fd5cbebe4165de74817fe5feb1c3021178d78dd0162efc8a40f44"
 metafile = true
 
 [[files]]
+file = "mods/automobility.pw.toml"
+hash = "ea17ee540ecc3b7d53dc658549f9b4920aa4afd8f76a6c1417d8554e1d02e948"
+metafile = true
+
+[[files]]
 file = "mods/better-tab.pw.toml"
 hash = "55df2d9ad6b3822f0cd2b7c5bc19107450d832fd2c112778125fe03a97f630c9"
 metafile = true
@@ -3812,6 +3817,11 @@ hash = "42733cd0915a525967f166d86dd49434ac561c61079cc7d12f014303a2f61de8"
 metafile = true
 
 [[files]]
+file = "mods/create-trimmed.pw.toml"
+hash = "63825b249b46e91be2c5da15d4460732bf66aeeed96f64427ae1214194af272f"
+metafile = true
+
+[[files]]
 file = "mods/create-ultimine.pw.toml"
 hash = "339e74c9be0095bf7b3e8e85127dfd8824bda962e19648527cab2849eebbbe41"
 metafile = true
@@ -3833,7 +3843,7 @@ metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "547b6326bd9216a94319c5734561300dfcce769141aa2ac5346450b21a97e7c7"
+hash = "27eba686a319e8dab0fbcc4159287b540d1e11bc2760db2041a45bd06542cf6b"
 metafile = true
 
 [[files]]
@@ -3892,8 +3902,18 @@ hash = "58f4dfc6ae89e544e2f03b471e939cd1afcf932f02374c16b8a56cba958fb2f3"
 metafile = true
 
 [[files]]
+file = "mods/entityjs.pw.toml"
+hash = "e1fd7e7a4a5f47c458a32debefcd02f4aacef5ee0084b56d9a3d5d48d938a58d"
+metafile = true
+
+[[files]]
 file = "mods/entitytexturefeatures.pw.toml"
 hash = "046600f57d5613cf767b230d1acc80328fdb806069a23a4ce2ee3897c047e942"
+metafile = true
+
+[[files]]
+file = "mods/escalated.pw.toml"
+hash = "2d67a3cbb4efd6f7b22abefd1bbea4dd9ae8dcefb1459f569c6337fd5b37cae8"
 metafile = true
 
 [[files]]
@@ -3928,7 +3948,7 @@ metafile = true
 
 [[files]]
 file = "mods/farsighted-mobs.pw.toml"
-hash = "e5480b25ded9185b9b048a309a7eee18998cd5d0facaf981ecdbfff41b1ac285"
+hash = "86a38f18f1d6e1ca3629fbc2a7cd65d9afba68a42e522352173fd967dcd2c00d"
 metafile = true
 
 [[files]]
@@ -3962,6 +3982,11 @@ hash = "4a350f801f4d122f571801a961f4dec2117376ce895981a6457bf2f77ee66c12"
 metafile = true
 
 [[files]]
+file = "mods/i18nupdatemod.pw.toml"
+hash = "7b9bc9d64b5120ba9bd1d8639074b869adb0cc17ba70e49e8576e0f2bbb5c94a"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "c2fffa5cd0947c7ce318382d56dbd07039c5255d8f445551b3ff27e5392b3c07"
 metafile = true
@@ -3977,13 +4002,18 @@ hash = "37cefb2c7a919f9a650b265789ddc23f2bf0b91bd9f332cf3a9026375735ca16"
 metafile = true
 
 [[files]]
+file = "mods/in-control.pw.toml"
+hash = "7e052717dc8ae53197cb495af3be47294271a3fbab667bfb6bd8889a164d5bf6"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "33e11c0430a8565ad0f63f7ef381d7528f4343bdabfa0541ef243d19af41593e"
 metafile = true
 
 [[files]]
-file = "mods/irons-spells-n-spellbooks.pw.toml"
-hash = "5e66941a79ba7690cd2a27cf526e0ca18dbe1c917497440cd85f0e373723a9e3"
+file = "mods/isskjs.pw.toml"
+hash = "44ea85a470c041d0971121d99de99919e709b21120a1638a4fb6fbd308c76b6b"
 metafile = true
 
 [[files]]
@@ -3994,6 +4024,11 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "8d997a2bf05a008c1d61ab725f6f8c7d5c8a2d8c479738e5bb89018bcbd17abe"
+metafile = true
+
+[[files]]
+file = "mods/jei-multiblocks.pw.toml"
+hash = "e65038fcc268755577d3924d7302e166bc12d163afaedd01a3671fd69199528f"
 metafile = true
 
 [[files]]
@@ -4232,6 +4267,11 @@ hash = "1d8e9ef084ae8c09eac7ebc5cdcd74465f254a594ded168a002ccaa841330e3b"
 metafile = true
 
 [[files]]
+file = "mods/touhou-little-maid.pw.toml"
+hash = "0b7e17af2dec2f3da4d0a13abc1f3c1a80199ab067b560539010f64e1fa97bbf"
+metafile = true
+
+[[files]]
 file = "mods/txnilib.pw.toml"
 hash = "cf11a49909334b9bf25a9c1b85cdea42518e13d41415df1a59cefc67c9b30953"
 metafile = true
@@ -4268,7 +4308,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "97d75626049fe4d780a2df3765e13599dba40828dfdb10a99b34e1e87477f29a"
+hash = "210f1a631de2114c4d610b90601c845556a030b48a2c64756de43f9514a25501"
 
 [[files]]
 file = "servers.dat"

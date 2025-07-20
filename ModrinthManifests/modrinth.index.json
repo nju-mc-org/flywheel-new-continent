@@ -230,6 +230,21 @@
             "fileSize": 90918
         },
         {
+            "path": "mods/I18nUpdateMod-3.6.2-all.jar",
+            "hashes": {
+                "sha1": "60c831f5f137e5591dd56d81f21f500339f69d2a",
+                "sha512": "6625efc9c85ad0bd861d03e1e4591ae1968d27dd98d19b67884e196e6a87bc9632a435fbce6cff1706420912e07975d4e0b4f6af9e52ca40d2390caf19aecb89"
+            },
+            "env": {
+                "client": "required",
+                "server": "unsupported"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/PWERr14M/versions/23iTpHt8/I18nUpdateMod-3.6.2-all.jar"
+            ],
+            "fileSize": 45560
+        },
+        {
             "path": "mods/ImmediatelyFast-NeoForge-1.6.6+1.21.1.jar",
             "hashes": {
                 "sha1": "f48c0fc6eba2f753315d02cb402b865471864556",
@@ -605,6 +620,21 @@
             "fileSize": 19798
         },
         {
+            "path": "mods/automobility-0.5.0.h+1.21.1-neoforge.jar",
+            "hashes": {
+                "sha1": "e4ebac6eb03c2657c53d1aa81685516a8275a398",
+                "sha512": "45bc68d503767a2544f8d8b4eadfa57094d65af22753273222cac0375ae314a1e2adb052d6b5e616230c490e51bd28135abc4ab7624c1e9f979c9b294bc49cef"
+            },
+            "env": {
+                "client": "required",
+                "server": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/rqIsPf9F/versions/PHugwn1A/automobility-0.5.0.h%2B1.21.1-neoforge.jar"
+            ],
+            "fileSize": 1331432
+        },
+        {
             "path": "mods/bookshelf-neoforge-1.21.1-21.1.67.jar",
             "hashes": {
                 "sha1": "e9ec3decc485fe2319618d511c11cd8ce903f0e4",
@@ -935,6 +965,21 @@
             "fileSize": 404692
         },
         {
+            "path": "mods/create_trimmed.jar",
+            "hashes": {
+                "sha1": "2a7e00032f611c06f9e5fa2e743052552f5cb5c9",
+                "sha512": "bc1e2515975122fa888595427ca0381a1a4f6f117b88d14b4d3c260a4e6b1cfc0f8113c01074e472fb52a35cdaf8bbab45ebf89baa4ce49ff42567c25a43c0cb"
+            },
+            "env": {
+                "client": "required",
+                "server": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/zvaHXgQz/versions/P1pdTwvn/create_trimmed.jar"
+            ],
+            "fileSize": 505421
+        },
+        {
             "path": "mods/create_winery-1.7.0-neoforge-1.21.1.jar",
             "hashes": {
                 "sha1": "f48a167f134895b284bd658f53d4ae123dc5e3d8",
@@ -965,19 +1010,19 @@
             "fileSize": 65369
         },
         {
-            "path": "mods/createaddition-1.4.2.jar",
+            "path": "mods/createaddition-1.5.1.jar",
             "hashes": {
-                "sha1": "dbb2a6d5cf509da8c460d1ffe57db06c5272070f",
-                "sha512": "f0f17987d24eabd269f3da6aac10fafa91152235daa5bad02c73abaffc6ac81585efd866ea24702d26ccf80450d3ec33db31acdb07c0f3101b876b089b5b07d9"
+                "sha1": "9b04f81e14739275e198e492c14364702720808b",
+                "sha512": "fb69b73def632135ccb8041f7949f300e8de202b71c2eaf11cb3fe91ba632a672d26a77205fef60bf6d9184a8ed4057f4f915ee70bf18ae7d6f74cf88df3606d"
             },
             "env": {
                 "client": "required",
                 "server": "required"
             },
             "downloads": [
-                "https://cdn.modrinth.com/data/kU1G12Nn/versions/k3vtnT8F/createaddition-1.4.2.jar"
+                "https://cdn.modrinth.com/data/kU1G12Nn/versions/zBlHCLs2/createaddition-1.5.1.jar"
             ],
-            "fileSize": 1634683
+            "fileSize": 1609075
         },
         {
             "path": "mods/createbetterfps-1.21.1-1.1.1.jar",
@@ -1145,6 +1190,36 @@
             "fileSize": 672734
         },
         {
+            "path": "mods/entityjs-1.3.3-1.21.jar",
+            "hashes": {
+                "sha1": "9d294a39538a45cb85101f769ff8dd40bf4a6341",
+                "sha512": "a9ca24f573e36871364da98d29d609459fae915d5b0ed5643f32a371b91ca0d9a1ad51ce772d9a502790d17bad7ea3bb661da63f55ae47da3ba473bc95cba127"
+            },
+            "env": {
+                "client": "optional",
+                "server": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/OvPZ16yX/versions/Ga0YpQ6f/entityjs-1.3.3-1.21.jar"
+            ],
+            "fileSize": 2208784
+        },
+        {
+            "path": "mods/escalated-1.1.0+create.6.0.6-mc.1.21.1-neoforge.jar",
+            "hashes": {
+                "sha1": "6b5bfbac6ed35f71c9bb446e319dba745e9bb0c6",
+                "sha512": "57fd3ef95a9b9ffdc97df80324662f631242cd8e41b68b184844388e60bfd215d539d989030470a7cc989ba0ca836f0e751384521946e923cda03250b95f374a"
+            },
+            "env": {
+                "client": "required",
+                "server": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/LyOBYG8Q/versions/hFusQQIy/escalated-1.1.0%2Bcreate.6.0.6-mc.1.21.1-neoforge.jar"
+            ],
+            "fileSize": 698373
+        },
+        {
             "path": "mods/everycomp-1.21-2.10.14-neoforge.jar",
             "hashes": {
                 "sha1": "29254d4f9d17d372dc14875f03f97586ab71417b",
@@ -1196,7 +1271,7 @@
                 "sha512": "c115f39bd773de66410e59fb3f37152fc97798c1fbc86fd418fa75ead456174dfb3d7596dd3b723d51d3362a914d21848d77978a6357df720b59a29f2e71e058"
             },
             "env": {
-                "client": "required",
+                "client": "optional",
                 "server": "required"
             },
             "downloads": [
@@ -1280,6 +1355,21 @@
             "fileSize": 2398245
         },
         {
+            "path": "mods/incontrol-1.21-10.1.3.jar",
+            "hashes": {
+                "sha1": "eead103360a124dc85489d6ccba030f7eb227a03",
+                "sha512": "cb7de57aea99ac06c45ac2fd31ca5522a9d42eaa5d4f826735898d357fe46ca73c649b500beb472a10a691f1c704a10839fe87649b81da9eaf47bf2196761287"
+            },
+            "env": {
+                "client": "optional",
+                "server": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/KpICtuVx/versions/jLHxiUuD/incontrol-1.21-10.1.3.jar"
+            ],
+            "fileSize": 334597
+        },
+        {
             "path": "mods/iris-neoforge-1.8.12+mc1.21.1.jar",
             "hashes": {
                 "sha1": "a3e6355915c7d3b2bc392724795113e51d289378",
@@ -1295,19 +1385,19 @@
             "fileSize": 2438548
         },
         {
-            "path": "mods/irons_spellbooks-1.21.1-3.13.0.jar",
+            "path": "mods/irons_spells_js-4.0.1.jar",
             "hashes": {
-                "sha1": "1d7ca1b9204211ddc510055271da006f3ac488c2",
-                "sha512": "6e89d01e385cadb3c57abbc834d3d4cd2f5636a1e2971ff7ed92482e43586ff599fd4e0a200d8f101da0138503830982a1922e616170bdbda53b997ca5982b1c"
+                "sha1": "167c8fcc95faaf3de1a5677167f606863110b49b",
+                "sha512": "0a751faa72067336f4b6ea87470ee60a629d79ffe58189e283d42fdb5194e50846cf88b4f77a9e887454d655f4884934c57657e3c61d15db1eb1cffa5d109429"
             },
             "env": {
                 "client": "required",
                 "server": "required"
             },
             "downloads": [
-                "https://cdn.modrinth.com/data/s4OWxYQQ/versions/ffmzJG9V/irons_spellbooks-1.21.1-3.13.0.jar"
+                "https://cdn.modrinth.com/data/XLsvc8Ld/versions/umZh9DXg/irons_spells_js-4.0.1.jar"
             ],
-            "fileSize": 12424172
+            "fileSize": 143259
         },
         {
             "path": "mods/jecharacters-1.21-neoforge-4.5.22.jar",
@@ -1338,6 +1428,21 @@
                 "https://cdn.modrinth.com/data/u6dRKJwZ/versions/3dgEkJue/jei-1.21.1-neoforge-19.22.0.315.jar"
             ],
             "fileSize": 1462931
+        },
+        {
+            "path": "mods/jeimultiblocks-1.21.1-1.0.4.jar",
+            "hashes": {
+                "sha1": "ce1a6f1bc7e296befa9784317bd396031b3e9b4b",
+                "sha512": "f678e531d11c2a98c1b2371091b0647cb1be058ce404a22567c90a8136a036c39d11672a8595b3bfd11b420f3b9e782ecb5f7c4f79d006b44c2a0e5ce413fc14"
+            },
+            "env": {
+                "client": "required",
+                "server": "unsupported"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/ffLYPaWN/versions/aGy3QkmX/jeimultiblocks-1.21.1-1.0.4.jar"
+            ],
+            "fileSize": 11004
         },
         {
             "path": "mods/konkrete_neoforge_1.9.9_MC_1.21.jar",
@@ -1805,6 +1910,21 @@
             "fileSize": 117067
         },
         {
+            "path": "mods/touhoulittlemaid-1.21.1-release-1.3.6.jar",
+            "hashes": {
+                "sha1": "2a0965888e35ffae384664f4b83d6db7cc47e750",
+                "sha512": "c3ebcf89e281bc4e7c175a42fcc1735448478379ab546a085c47e4c0f5d4422e36a0e0f27a54505da46d198007bd0fbdccf0b3ff7dc99f5199c0c87547674b84"
+            },
+            "env": {
+                "client": "required",
+                "server": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/R0bDWFAW/versions/3XPwCAVd/touhoulittlemaid-1.21.1-release-1.3.6.jar"
+            ],
+            "fileSize": 20698701
+        },
+        {
             "path": "mods/txnilib-neoforge-1.0.24-1.21.1.jar",
             "hashes": {
                 "sha1": "17b1bbb96e922e683a1807a2e7bece603fdc491d",
@@ -2104,6 +2224,21 @@
                 "https://mediafilez.forgecdn.net/files/6769/652/tombstone-neoforge-1.21.1-9.4.3.jar"
             ],
             "fileSize": 2159658
+        },
+        {
+            "path": "mods/irons_spellbooks-1.21.1-3.14.0.jar",
+            "hashes": {
+                "sha1": "97059a6a1e97d5fedb4342238dbcaa78c01540f9",
+                "sha512": "775ebd2786c473bb50d77750f39aeddc69b1db7079c406cf8d8882739d7fec0c9c9d8db93a13c1107dd6324735297f8de230bc22ac64a20789112a9d8b8a0770"
+            },
+            "env": {
+                "client": "required",
+                "server": "required"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6769/20/irons_spellbooks-1.21.1-3.14.0.jar"
+            ],
+            "fileSize": 12422424 
         }
     ],
     "dependencies": {
